@@ -1,0 +1,6 @@
+- Make protocol/systems for luxury brands/product authenticity (udah ada jir NFT)
+- make systems for reproducing waste  into usable energy (very very big problem, maybe later)
+- Propose Government anti-corruption systems (u can't do this alone, constitution thingy)
+- hard code math to make investments manager model (man, where are all the data comes from)
+- (SMALL - REALISTIC ) (Create interactive math app, potentially becoming greatest platform of educational platform related to math + literasi teknologi+aplikasi matematika dalam bermacam-macam teknologi  Reason: might be cool, useful, and could generate income
+- (BIG - REALISTIC} AI-Finance, Fund Corporation (dream company: Rentech)

@@ -1,0 +1,7 @@
+{
+  "cssTheme": "Tokyo Night",
+  "accentColor": "#ff8080",
+  "enabledCssSnippets": [
+    "adaptive_images"
+  ]
+}
