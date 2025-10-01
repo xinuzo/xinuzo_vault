@@ -8,62 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b449ea7a32371dc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Logic/Basic Logic Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic Logic Concepts"
-            }
-          },
-          {
-            "id": "ddaed166335532d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Real Analysis/Problems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problems"
-            }
-          },
-          {
-            "id": "39ab4ac94ae82786",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Complex Analysis/Problems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problems"
-            }
-          },
-          {
-            "id": "7e9f664cddba1788",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JLPT/わせて、させて、させられてのこと.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "わせて、させて、させられてのこと"
-            }
-          },
-          {
             "id": "e0a4083518266133",
             "type": "leaf",
             "state": {
@@ -92,35 +36,35 @@
             }
           },
           {
-            "id": "3285ec2e4735e99a",
+            "id": "06ba1f36607332ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JLPT/２４・０９・２０２５　AtoJ.md",
+                "file": "Mathematics/Linear Algebra/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "２４・０９・２０２５　AtoJ"
+              "title": "Problems"
             }
           },
           {
-            "id": "0dfb13d505b7a815",
+            "id": "849e22c7a66f0efc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JLPT/26-09-2025.md",
+                "file": "Mathematics/Abstract Algebra/Introduction to Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26-09-2025"
+              "title": "Introduction to Groups"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Mastery Theory.md",
+                "file": "Mathematics/Abstract Algebra/Introduction to Groups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mastery Theory"
+              "title": "Backlinks for Introduction to Groups"
             }
           },
           {
@@ -249,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -264,55 +208,55 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "0dfb13d505b7a815",
+  "active": "849e22c7a66f0efc",
   "lastOpenFiles": [
-    "JLPT/２４・０９・２０２５　AtoJ.md",
-    "JLPT/26-09-2025.md",
-    "JLPT/わせて、させて、させられてのこと.md",
-    "Mathematics/Real Analysis/Sets and Functions.md",
-    "Mathematics/Probability and Statistics/Probability and Distributions.md",
-    "Mathematics/Real Analysis/Calculus/Others.md",
-    "Mathematics/Linear Algebra/Others.md",
-    "Mathematics/Real Analysis/Multivariable Calculus",
-    "Geometry/Differential Geometry",
-    "Geometry",
-    "Mathematics/Linear Algebra/Vector Spaces.md",
-    "Mathematics/Real Analysis/Calculus",
+    "Mathematics/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
     "Mathematics/Abstract Algebra/Mappings and Operations.md",
+    "Mathematics/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Mathematics/Linear Algebra/Problems.md",
+    "Mathematics/Linear Algebra/Linear Mappings.md",
+    "Mathematics/Linear Algebra/Vector Spaces.md",
     "Mathematics/Abstract Algebra/Introduction to Groups.md",
+    "Others/(Webinar) Japanese Free Class ITB Career Center.md",
+    "Mathematics/Real Analysis/Sets and Functions.md",
+    "Mathematics/Real Analysis/Real Numbers.md",
+    "Mathematics/Graph Theory/Graphs and Subgraphs.md",
+    "Mathematics/Graph Theory/Resource.md",
+    "Mathematics/Functional Analysis/Hilbert Space.md",
+    "Mathematics/Complex Analysis/Complex Numbers.md",
+    "Pasted image 20250930131038.png",
+    "JLPT/29-09-2025.md",
+    "JLPT/２４・０９・２０２５　AtoJ.md",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions/Ring of Integers.md",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions/Less-Than-Or-Equal-To (LE) Order on Integers.md",
+    "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions/Divisibility on Integers.md",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems/Transitivity of LE Order on Integers.md",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems/Reflexivity of LE Order on Integers.md",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems/Antisymmetry of LE Order on Integers.md",
+    "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions",
+    "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm",
+    "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction",
+    "m3-scrolls/Library/Number Theory",
+    "m3-scrolls/Task Manager.md",
+    "m3-scrolls/Probability Theory Glossary.md",
+    "m3-scrolls/Untitled.md",
+    "m3-scrolls/README.md",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions",
+    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Theorems",
+    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Definitions",
     "JLPT/assets/8EA083D7-509D-4B40-98AF-7E86BE4FDA21.jpg",
     "JLPT/assets/Pasted image 20250922185721.png",
-    "JLPT/assets",
     "JLPT/assets/18ABDDD8-F8D0-40CC-9B1A-47C5A6F939DC.jpg",
-    "JLPT/Common Mistakes.md",
-    "JLPT/Essential Japanese Vocabulary Cheat Sheet.md",
-    "JLPT/Verbs and Adjectives.md",
-    "Mathematics/Problem Solving Strategies/Invariants.md",
-    "Mathematics/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
-    "CompSci/CTF/CTF Notes (Resource)/Web Exploitation.md",
-    "CompSci/CTF/CTF Notes (Resource)/Reverse Engineering.md",
-    "CompSci/CTF/CTF Notes (Resource)/Cryptography.md",
-    "CompSci/CTF/CTF Notes (Resource)/Miscellanous.md",
-    "QuantFinance/Resources.md",
-    "Mathematics/Real Analysis/Real Numbers.md",
-    "Mathematics/Real Analysis/Sequences and Series.md",
-    "Mathematics/Graph Theory/Trees.md",
-    "Mathematics/Graph Theory/Euler Tours and Hamilton Cycles.md",
-    "Mathematics/Graph Theory/Graphs and Subgraphs.md",
-    "Mathematics/Abstract Algebra/Problems.md",
-    "Mathematics/Logic",
-    "Mathematics/Functional Analysis",
     "Mathematics/Numerical Mathematics/Calcolo Numerico.canvas",
-    "Mathematics/Graph Theory/PR1_Matnum_Rendi Adinata _10123083.pdf",
-    "Mathematics/Abstract Algebra",
-    "Mathematics/Complex Analysis",
     "Mathematics/calcolo-numerico (sample)/appunti.gif",
     "Mathematics/Numerical Mathematics/Allegati/Pasted image 20230824121847.png",
     "Mathematics/Numerical Mathematics/Allegati/Pasted image 20230824122010.png",
     "Mathematics/Numerical Mathematics/Allegati/diagram-20230827 (1).svg",
     "Mathematics/Numerical Mathematics/Allegati/diagram-20230825 (6).svg",
     "Mathematics/Numerical Mathematics/Allegati/bezier-moi.gif",
-    "Mathematics/Numerical Mathematics/Allegati/diagram-20230825 (4).svg",
     "Untitled.canvas",
     "CTF Notes/Binary Exploitation.canvas",
     "CTF Notes/Crytpography.canvas",
