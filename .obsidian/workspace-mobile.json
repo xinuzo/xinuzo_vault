@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
+                "file": "Mathematics/Abstract Algebra/Introduction to Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability and Distributions"
+              "title": "Introduction to Groups"
             }
           }
         ]
@@ -156,8 +156,42 @@
   },
   "active": "050393d2b90e336b",
   "lastOpenFiles": [
-    "Mathematics/Probability and Statistics/Multivariate Distributions.md",
-    "Mathematics/Graph Theory/Connectivity.md",
-    "Mathematics/Linear Algebra/Linear Mappings.md"
+    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Theorems/Preservation of Isomorphisms Under Functors.md",
+    "m3-scrolls/Library/Order Theory/5. Strict Orders and Preorders/Definitions/Strict Partial Order.md",
+    "m3-scrolls/Library/Ring Theory/5. Notions on Rings and Ideals/Theorems/Special Ideals as Principal Ideals.md",
+    "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Definitions/Horizontal Composition of Natural Transformations.md",
+    "m3-scrolls/Library/Set Theory/3. Families of Sets/Definitions/Power Set.md",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions/Comparison on Natural Numbers.md",
+    "m3-scrolls/Library/Equivalence Theory/1. Basic Properties of Equivalence Relations/Theorems/Partitions as Quotient Sets.md",
+    "m3-scrolls/Library/Category Theory/2. Monomorphisms and Epimorphisms/Theorems/Right Factors of Composite Epimorphisms as Epimorphisms.md",
+    "m3-scrolls/Library/Set Theory/2. Operations on Sets/Definitions/Difference of Sets.md",
+    "m3-scrolls/Misc/Templates/Definition.md",
+    "m3-scrolls/Library/Real Analysis/1. Algebraic and Order Properties of The Real Numbers/Definitions/Real Numbers.md",
+    "m3-scrolls/Library/Ring Theory/4. Quotient Rings/Theorems/Third Isomorphism Theorem for Rings.md",
+    "m3-scrolls/Library/Group Theory/4. Subgroups and Normal Subgroups/Theorems/Sets of Cosets as Partitions.md",
+    "m3-scrolls/Library/Set Theory/1. Basic Properties of Sets/Definitions/Empty Set.md",
+    "m3-scrolls/Library/Category Theory/6. Examples of Small Limits and Colimits/Theorems/Commutativity of Categorical Products.md",
+    "m3-scrolls/Library/Equivalence Theory/2. Span and Pairwise Independence/Theorems/Existence of Bases Under Equivalence Relation.md",
+    "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Opposite Category.md",
+    "m3-scrolls/Library/Set Theory/9. The Category of Sets and Functions/Theorems/Universal Property of Images of Functions.md",
+    "m3-scrolls/Library/Category Theory/2. Monomorphisms and Epimorphisms/Theorems/Right Factors of Composite Split Epimorphisms as Split Epimorphisms.md",
+    "m3-scrolls/Library/Set Theory/6. Injective and Surjective Functions/Theorems/Compositions of Injective Functions as Injective Functions.md",
+    "m3-scrolls/Library/Ring Theory/3. Subrings and Ideals/Theorems/Trivial Subrings.md",
+    "m3-scrolls/Library/Ring Theory/3. Subrings and Ideals/Theorems/Left Multiplications By Elements of Rings as Group Endomorphisms.md",
+    "m3-scrolls/Library/Set Theory/6. Injective and Surjective Functions/Definitions/Surjective Function.md",
+    "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Vertical Compositions of Natural Transformations as Natural Transformations.md",
+    "m3-scrolls/Library/Set Theory/2. Operations on Sets/Theorems/Idempotence of Set Union.md",
+    "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Divisor.md",
+    "Pasted image 20250930131038.png",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals",
+    "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers",
+    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Theorems",
+    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Definitions",
+    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms",
+    "m3-scrolls/Misc/Unlinked",
+    "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 4",
+    "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 3"
   ]
 }
