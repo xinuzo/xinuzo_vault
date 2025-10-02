@@ -1,7 +1,7 @@
 
 ## Definitions and Theorems
 ![[Pasted image 20250930131038.png]]
-
+source: MathPi/Youtube
 ## Excercises
 
 >[!question] 28 Herstein Abstract Algebra 3rd Edition
