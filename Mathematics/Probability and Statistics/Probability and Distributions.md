@@ -26,4 +26,282 @@ mathematician?
 >[!success]- Solutions
 >classic.
 $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Mathematician}| + |\text{Statistician}| - |\text{Mathematician} \cup \text{Statistician}| \\ &= 19 + 16 - 25 \\ &= 35 - 25 \\ &= 10 \end{align*} $$
+
+#### Section 1.2
+>[!question]- Hogg Ed 7 1.2.2
+
+ >[!success]- Solusi
+
+
+>[!question]- Hogg Ed 7 1.2.3
+
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.4
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.8
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.9
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.10
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.12
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.16
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.2.17
+> [!success]- Solusi
+> 
+
+#### Section 1.3
+[!question]- Hogg Ed 7 1.3.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.8
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.9
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.10
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.11
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.15
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.17
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.3.19
+> [!success]- Solusi
+> 
+
+### Homework 2 (Tidak Dikumpulkan)
+
+#### Section 1.4
+[!question]- Hogg Ed 7 1.4.1
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.8
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.11
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.14
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.17
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.18
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.19
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.23
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.27
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.4.33
+> [!success]- Solusi
+> 
+
+
+#### Section 1.5
+[!question]- Hogg Ed 7 1.5.1
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.2
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.4
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.8
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.9
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.5.11
+> [!success]- Solusi
+> 
+
+#### Section 1.6
+[!question]- Hogg Ed 7 1.6.2
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.6.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.6.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.6.7
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.6.10
+> [!success]- Solusi
+> 
+
+### Homework 4 (DIKUMPULKAN - Kamis, 9 Oktober 2025)
+
+#### Section 1.7
+[!question]- Hogg Ed 7 1.7.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.8
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.9
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.10
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.12
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.14
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.18
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.7.24
+> [!success]- Solusi
+> 
+
+#### Section 1.9
+[!question]- Hogg Ed 7 1.9.2
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.3
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.6
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.14
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.15
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.17
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.18
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.19
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.9.21
+> [!success]- Solusi
+> 
+
+#### Section 1.10
+[!question]- Hogg Ed 7 1.10.2
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.10.3
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.10.5
+> [!success]- Solusi
+> 
+
+[!question]- Hogg Ed 7 1.10.6
+> [!success]- Solusi
 >
