@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Abstract Algebra/Introduction to Groups.md",
+                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Groups"
+              "title": "Probability and Distributions"
             }
           }
         ],
@@ -210,13 +210,13 @@
   },
   "active": "849e22c7a66f0efc",
   "lastOpenFiles": [
+    "Mathematics/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
     "Mathematics/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Mathematics/Linear Algebra/Problems.md",
     "Mathematics/Linear Algebra/Linear Mappings.md",
     "Mathematics/Linear Algebra/Vector Spaces.md",
-    "Mathematics/Abstract Algebra/Introduction to Groups.md",
     "Others/(Webinar) Japanese Free Class ITB Career Center.md",
     "Mathematics/Real Analysis/Sets and Functions.md",
     "Mathematics/Real Analysis/Real Numbers.md",
