@@ -2,10 +2,13 @@ from Hogg Ed.8
 
 >[!tips] (Definition) Moment Generating Function
 >
->Let $X$ be a random variable
->
+>Let $X$ be a random variable such that for some $h>0$, $E[e^{tX}]$ exists for $|t|<h$. \
+>The **moment generating function** (mgf) is the function $M(t)=E[e^{tX}]  \text{, for }|t|<h$.
+
+
 ### Excercises
-- [x] **1.2.1**
+#### Section 1.2
+- [x] 1.2.1
   > [!question] Problem 1.2.1 (a), (b), (c)
   > Find the union $C1 \cup C2$ and the intersection $C1 \cap C2$ of the two sets $C1$ and
 $C2$, where
@@ -21,7 +24,7 @@ $C2$, where
 > (c) at this point I'm just warming up my fingers.
 > $C_{1}\cup C_{2}=\{(x,y):0<x<3,1<y<3\} \text{ and } C_{1}\cap C_{2}=\{(x,y):1<x<2, 1<y<2\}$
   
-- [x] Hogg Ed.8, 1.2.14
+- [x] 1.2.14
  >[!question] Problem
  >To join a certain club, a person must be either a statistician or a math-
 ematician or both. Of the 25 members in this club, 19 are statisticians and 16
@@ -32,134 +35,14 @@ mathematician?
 >classic.
 $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Mathematician}| + |\text{Statistician}| - |\text{Mathematician} \cup \text{Statistician}| \\ &= 19 + 16 - 25 \\ &= 35 - 25 \\ &= 10 \end{align*} $$
 
-#### Section 1.2
->[!question]- Hogg Ed 7 1.2.2
-
- >[!success]- Solusi
-
-
->[!question]- Hogg Ed 7 1.2.3
-
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.4
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.5
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.6
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.8
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.9
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.10
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.12
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.16
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.2.17
-> [!success]- Solusi
-> 
-
 #### Section 1.3
 [!question]- Hogg Ed 7 1.3.5
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.3.6
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.8
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.9
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.10
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.11
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.15
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.17
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.3.19
-> [!success]- Solusi
-> 
-
-### Homework 2 (Tidak Dikumpulkan)
 
 #### Section 1.4
 [!question]- Hogg Ed 7 1.4.1
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.6
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.8
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.11
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.14
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.17
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.18
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.19
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.23
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.27
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.4.33
 > [!success]- Solusi
 > 
 
@@ -169,48 +52,8 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.5.2
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.5.4
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.5.6
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.5.8
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.5.9
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.5.11
-> [!success]- Solusi
-> 
-
 #### Section 1.6
 [!question]- Hogg Ed 7 1.6.2
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.6.5
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.6.6
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.6.7
-> [!success]- Solusi
-> 
-
-[!question]- Hogg Ed 7 1.6.10
 > [!success]- Solusi
 > 
 
@@ -288,7 +131,7 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 
 - [ ] Hogg Ed 7 1.9.19
 > [!success]- Solusi
-> 
+> Maclaurin series of M(t)
 
 - [ ] Hogg Ed 7 1.9.21
 
