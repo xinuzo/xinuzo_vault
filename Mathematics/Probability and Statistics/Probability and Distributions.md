@@ -131,7 +131,8 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 
 - [ ] Hogg Ed 7 1.9.19
 > [!success]- Solusi
-> Maclaurin series of $M(t)=(1-t)^{-3}, t<1 \text{ is }$
+> Deret Maclaurin untuk $M(t)=(1-t)^{-3}, t<1$  adalah  $\sum_{i=0}^{\infty} \frac{(k)(k+1)}{2}t^{i}.$ 
+
 
 - [ ] Hogg Ed 7 1.9.21
 
