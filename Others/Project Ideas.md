@@ -4,3 +4,9 @@
 - hard code math to make investments manager model (man, where are all the data comes from)
 - (SMALL - REALISTIC ) (Create interactive math app, potentially becoming greatest platform of educational platform related to math + literasi teknologi+aplikasi matematika dalam bermacam-macam teknologi  Reason: might be cool, useful, and could generate income
 - (BIG - REALISTIC} AI-Finance, Fund Corporation (dream company: Rentech)
+
+Inovasi FPT MATHCO:
+- sales & marketing: buat konten promosi yang lebih value based marketing (bahas soal lewat shorts), live tiktok, faebook ads, loss of aversion orang gagal ujian A10, 
+- RnD: buat buku baru, restrukturisasi konten buku biar isinya materi-contoh pengerjaan soal-soal-soal. 
+- buat try out ujian aktuaria dan pembahasan
+- unrealistic but might be a good idea: buat Mathco kek gradient/ruangguru lol. (tapi ya most likely gabisa karena keterbatasan tenaga kerja)
