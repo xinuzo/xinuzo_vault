@@ -233,8 +233,7 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 
 - [x] Hogg Ed 7 1.9.19
 >[!success]- Solution
->
-**Strategy:** The k-th moment, $E[X^k]$, can be found by identifying the coefficient of $t^k$ in the Maclaurin series expansion of $M(t)$. We use the definitional relationship:
+> The k-th moment, $E[X^k]$, can be found by identifying the coefficient of $t^k$ in the Maclaurin series expansion of $M(t)$. We use the definitional relationship:
 $$ M(t) = \sum_{k=0}^{\infty} E[X^k] \frac{t^k}{k!} $$
 We use the generalized binomial series for $(1+x)^\alpha$ where we set $x=-t$ and $\alpha=-3$. The general coefficient for the $t^k$ term is found to be:
 $$ \frac{(k+2)(k+1)}{2} $$
