@@ -61,14 +61,15 @@
 >Given a non-optimal Basic Feasible Solution, the Simplex method moves to an adjacent BFS with an improved (or equal) objective value. The change in the objective function value when moving from one basis to another is given by the coefficient in the objective row of the entering variable.
 
 >[!success]- Proof Outline
->20. In the Simplex tableau, the objective row represents the objective function $Z$ in terms of the non-basic variables. For a maximization problem, it's written as $Z + \sum_{j \in N} (c_j' - z_j')x_j = Z_0$, where $N$ is the set of non-basic variables and $(c_j' - z_j')$ are the reduced costs in the objective row. This is usually written as $Z = Z_0 - \sum (c_j' - z_j')x_j$.
->21. The current BFS has all non-basic variables $x_j=0$, so $Z = Z_0$.
->22. The **Optimality Condition** states that if all $(c_j' - z_j') \ge 0$, then any increase in a non-basic $x_j$ (which must be positive) would cause $Z$ to decrease (or stay the same). Thus, the current solution is optimal.
->23. If there is a non-basic variable $x_k$ with a negative coefficient, say $(c_k' - z_k') < 0$, then the objective function is $Z = Z_0 - (c_k' - z_k')x_k + \dots$.
->24. Since $(c_k' - z_k')$ is negative, increasing $x_k$ from 0 will **increase** the value of $Z$.
->25. The Simplex pivot operation does exactly this: it increases the chosen non-basic variable $x_k$ (the entering variable) as much as possible until one of the current basic variables becomes zero (the leaving variable). This corresponds to moving to an adjacent extreme point along an edge of the feasible region, and the proof shows that this move increases the objective value.
+>In the Simplex tableau, the objective row represents the objective function $Z$ in terms of the non-basic variables. For a maximization problem, it's written as $Z + \sum_{j \in N} (c_j' - z_j')x_j = Z_0$, where $N$ is the set of non-basic variables and $(c_j' - z_j')$ are the reduced costs in the objective row. This is usually written as $Z = Z_0 - \sum (c_j' - z_j')x_j$.
+> The current BFS has all non-basic variables $x_j=0$, so $Z = Z_0$.
+> The **Optimality Condition** states that if all $(c_j' - z_j') \ge 0$, then any increase in a non-basic $x_j$ (which must be positive) would cause $Z$ to decrease (or stay the same). Thus, the current solution is optimal.
+> If there is a non-basic variable $x_k$ with a negative coefficient, say $(c_k' - z_k') < 0$, then the objective function is $Z = Z_0 - (c_k' - z_k')x_k + \dots$.
+> Since $(c_k' - z_k')$ is negative, increasing $x_k$ from 0 will **increase** the value of $Z$.
+> The Simplex pivot operation does exactly this: it increases the chosen non-basic variable $x_k$ (the entering variable) as much as possible until one of the current basic variables becomes zero (the leaving variable). This corresponds to moving to an adjacent extreme point along an edge of the feasible region, and the proof shows that this move increases the objective value.
 
 ```tikz
+\begin{document}
 \begin{tikzpicture}[scale=0.8]
     % Define the axes
     \draw[->] (0,0) -- (7,0) node[right] {$x_1$};
@@ -97,6 +98,7 @@
     \node[star, star points=7, fill=green, inner sep=3pt, label=above
     right:\textbf{Optimal!}] at (D) {};
     \end{tikzpicture}
+    \end{document}
 ```
 ```tikz
 ```
