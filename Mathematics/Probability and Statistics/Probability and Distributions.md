@@ -231,29 +231,135 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 > [!success]- Solusi
 > 
 
-- [ ] Hogg Ed 7 1.9.19
-> [!success]- Solusi
-> Deret Maclaurin untuk $M(t)=(1-t)^{-3}, t<1$  adalah  $\sum_{i=0}^{\infty} \frac{(k)(k+1)}{2}t^{i}.$ 
-
-
-- [ ] Hogg Ed 7 1.9.21
-
-> [!success]- Solusi
-> 
-
-#### Section 1.10
-- [ ]   Hogg Ed 7 1.10.2
-> [!success]- Solusi
-> 
-
-- [ ] Hogg Ed 7 1.10.3
-> [!success]- Solusi
-> 
-
-- [ ]  Hogg Ed 7 1.10.5
-> [!success]- Solusi
-> 
-
-- [ ] Hogg Ed 7 1.10.6
-> [!success]- Solusi
+- [x] Hogg Ed 7 1.9.19
+>[!success]- Solution
 >
+**Strategy:** The k-th moment, $E[X^k]$, can be found by identifying the coefficient of $t^k$ in the Maclaurin series expansion of $M(t)$. We use the definitional relationship:
+$$ M(t) = \sum_{k=0}^{\infty} E[X^k] \frac{t^k}{k!} $$
+We use the generalized binomial series for $(1+x)^\alpha$ where we set $x=-t$ and $\alpha=-3$. The general coefficient for the $t^k$ term is found to be:
+$$ \frac{(k+2)(k+1)}{2} $$
+This gives the Maclaurin series:
+$$ M(t) = (1-t)^{-3} = \sum_{k=0}^{\infty} \frac{(k+2)(k+1)}{2} t^k $$
+$$ \frac{E[X^k]}{k!} = \frac{(k+2)(k+1)}{2} $$
+Solving for $E[X^k]$:
+$$ E[X^k] = k! \cdot \frac{(k+2)(k+1)}{2} $$
+Using the property that $(k+2)! = (k+2)(k+1)k!$, we can simplify the expression:
+$$ E[X^k] = \frac{(k+2)!}{2} $$
+This is the general formula for the k-th moment of the distribution.
+
+
+>[!question]- Hogg Ed. 8 | 1.9.21
+>Let $X$ be a random variable of the discrete type with pmf $p(x)$ that is positive on the nonnegative integers and is equal to zero elsewhere. Show that
+>$$ E(X) = \sum_{x=0}^{\infty} [1 − F(x)] $$
+>where $F(x)$ is the cdf of $X$.
+
+>[!success]- Solution
+>We will prove this by starting from the right-hand side (RHS) and showing that it equals the definition of $E(X)$.
+>
+>The RHS is $\sum_{x=0}^{\infty} [1 - F(x)]$. By the definition of the CDF, $F(x) = P(X \le x)$, so its complement is $1 - F(x) = P(X > x)$.
+>
+>$$ \text{RHS} = \sum_{x=0}^{\infty} P(X > x) $$
+>
+>Let's expand the sum, using $p(k) = P(X=k)$:
+>$$
+>\begin{align*}
+>\text{RHS} &= P(X>0) + P(X>1) + P(X>2) + \dots \\
+>&= [p(1)+p(2)+p(3)+\dots] \\
+>&+ [p(2)+p(3)+p(4)+\dots] \\
+>&+ [p(3)+p(4)+p(5)+\dots] \\
+>&+ \dots
+>\end{align*}
+>$$
+>Now, we rearrange the sum by collecting the terms for each $p(k)$:
+>- The term $p(1)$ appears 1 time.
+>- The term $p(2)$ appears 2 times.
+>- The term $p(3)$ appears 3 times.
+>- In general, the term $p(k)$ appears $k$ times.
+>
+>So the sum becomes:
+>$$ \text{RHS} = 1 \cdot p(1) + 2 \cdot p(2) + 3 \cdot p(3) + \dots = \sum_{k=1}^{\infty} k \cdot p(k) $$
+>This is the definition of the expected value of $X$. We can also write it as $\sum_{k=0}^{\infty} k \cdot p(k)$ since the $k=0$ term is zero.
+>$$ \sum_{k=0}^{\infty} k \cdot P(X=k) = E[X] $$
+>Thus, the equality is proven.
+
+>[!question]- Hogg Ed. 8 | 1.10.2
+>Let $X$ be a random variable such that $P(X \le 0) = 0$ and let $\mu = E(X)$ exist. Show that $P(X \ge 2\mu) \le \frac{1}{2}$.
+
+>[!success]- Solution
+>This is a direct application of **Markov's Inequality**.
+>
+>Markov's Inequality states that for a non-negative random variable $X$ and any constant $c > 0$:
+>$$ P(X \ge c) \le \frac{E[X]}{c} $$
+>
+>In this problem:
+>- We are given $P(X \le 0) = 0$, which means $X$ is a non-negative random variable.
+>- We are given $\mu = E[X]$.
+>- We choose the constant $c = 2\mu$. Assuming $\mu>0$, this constant is positive.
+>
+>Applying the inequality:
+>$$ P(X \ge 2\mu) \le \frac{E[X]}{2\mu} $$
+>
+>Substituting $E[X] = \mu$:
+>$$ P(X \ge 2\mu) \le \frac{\mu}{2\mu} = \frac{1}{2} $$
+>The statement is proven.
+
+>[!question]- Hogg Ed. 8 | 1.10.3
+>If $X$ is a random variable such that $E(X)=3$ and $E(X^2) = 13$, use Chebyshev’s inequality to determine a lower bound for the probability $P(-2 < X < 8)$.
+
+>[!success]- Solution
+>First, we calculate the mean and variance.
+>- Mean: $\mu = E[X] = 3$.
+>- Variance: $\sigma^2 = \text{Var}(X) = E[X^2] - (E[X])^2 = 13 - 3^2 = 13 - 9 = 4$.
+>- Standard Deviation: $\sigma = \sqrt{4} = 2$.
+>
+>Next, we rewrite the desired probability in terms of its distance from the mean $\mu=3$:
+>The interval $(-2, 8)$ is equivalent to $(3-5, 3+5)$. So, the probability can be written as:
+>$$ P(-2 < X < 8) = P(|X-3| < 5) $$
+>
+>Chebyshev's Inequality is stated for the complement event: $P(|X-\mu| \ge k\sigma) \le \frac{1}{k^2}$.
+>We relate our interval to this form: $|X-3| \ge 5$.
+>Let $k\sigma = 5$. Since $\sigma=2$, we have $2k=5$, which gives $k = 2.5$.
+>
+>Now apply Chebyshev's Inequality:
+>$$ P(|X-3| \ge 5) \le \frac{1}{(2.5)^2} = \frac{1}{6.25} = \frac{4}{25} = 0.16 $$
+>
+>Finally, we use the complement rule to find the lower bound for the probability of being *inside* the interval:
+>$$ P(-2 < X < 8) = P(|X-3| < 5) = 1 - P(|X-3| \ge 5) $$
+>Since $P(|X-3| \ge 5) \le \frac{4}{25}$, the smallest the right side can be is $1 - \frac{4}{25}$.
+>$$ P(-2 < X < 8) \ge 1 - \frac{4}{25} = \frac{21}{25} $$
+>The lower bound is $\frac{21}{25}$ or $0.84$.
+
+>[!question]- Hogg Ed. 8 | 1.10.6
+>Let $X$ be a positive random variable; i.e., $P(X \le 0) = 0$. Argue that:
+>(a) $E(1/X) \ge 1/E(X)$
+>(b) $E[-\log X] \ge -\log[E(X)]$
+>(c) $E[\log(1/X)] \ge \log[1/E(X)]$
+>(d) $E[X^3] \ge [E(X)]^3$
+
+>[!success]- Solution
+>All four inequalities are direct results of **Jensen's Inequality**.
+>
+>Jensen's Inequality states that for a **convex** function $g(x)$, the following holds:
+>$$ E[g(X)] \ge g(E[X]) $$
+>A function $g(x)$ is convex if its second derivative, $g''(x)$, is non-negative on its domain. Since $X$ is a positive random variable, we only need to check for $x>0$.
+>
+>(a) **$E[1/X] \ge 1/E[X]$**
+>Let $g(x) = 1/x = x^{-1}$.
+>$g'(x) = -x^{-2}$
+>$g''(x) = 2x^{-3} = 2/x^3$.
+>For $x>0$, $g''(x) > 0$, so $g(x)$ is **convex**. The inequality holds by Jensen's.
+>
+>(b) **$E[-\log X] \ge -\log[E(X)]$**
+>Let $g(x) = -\log(x)$.
+>$g'(x) = -1/x$.
+>$g''(x) = 1/x^2$.
+>For $x>0$, $g''(x) > 0$, so $g(x)$ is **convex**. The inequality holds by Jensen's.
+>
+>(c) **$E[\log(1/X)] \ge \log[1/E(X)]$**
+>Note that $\log(1/X) = -\log(X)$ and $\log(1/E[X]) = -\log(E[X])$. This inequality is identical to part (b) and is therefore true.
+>
+>(d) **$E[X^3] \ge [E(X)]^3$**
+>Let $g(x) = x^3$.
+>$g'(x) = 3x^2$.
+>$g''(x) = 6x$.
+>For $x>0$, $g''(x) > 0$, so $g(x)$ is **convex**. The inequality holds by Jensen's.
