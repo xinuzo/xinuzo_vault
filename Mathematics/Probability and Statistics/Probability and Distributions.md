@@ -1,4 +1,9 @@
 from Hogg Ed.8
+
+>[!tips] (Definition) Moment Generating Function
+>
+>Let $X$ be a random variable
+>
 ### Excercises
 - [x] **1.2.1**
   > [!question] Problem 1.2.1 (a), (b), (c)
