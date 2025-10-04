@@ -95,13 +95,11 @@
     \draw[->, ultra thick, red] (E) -- (D) node[midway, above] {Iter 2};
     
     % Highlight the optimal point
-    \node[star, star points=7, fill=green, inner sep=3pt, label=above
-    right:\textbf{Optimal!}] at (D) {};
-    \end{tikzpicture}
-    \end{document}
+    \node[star, star points=7, fill=green, inner sep=3pt, label=above right:{\textbf{Optimal!}}] at (D) {};
+\end{tikzpicture}
+\end{document}
 ```
-```tikz
-```
+
 
 >[!tips]- (Theorem) Fundamental Theorem of Linear Programming
 >If an optimal solution to a Linear Programming problem exists, then at least one **extreme point** of the feasible region must be optimal.

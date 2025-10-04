@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Optimization/Basic Logic Concepts.md",
+                "file": "Mathematics/Logic/Basic Logic Concepts.md",
                 "mode": "source",
                 "source": false
               },
@@ -236,11 +236,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "d75bac3f8f8a9e61",
+  "active": "8f9f612ed2f0c6e1",
   "lastOpenFiles": [
+    "Mathematics/Numerical Mathematics/Sottomatrici principali di testa.md",
+    "Mathematics/Numerical Mathematics/Spettro.md",
+    "Mathematics/Numerical Mathematics/Teorema di Weiestrass.md",
+    "Mathematics/Numerical Mathematics/Velocità di convergenza di un metodo iterativo.md",
+    "Mathematics/Numerical Mathematics/Teorema di unicità per la fattorizzazione LU.md",
+    "Mathematics/Optimization/Linear Programming.md",
+    "Mathematics/Logic/Basic Logic Concepts.md",
     "Mathematics/Optimization/Untitled 1.md",
     "Mathematics/Optimization/Untitled.md",
-    "Mathematics/Optimization/Linear Programming.md",
     "Mathematics/Numerical Mathematics/Pivoting parziale.md",
     "Mathematics/Numerical Mathematics/Metodo di Gauss Seidel.md",
     "Mathematics/Numerical Mathematics/Matrice a diagonale dominante.md",
@@ -258,12 +264,6 @@
     "Mathematics/Numerical Mathematics/Distanza dai problemi mal posti.md",
     "Mathematics/Numerical Mathematics/Differenza tra stabilità e condizionamento.md",
     "Mathematics/Numerical Mathematics/Differenza tra relativo e assoluto.md",
-    "Mathematics/Numerical Mathematics/Costruzione di una spline cubica.md",
-    "Mathematics/Numerical Mathematics/Condizione sufficiente per la convergenza di un metodo iterativo.md",
-    "Mathematics/Numerical Mathematics/Complessità di un metodo iterativo.md",
-    "Mathematics/Numerical Mathematics/Condizionamento del problema di ricerca degli zeri di una funzione.md",
-    "Mathematics/Numerical Mathematics/Complessità del metodo di Lagrange.md",
-    "Mathematics/Numerical Mathematics/Classi di funzioni approssimanti.md",
     "Pasted image 20250930131038.png",
     "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
