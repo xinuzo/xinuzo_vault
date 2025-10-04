@@ -281,27 +281,28 @@ $$ \begin{align*} |\text{Mathematician} \cap \text{Statistician}| &= |\text{Math
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.9.19
+- [ ] Hogg Ed 7 1.9.19
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.9.21
+- [ ] Hogg Ed 7 1.9.21
+
 > [!success]- Solusi
 > 
 
 #### Section 1.10
-[!question]- Hogg Ed 7 1.10.2
+- [ ]   Hogg Ed 7 1.10.2
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.10.3
+- [ ] Hogg Ed 7 1.10.3
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.10.5
+- [ ]  Hogg Ed 7 1.10.5
 > [!success]- Solusi
 > 
 
-[!question]- Hogg Ed 7 1.10.6
+- [ ] Hogg Ed 7 1.10.6
 > [!success]- Solusi
 >
