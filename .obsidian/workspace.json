@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
+                "file": "Mathematics/Optimization/Linear Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability and Distributions"
+              "title": "Linear Programming"
             }
           }
         ],
@@ -208,12 +208,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "849e22c7a66f0efc",
   "lastOpenFiles": [
+    "Mathematics/Probability and Statistics/Probability and Distributions.md",
     "Others/Notulensi Wawancara Kak Natgil Remidi Dikpus.md",
     "Others/Mastery Theory.md",
     "Others/Project Ideas.md",
-    "Mathematics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
     "Mathematics/Abstract Algebra/Mappings and Operations.md",
