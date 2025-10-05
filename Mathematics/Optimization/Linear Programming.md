@@ -434,3 +434,83 @@
 ---
 ## Soal 4
 *Bagian ini merujuk pada soal yang berbeda, tidak akan dikerjakan karena akan melebihi batas yang wajar untuk satu jawaban.*
+
+## The Core Idea: The Tableau as a Matrix Equation
+
+Every number in any simplex tableau can be calculated directly from the initial problem data, as long as you know the **inverse of the basis matrix ($B^{-1}$)** for that step.
+
+The fundamental relationship is:
+$$
+(\text{Any Tableau}) = B^{-1} \times (\text{Initial Tableau})
+$$
+
+- **Initial Tableau**: The problem set up in standard form with slack variables.
+- **Basis Matrix ($B$)**: A square matrix formed by the columns from the *initial tableau* that correspond to the variables currently in the *basis*.
+- **Inverse Basis Matrix ($B^{-1}$)**: The inverse of $B$. This matrix is the "magic key" that transforms the original problem into the current view of the solution.
+
+> [!tip] The Golden Rule
+> The columns in **any** tableau corresponding to the **original slack variables** will, together, form the inverse basis matrix, $B^{-1}$, for that tableau. This is the ultimate shortcut to finding $B^{-1}$.
+
+---
+
+## Anatomy of the Final Tableau & How to Calculate It
+
+Let's assume you have an optimal tableau. We can calculate every part of it using the original problem data and $B^{-1}$.
+
+Let the original problem be:
+- Maximize $z = c^T x$
+- Subject to $Ax \le b$
+- $x \ge 0$
+
+Initial Tableau Data:
+- $c_j$: Original cost coefficient for variable $x_j$.
+- $c_B$: Vector of cost coefficients for the variables currently *in the basis*.
+- $A_j$: Original constraint column for variable $x_j$.
+- $b$: Original Right-Hand Side (RHS) vector.
+
+### 1. Finding the Inverse Matrix ($B^{-1}$)
+As stated in the tip above, just look at the columns of your final tableau that were originally for your slack variables ($s_1, s_2, ...$). That sub-matrix *is* $B^{-1}$.
+
+### 2. Finding Constraint Coefficients (The body of the tableau)
+The new column for any variable $x_j$ in the current tableau ($A'_j$) is calculated as:
+$$
+A'_j = B^{-1} \cdot A_j
+$$
+This answers how to find values like **C** and **D** in your example image.
+
+### 3. Finding the RHS (The "RK" or "b" column)
+The new RHS vector ($b'$) is calculated as:
+$$
+b' = B^{-1} \cdot b
+$$
+This answers how to find the value **E** in your example.
+
+### 4. Finding the Z-Row (Sensitivity Information)
+This row contains the reduced costs and shadow prices. It's the most important row for interpretation.
+
+First, we calculate the **shadow price vector (y)**, also known as the vector of dual variables.
+$$
+y^T = c_B^T \cdot B^{-1}
+$$
+
+- **Shadow Prices (doz/dob)**: The values in the z-row under the original **slack variable** columns. These are the individual elements of the vector $y^T$. The shadow price for the first constraint (`dob1`) is the z-row value under `s1`.
+- **Reduced Costs (doz/dox)**: The values in the z-row under the original **decision variable** columns. The reduced cost for a non-basic variable $x_j$ is calculated as:
+$$
+\text{Reduced Cost } (z_j - c_j) = y^T \cdot A_j - c_j
+$$
+This formula gives you the values for **A** and **B** in your example.
+> [!info] A Critical Shortcut
+> The reduced cost for any variable that is **currently in the basis** is always **0**.
+
+---
+
+## Worked Example: Solving Your Problem
+
+Let's analyze the tableau you provided with this knowledge.
+
+The basis variables are $x_3$ and $x_1$.
+
+1.  **Find A**: The value `A` is in the z-row under the $x_3$ column. Since $x_3$ is a **basic variable**, its reduced cost must be 0.
+    - **A = 0**
+
+2.  **Find C**: The value `C` is in the $x_3$ row under the $x_1$ column. The column for a basic variable must be an identity matrix column. Since $x_1$ is the second basic variable, its column in the tableau body must be $[0, 1]^T$. The value in the first
