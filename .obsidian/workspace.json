@@ -8,91 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0a4083518266133",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probability and Distributions"
-            }
-          },
-          {
-            "id": "6e88c0e2affaf780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Linear Algebra/Vector Spaces.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vector Spaces"
-            }
-          },
-          {
-            "id": "06ba1f36607332ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Linear Algebra/Problems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problems"
-            }
-          },
-          {
-            "id": "849e22c7a66f0efc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Optimization/Linear Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Programming"
-            }
-          },
-          {
-            "id": "d0773439d87dd049",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Optimization/Minimum Network Flows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Minimum Network Flows"
-            }
-          },
-          {
             "id": "d75bac3f8f8a9e61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Optimization/Linear Programming.md",
+                "file": "Others/Project Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "Project Ideas"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,9 +167,21 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
-    "Mathematics/Optimization/Untitled 1.md",
+    "Others/Webinar Marketing dan Investment Timothy Ronald Lababook ID.md",
+    "Others/Mastery Theory.md",
+    "Others/Notulensi Wawancara Kak Natgil Remidi Dikpus.md",
+    "Others/assets/Pasted image 20251005191534.png",
+    "Others/assets",
+    "Others/Project Ideas.md",
+    "Mathematics/Abstract Algebra/assets/Pasted image 20250930131038.png",
+    "Mathematics/Abstract Algebra/assets",
+    "Mathematics/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
+    "Mathematics/Abstract Algebra/Introduction to Groups.md",
+    "Mathematics/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Optimization/Minimum Network Flows.md",
     "Mathematics/Optimization/Linear Programming.md",
+    "Mathematics/Linear Algebra/Problems.md",
+    "Mathematics/Optimization/Untitled 1.md",
     "Mathematics/Logic/Basic Logic Concepts.md",
     "Mathematics/Numerical Mathematics/Sottomatrici principali di testa.md",
     "Mathematics/Numerical Mathematics/Spettro.md",
@@ -255,16 +196,6 @@
     "Mathematics/Numerical Mathematics/Indice di condizionamento.md",
     "Mathematics/Numerical Mathematics/Indice di condizionamento relativo.md",
     "Mathematics/Numerical Mathematics/Forward substitution.md",
-    "Mathematics/Numerical Mathematics/Fattorizzazione LU.md",
-    "Mathematics/Numerical Mathematics/Fattorizzazione PLU.md",
-    "Mathematics/Numerical Mathematics/Eserciziario.md",
-    "Mathematics/Numerical Mathematics/Errore di propagazione.md",
-    "Mathematics/Numerical Mathematics/Errore di discretizzazione.md",
-    "Mathematics/Numerical Mathematics/Errore del polinomio interpolante di Newton.md",
-    "Mathematics/Numerical Mathematics/Distanza dai problemi mal posti.md",
-    "Mathematics/Numerical Mathematics/Differenza tra stabilità e condizionamento.md",
-    "Mathematics/Numerical Mathematics/Differenza tra relativo e assoluto.md",
-    "Pasted image 20250930131038.png",
     "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions",
@@ -273,8 +204,6 @@
     "m3-scrolls/Library/Number Theory",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions",
-    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Theorems",
-    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Definitions",
     "JLPT/assets/8EA083D7-509D-4B40-98AF-7E86BE4FDA21.jpg",
     "JLPT/assets/Pasted image 20250922185721.png",
     "JLPT/assets/18ABDDD8-F8D0-40CC-9B1A-47C5A6F939DC.jpg",
@@ -284,7 +213,6 @@
     "Mathematics/Numerical Mathematics/Allegati/Pasted image 20230824122010.png",
     "Mathematics/Numerical Mathematics/Allegati/diagram-20230827 (1).svg",
     "Mathematics/Numerical Mathematics/Allegati/diagram-20230825 (6).svg",
-    "Mathematics/Numerical Mathematics/Allegati/bezier-moi.gif",
     "Untitled.canvas",
     "CTF Notes/Binary Exploitation.canvas",
     "CTF Notes/Crytpography.canvas",

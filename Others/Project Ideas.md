@@ -10,3 +10,4 @@ Inovasi FPT MATHCO:
 - RnD: buat buku baru, restrukturisasi konten buku biar isinya materi-contoh pengerjaan soal-soal-soal. 
 - buat try out ujian aktuaria dan pembahasan
 - unrealistic but might be a good idea: buat Mathco kek gradient/ruangguru lol. (tapi ya most likely gabisa karena keterbatasan tenaga kerja)
+- ![[Pasted image 20251005191534.png]]
