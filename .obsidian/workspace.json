@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Optimization/Linear Programming.md",
+                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "Probability and Distributions"
             }
           }
         ]
@@ -167,6 +167,9 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Mathematics/Probability and Statistics/Multivariate Distributions.md",
+    "Mathematics/Probability and Statistics/Some Special Distributions.md",
+    "Mathematics/Optimization/Linear Programming.md",
     "Others/Project Ideas.md",
     "Others/Webinar Marketing dan Investment Timothy Ronald Lababook ID.md",
     "Others/Mastery Theory.md",
@@ -179,7 +182,6 @@
     "Mathematics/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Optimization/Minimum Network Flows.md",
-    "Mathematics/Optimization/Linear Programming.md",
     "Mathematics/Linear Algebra/Problems.md",
     "Mathematics/Optimization/Untitled 1.md",
     "Mathematics/Logic/Basic Logic Concepts.md",
@@ -195,7 +197,6 @@
     "Mathematics/Numerical Mathematics/Lemma sul limite della matrice di iterazione.md",
     "Mathematics/Numerical Mathematics/Indice di condizionamento.md",
     "Mathematics/Numerical Mathematics/Indice di condizionamento relativo.md",
-    "Mathematics/Numerical Mathematics/Forward substitution.md",
     "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions",
