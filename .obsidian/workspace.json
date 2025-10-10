@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Probability and Statistics/Probability and Distributions.md",
+                "file": "Others/Project Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability and Distributions"
+              "title": "Project Ideas"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Mathematics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Probability and Statistics/Some Special Distributions.md",
     "Mathematics/Optimization/Linear Programming.md",
@@ -196,7 +197,6 @@
     "Mathematics/Numerical Mathematics/Metodi diretti.md",
     "Mathematics/Numerical Mathematics/Lemma sul limite della matrice di iterazione.md",
     "Mathematics/Numerical Mathematics/Indice di condizionamento.md",
-    "Mathematics/Numerical Mathematics/Indice di condizionamento relativo.md",
     "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions",
