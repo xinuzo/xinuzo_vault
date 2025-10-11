@@ -1,4 +1,4 @@
-- [x] **ONMIPA 2006**
+**ONMIPA 2006**
 >[!question]
 Diketahui $G = {1, −1}$ grup dengan operasi kali dan $G^3 = {(a, b, c) : a, b, c ∈ G}$ grup dengan operasi untuk setiap $x_{1} = (a_{1}, b_{1}, c_{1})$, $x_{2} = (a_{2}, b_{2}, c_{2}) ∈ G^3$
 $x_{1} ∗ x_{2} = (a_{1}a_{2}, b_{1}b_{2}, c_{1}c_{2})$.
@@ -313,42 +313,37 @@ and the coefficients satisfy
 >$$  
 >u_k=(-1)^k e_k(\lambda_1,\dots,\lambda_n),  
 >$$
-
+>
 where $e_k$ is the $k$-th elementary symmetric sum of the eigenvalues. Because each $\lambda_i\ge0$, we have $e_k\ge0$ for all $k$, and hence $u_k=(-1)^k e_k\le0$ when $k$ is odd and $u_k\ge0$ when $k$ is even.
-
+>
 **Answer:** Sign pattern as required.
 
----
 
 ## Problem 4
 
 > [!question]- 4
-
 Misalkan $R$ adalah ring dengan sifat: untuk setiap $r\in R$ dengan $rRr={0_R}$, berlaku $r=0_R$. Jika $u,v,w\in R$ memenuhi $urv+vrw=0_R$ untuk setiap $r\in R$, buktikan bahwa $(u+w)rv=vr(u+w)=0_R$ untuk setiap $r\in R$.
 
 > [!success]-
-
 **Solution.**
-
+>
 From $urv+vrw=0$ for all $r\in R$, replace $r$ by $rv$ to obtain
-
-$$  
-u(rv)v + v(rv)w = 0 \quad(\text{for all } r),  
-$$  
-so
-
-$$  
-(u+w)(rv)v=0 \quad(\text{for all } r),  
-$$
-
-i.e. $(u+w)R v^2={0}$. Thus for any $r$ the element $x=(u+w)rv$ satisfies $xRx={0}$, so by hypothesis $x=0$, i.e. $(u+w)rv=0$ for all $r$. A symmetric argument (replace $r$ by $vr$) gives $vr(u+w)=0$ for all $r$. Therefore
-
-$$  
-(u+w)rv = vr(u+w) = 0\quad(\text{for all } r\in R).  
-$$
-
+>
+>$$  
+>u(rv)v + v(rv)w = 0 \quad(\text{for all } r),  
+>$$  
+>so
+>
+>$$  
+>(u+w)(rv)v=0 \quad(\text{for all } r),  
+>$$
+>
+>i.e. $(u+w)R v^2={0}$. Thus for any $r$ the element $x=(u+w)rv$ satisfies $xRx={0}$, so by hypothesis $x=0$, i.e. $(u+w)rv=0$ for all $r$. A symmetric argument (replace $r$ by $vr$) gives $vr(u+w)=0$ for all $r$. Therefore
+>
+>$$  
+>(u+w)rv = vr(u+w) = 0\quad(\text{for all } r\in R).  
+>$$
+>
 **Answer:** $\boxed{(u+w) r v = v r (u+w)=0_R\ \text{for all } r\in R.}$
 
----
-
-# End of Sesi II
+## Kelar
