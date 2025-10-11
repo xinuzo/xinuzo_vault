@@ -6,11 +6,10 @@
 - (BIG - REALISTIC} AI-Finance, Fund Corporation (dream company: Rentech)
 
 Inovasi FPT MATHCO:
-- sales & marketing: buat konten promosi yang lebih value based marketing (bahas soal lewat shorts), live tiktok, faebook ads, loss of aversion orang gagal ujian A10, 
+-  marketing: buat konten promosi yang lebih value based marketing (bahas soal lewat shorts), live tiktok, faebook ads, loss of aversion orang gagal ujian A10, 
 - RnD: buat buku baru, restrukturisasi konten buku biar isinya materi-contoh pengerjaan soal-soal-soal. 
 - buat try out ujian aktuaria dan pembahasan
 - unrealistic but might be a good idea: buat Mathco kek gradient/ruangguru lol. (tapi ya most likely gabisa karena keterbatasan tenaga kerja)
-- ![[Pasted image 20251005191534.png]]
-
+- ![[Pasted image 20251011134051.png]]
 3 main types of content: engaging, educating, entertaining
 ## make a graph theory game. 
