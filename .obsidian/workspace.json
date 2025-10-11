@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Project Ideas.md",
+                "file": "Mathematics/Abstract Algebra/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project Ideas"
+              "title": "Problems"
             }
           }
         ]
@@ -167,11 +167,11 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Others/Project Ideas.md",
     "Mathematics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Probability and Statistics/Some Special Distributions.md",
     "Mathematics/Optimization/Linear Programming.md",
-    "Others/Project Ideas.md",
     "Others/Webinar Marketing dan Investment Timothy Ronald Lababook ID.md",
     "Others/Mastery Theory.md",
     "Others/Notulensi Wawancara Kak Natgil Remidi Dikpus.md",
