@@ -12,5 +12,5 @@ Inovasi FPT MATHCO:
 - unrealistic but might be a good idea: buat Mathco kek gradient/ruangguru lol. (tapi ya most likely gabisa karena keterbatasan tenaga kerja)
 - ![[Pasted image 20251005191534.png]]
 
-
+3 main types of content: engaging, educating, entertaining
 ## make a graph theory game. 
