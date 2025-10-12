@@ -1,0 +1,1 @@
+3.1.3 Definition A sequence X= (xn) in lR is said to converge to x E JR., or xis said to be a limit of ( Xn), if for every c > 0 there exists a natural number K (c) such that for all n 2: K(c), the terms X11 satisfy lxn- xl
