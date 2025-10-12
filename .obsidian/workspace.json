@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Project Ideas.md",
+                "file": "Mathematics/Real Analysis/Sequences and Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project Ideas"
+              "title": "Sequences and Series"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Others/Project Ideas.md",
     "Pasted image 20251011134051.png",
     "Mathematics/Optimization/Minimum Network Flows.md",
     "Mathematics/Optimization/Linear Programming.md",
@@ -178,7 +179,6 @@
     "Mathematics/Graph Theory/Resource.md",
     "Mathematics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Abstract Algebra/Problems.md",
-    "Others/Project Ideas.md",
     "Mathematics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Probability and Statistics/Some Special Distributions.md",
     "Others/Webinar Marketing dan Investment Timothy Ronald Lababook ID.md",
@@ -213,7 +213,6 @@
     "Mathematics/Numerical Mathematics/Allegati/Pasted image 20230824121847.png",
     "Mathematics/Numerical Mathematics/Allegati/Pasted image 20230824122010.png",
     "Mathematics/Numerical Mathematics/Allegati/diagram-20230827 (1).svg",
-    "Mathematics/Numerical Mathematics/Allegati/diagram-20230825 (6).svg",
     "Untitled.canvas",
     "CTF Notes/Binary Exploitation.canvas",
     "CTF Notes/Crytpography.canvas",
