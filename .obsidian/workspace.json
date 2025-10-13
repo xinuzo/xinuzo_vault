@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Real Analysis/Real Numbers.md",
+                "file": "Mathematics/Abstract Algebra/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real Numbers"
+              "title": "Problems"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Mathematics/Real Analysis/Real Numbers.md",
     "Mathematics/Real Analysis/Sequences and Series.md",
     "Others/Project Ideas.md",
     "Pasted image 20251011134051.png",
@@ -197,7 +198,6 @@
     "Mathematics/Logic/Basic Logic Concepts.md",
     "Mathematics/Numerical Mathematics/Sottomatrici principali di testa.md",
     "Mathematics/Numerical Mathematics/Spettro.md",
-    "Mathematics/Numerical Mathematics/Teorema di Weiestrass.md",
     "m3-scrolls/Library/Number Theory/2. Divisibility and The Division Algorithm/Definitions",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Theorems",
     "m3-scrolls/Library/Number Theory/1. Well-Ordering and Induction/Definitions",

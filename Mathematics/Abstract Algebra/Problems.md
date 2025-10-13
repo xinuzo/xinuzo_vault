@@ -14,16 +14,11 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 ## 1.
 
 > [!question]- 1
-
 Misalkan $\pi=(1\ 4\ 3\ 2)(5\ 6\ 7\ 8)(6\ 8\ 1\ 5)(4\ 5\ 7)\in S_8$. Order dari $\pi$ adalah . . ..
 
 > [!success]-
-
 **Solution (sketch).** Compose the cycles (right-to-left). The composition is a single 8-cycle $$(1\ 6\ 5\ 8\ 4\ 7\ 3\ 2).$$
-
 **Answer:** $\boxed{8}$.
-
----
 
 ## 2.
 
@@ -79,7 +74,7 @@ Diberikan himpunan $A:=\{f:\ f\text{ fungsi dari }\mathbb{Z}_5\text{ ke }\mathbb
 Order dari $\begin{pmatrix}1&1\\0&2\end{pmatrix}$ sebagai elemen dari grup $\mathrm{GL}_2(\mathbb{Z}_{23})$ adalah . . ..
 
 > [!success]-
-**Solution.** For upper-triangular $\begin{pmatrix}1&1\0&2\end{pmatrix}$, the diagonal entries raise separately; the matrix equals identity iff $2^n\equiv1\pmod{23}$. The multiplicative order of $2$ modulo $23$ is $11$.
+**Solution.** For upper-triangular $\begin{pmatrix}1&1\\0&2\end{pmatrix}$, the diagonal entries raise separately; the matrix equals identity iff $2^n\equiv1\pmod{23}$. The multiplicative order of $2$ modulo $23$ is $11$.
 **Answer:** $\boxed{11}$.
 
 
@@ -288,9 +283,8 @@ Let $G=\langle g\rangle$ be cyclic of order $p^2q^2$. The order of $g^k$ equals 
 Misalkan $n\in\mathbb{N}$ dengan $n>1$ dan $v_1,\dots,v_n\in\mathbb{R}^n$. Misalkan juga $A$ adalah matriks berukuran $n\times n$ dengan $(A)_{ij}=v_j^T v_i$ untuk setiap $i,j\in{1,2,\dots,n}$ dan
 >
 >$$  
-\lambda^n+u_1\lambda^{n-1}+u_2\lambda^{n-2}+\cdots+u_{n-1}\lambda+u_n  
-$$
->
+>\lambda^n+u_1\lambda^{n-1}+u_2\lambda^{n-2}+\cdots+u_{n-1}\lambda+u_n  
+>$$
 >adalah polinomial karakteristik dari $A$ dalam $\lambda$. Untuk setiap $k\in{1,2,\dots,n}$, buktikan bahwa $u_k\le0$ jika $k$ ganjil dan $u_k\ge0$ jika $k$ genap.
 
 > [!success]-
