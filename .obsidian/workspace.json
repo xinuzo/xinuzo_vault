@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Abstract Algebra/Problems.md",
+                "file": "Mathematics/Graph Theory/Glossary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "Glossary"
             }
           }
         ]
@@ -167,20 +167,20 @@
   },
   "active": "d75bac3f8f8a9e61",
   "lastOpenFiles": [
+    "Mathematics/Graph Theory/Trees.md",
+    "Mathematics/Graph Theory/Connectivity.md",
+    "Mathematics/Graph Theory/Euler Tours and Hamilton Cycles.md",
+    "Mathematics/Abstract Algebra/Problems.md",
     "Mathematics/Real Analysis/Real Numbers.md",
     "Mathematics/Real Analysis/Sequences and Series.md",
     "Others/Project Ideas.md",
     "Pasted image 20251011134051.png",
     "Mathematics/Optimization/Minimum Network Flows.md",
     "Mathematics/Optimization/Linear Programming.md",
-    "Mathematics/Graph Theory/Trees.md",
-    "Mathematics/Graph Theory/Euler Tours and Hamilton Cycles.md",
-    "Mathematics/Graph Theory/Connectivity.md",
     "Mathematics/Graph Theory/Glossary.md",
     "Mathematics/Graph Theory/Graphs and Subgraphs.md",
     "Mathematics/Graph Theory/Resource.md",
     "Mathematics/Probability and Statistics/Probability and Distributions.md",
-    "Mathematics/Abstract Algebra/Problems.md",
     "Mathematics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Probability and Statistics/Some Special Distributions.md",
     "Others/Webinar Marketing dan Investment Timothy Ronald Lababook ID.md",
