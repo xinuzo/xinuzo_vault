@@ -118,7 +118,24 @@ $E[X, Y]$
 
 
 
+A **walk** in a graph $G$ is a sequence of vertices and edges $v_0, e_1, v_1, e_2, \dots, e_k, v_k$ where each edge $e_i$ connects vertex $v_{i-1}$ and $v_i$. Both vertices and edges can be repeated.
 
+A **trail** is a walk in which no **edge** is repeated. Vertices may be repeated.
 
+A **path** is a walk in which no **vertex** is repeated (which implies no edges are repeated).
 
+A walk is **closed** if its starting and ending vertices are the same ($v_0 = v_k$).
 
+A **circuit** is a closed trail. It starts and ends at the same vertex and repeats no edges, but may repeat intermediate vertices.
+
+A **cycle** is a closed path of length 3 or more. It starts and ends at the same vertex, and no other vertices are repeated.
+
+A **tour** is a general term for a closed walk, often with specific properties defined by the context.
+
+An **Eulerian trail** is a trail that contains **every edge** of the graph exactly once. It exists if and only if the graph is connected and has exactly zero or two vertices of odd degree.
+
+An **Eulerian tour** (or **Eulerian circuit**) is a circuit that contains **every edge** of the graph exactly once. It exists if and only if the graph is connected and every vertex has an even degree.
+
+A **Hamiltonian path** is a path that contains **every vertex** of the graph exactly once.
+
+A **Hamiltonian cycle** is a cycle that contains **every vertex** of the graph exactly once (except for the start/end vertex).
