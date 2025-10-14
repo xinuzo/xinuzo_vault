@@ -130,7 +130,7 @@ A **circuit** is a closed trail. It starts and ends at the same vertex and repea
 
 A **cycle** is a closed path of length 3 or more. It starts and ends at the same vertex, and no other vertices are repeated.
 
-A **tour** is a general term for a closed walk, often with specific properties defined by the context.
+A **tour** is a general term for a closed walk, often with specific properties defined by the context. A **tour** travel every edge at least once. 
 
 An **Eulerian trail** is a trail that contains **every edge** of the graph exactly once. It exists if and only if the graph is connected and has exactly zero or two vertices of odd degree.
 
