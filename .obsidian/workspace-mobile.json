@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Project Ideas.md",
+                "file": "Mathematics/Graph Theory/Euler Tours and Hamilton Cycles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Project Ideas"
+              "title": "Euler Tours and Hamilton Cycles"
             }
           }
         ]
@@ -156,9 +156,11 @@
   },
   "active": "050393d2b90e336b",
   "lastOpenFiles": [
-    "Others/Mastery Theory.md",
+    "Mathematics/Graph Theory/Graphs and Subgraphs.md",
     "Mathematics/Graph Theory/Glossary.md",
+    "Others/Project Ideas.sync-conflict-20251014-230151-ROSPXAK.md",
     "Others/Project Ideas.md",
+    "Others/Mastery Theory.md",
     "Mathematics/Real Analysis/Real Numbers.md",
     "Mathematics/Abstract Algebra/Introduction to Groups.md",
     "m3-scrolls/Library/Set Theory/6. Injective and Surjective Functions/Theorems/Injective Functions as Monomorphisms.md",
@@ -180,8 +182,6 @@
     "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Definitions/Identity Natural Transformation.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Antisymmetry of Natural Number Comparison.md",
     "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Theorems/Minimality of Smallest Objects.md",
-    "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Theorems/Inverses of Isomorphisms as Isomorphisms.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Identity Functor.md",
     "Pasted image 20250930131038.png",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions",
