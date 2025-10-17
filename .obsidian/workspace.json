@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Partial Orders as Partial Orders.md",
+                "file": "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Definitions/Minimal Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inverses of Partial Orders as Partial Orders"
+              "title": "Minimal Object"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
-    "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Total Orders as Total Orders.md",
+    "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Definitions/Smallest Object.md",
     "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Partial Orders as Partial Orders.md",
+    "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Total Orders as Total Orders.md",
     "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Definitions/Partial Order.md",
     "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Definitions/Total Order.md",
     "m3-scrolls/Library/Equivalence Theory/1. Basic Properties of Equivalence Relations/Theorems/Properties of Membership and Equality of Equivalence Classes.md",
@@ -192,7 +193,6 @@
     "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Full Functor.md",
     "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Functor.md",
     "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Identity Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Constant Functor.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",
