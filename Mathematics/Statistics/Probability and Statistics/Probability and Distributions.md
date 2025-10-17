@@ -6,6 +6,29 @@
 >2. $\mathcal{B}$ is a **$\sigma$-algebra** of subsets of $S$, called events.
 >3. $P$ is a **probability measure**, a function $P: \mathcal{B} \to [0, 1]$ satisfying the Axioms of Probability.
 
+> [!tips] (Definition) $\sigma$-algebra
+> Let $S$ be a non-empty set. A collection of subsets of $S$, denoted by $\mathcal{B}$, is a **$\sigma$-algebra** if it satisfies three properties:
+> 4.  The entire set $S$ is in the collection: $S \in \mathcal{B}$.
+> 5.  The collection is **closed under complementation**: If a set $A$ is in $\mathcal{B}$, then its complement $A^c$ is also in $\mathcal{B}$.
+> 6.  The collection is **closed under countable unions**: If $A_1, A_2, A_3, \dots$ is a countable sequence of sets in $\mathcal{B}$, then their union $\bigcup_{i=1}^{\infty} A_i$ is also in $\mathcal{B}$.
+
+> [!tips] Definition Measurable Space
+> A **measurable space** is a pair $(S, \mathcal{B})$ where:
+> 7.  $S$ is a non-empty set.
+> 8.  $\mathcal{B}$ is a $\sigma$-algebra on $S$.
+>
+> The sets contained in $\mathcal{B}$ are called **measurable sets**.
+
+> [!tips] (Definition) Measure
+> Given a measurable space $(S, \mathcal{B})$, a **measure** is a function $\mu: \mathcal{B} \to [0, \infty]$ that satisfies two properties:
+> 9.  The measure of the empty set is zero: $\mu(\emptyset) = 0$.
+> 10.  **Countable Additivity**: For any countable sequence of disjoint sets $A_1, A_2, A_3, \dots$ in $\mathcal{B}$, the measure of their union is the sum of their measures:
+>     $$
+>     \mu\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} \mu(A_i)
+>     $$
+
+> [!tips] (Definition) Measurable Function
+> Let $(S_1, \mathcal{B}_1)$ and $(S_2, \mathcal{B}_2)$ be two measurable spaces. A function $f: S_1 \to S_2$ is called a **measurable function** if for every measurable set $E$ in the codomain's $\sigma$-algebra (i.e., $E \in \mathcal{B}_2$), its preimage is a measurable set in the domain's $\sigma$-algebra (i.e., $f^{-1}(E) \in \mathcal{B}_1$).
 >[!tips] (Definition) Cumulative Distribution Function (CDF)
 >The **Cumulative Distribution Function** (CDF) of a random variable $X$ is the function $F(x)$ defined as:
 >$$ F(x) = P(X \le x), \quad \text{for all } x \in \mathbb{R} $$
