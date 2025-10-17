@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Definitions/Minimal Object.md",
+                "file": "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Minimal Object"
+              "title": "Zero-Divisor"
             }
           }
         ]
@@ -167,6 +167,11 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Greatest Common Divisor.md",
+    "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Unit.md",
+    "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Zero-Divisor.md",
+    "m3-scrolls/Library/Ring Theory/6. Primes and Irreducibles/Definitions/Divisor.md",
+    "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Definitions/Minimal Object.md",
     "m3-scrolls/Library/Order Theory/2. Smallest and Minimal Objects/Definitions/Smallest Object.md",
     "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Partial Orders as Partial Orders.md",
     "m3-scrolls/Library/Order Theory/1. Basic Properties of Orders/Theorems/Inverses of Total Orders as Total Orders.md",
@@ -188,11 +193,6 @@
     "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Horizontal Composites as Vertical Compositions of Whiskerings.md",
     "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Theorems/Distributivity of Whiskerings Over Vertical Compositions.md",
     "m3-scrolls/Library/Category Theory/4. Natural Transformations Between Functors/Definitions/Equivalence Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Essentially Surjective Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Faithful Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Full Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Functor.md",
-    "m3-scrolls/Library/Category Theory/3. Functors Between Categories/Definitions/Identity Functor.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",
