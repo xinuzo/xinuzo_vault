@@ -3,3 +3,5 @@
 
 >[!tips] Properties 1 
 >$P[a_{1}<X_{1}<b_{1} , a_{2}<X_{2}<b_{2}]=F_{x_{1},x_{2}}(b_{1},b_{2})-F_{x_{1},x_{2}}(a_{1},b_{2})-F_{x_{1},x_{2}}(b_{1},a_{2})+F_{x_{1},x_{2}}(a_{1},a_{2})$
+
+Theorem2.3.1. Let(X1,X2)bearandomvectorsuchthat thevarianceofX2 is finite.Then, (a)E[E(X2|X1)]=E(X2). (b)Var[E(X2|X1)]≤Var(X2)
