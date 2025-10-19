@@ -33,6 +33,10 @@ The third property is also called **Trichotomy Property**
 
 >[!success]- Proof
 >Induction. 
+i
+
+>[!tips] The Density Theorem
+> If $x < y$, $x,y \in \mathbb{R} \implies \exists$ there exists a rational number r E
 ### Excercises
 
  Note: tbh there are a lot of weirdly obvious properties, only some of the interesting ones are included in the note and the rest as an excercise. 
