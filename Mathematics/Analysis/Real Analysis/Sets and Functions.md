@@ -62,6 +62,11 @@ Let $S$ be a subset of $\mathbb{N}$ that possesses the two properties:
 
 >[!success]- Proof.
 > Suppose to the contrary that $S\neq \mathbb{N}$. Then the set $\mathbb{N}-S$ is not empty, so by the **Well Ordering Principle** it has a least element $m$. Since $1\in S$ by hypothesis (1), we know that $m > 1$. But this implies that $m - 1$ is also a natural number. Since $m - 1 < m$ and since $m$ is the least element in $\mathbb{N}$ such that $m\notin S$, we conclude that $m-1\in S$. We now apply hypothesis (2) to the element $k := m-1$ in $S$, to infer that $k + 1 = ( m - 1) + 1 = m$ belongs to $S$. But this statement contradicts the fact that $m\notin S$. Since $m$ was obtained from the assumption that $\mathbb{N}-S$ is not empty, we have obtained a contradiction. Therefore we must have $S = \mathbb{N}$.
+
+
+>[!tips] 1.2.5 Principle of Strong Induction 
+>Let S be a subset of N such that (1") 1 E S. (2") For every k E N, if { 1 , 2, . . . , k} � S, then k + 1 E S. Then S = N.
+
 ##   Functions
 
 ### Definition and Properties
