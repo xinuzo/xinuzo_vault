@@ -68,7 +68,8 @@ The third property is also called **Trichotomy Property**
 i
 
 
-
+>[!tips] 2.5.1 Characterization Theorem 
+If S is a subset of JR. that contains at least two points and has the property i f x,y E S and x < y, then [x,y] � S, (1) then S is an interval.
 
 ### Excercises
 
