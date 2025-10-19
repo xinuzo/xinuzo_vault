@@ -23,6 +23,7 @@ There are 9 of these.
 >a \in P \qquad a=0 \qquad -a \in P
 >$$
 
+The third property is also called **Trichotomy Property**
 
 >[!tips] Completeness  Axiom of $\mathbb{R}$
 >Every nonempty set of **real numbers** that is **bounded above (below)** has a **least upper (greatest lower)** bound in $\mathbb{R}$.
