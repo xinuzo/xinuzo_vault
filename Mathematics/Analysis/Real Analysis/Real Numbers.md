@@ -12,10 +12,20 @@
 >(**M4**) $\exists 1 \ni 1\cdot a=a\cdot 1=a$ $\forall a \in \mathbb{R}$ (**Existence of Muliplicative Identity**)
 >(**D**) $a\cdot(b+c)=a\cdot b+a\cdot c$ and $(b+c)\cdot a=b\cdot a+c\cdot a$ $\forall a,b,c \in \mathbb{R}$ (**Distributive**)
 
-There are 9 of these.
+There are 9 of these. 
 
->[!tips]  Trichotomy of $\mathbb{R}$
->In 
+>[!tips]  The Order Properties of $\mathbb{R}$
+ There is a nonempty subset $P$ of $\mathbb{R}$, called the set of positive real numbers, that satisfies the following properties: 
+ (i) $a,b\in P \implies a+b\in P$
+ (ii)  $a,b\in P \implies ab \in P$
+  (iii)  If $a\in \mathbb{R}$ , then exactly one of the following holds:
+  $$
+  $$
+\begin{align}
+a\in P      a=0       -a\in P
+\end{align}
+$$
+
 
 >[!tips] Completeness  Axiom of $\mathbb{R}$
 >Every nonempty set of **real numbers** that is **bounded above (below)** has a **least upper (greatest lower)** bound in $\mathbb{R}$.
@@ -23,9 +33,11 @@ There are 9 of these.
 >[!tips] Bernoulli's Inequality
 >if $x>-1$, then $(1+x)^n\geq 1+xn$ $\forall n\in \mathbb{N}$.
 
->[!success] Proof
+>[!success]- Proof
 >Induction. 
 ### Excercises
+
+ Note: tbh there are a lot of weirdly obvious properties, only some of the interesting ones are included in the note and the rest as an excercise. 
 
   > [!question] Prove inf and sup $S_{4}$ 
   > Let $S_{4}={1-\frac{(-1)^{n}}{n} : n \in \mathbb{N}}.$  Find $inf \,S_{4} \,\text{and} \,sup \, S_{4}$
