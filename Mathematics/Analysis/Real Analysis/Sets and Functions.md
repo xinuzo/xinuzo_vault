@@ -51,9 +51,12 @@ Let $A$ and $B$ be subsets of a universal set $U$.
 > $$ |A| < |\mathcal{P}(A)| $$
 > *This implies that there is no "largest" infinity.*
 
----
----
+1.2.1 Well-Ordering Property of N Every nonempty subset (I{N has a least element. A more detailed statement of this property is as follows: If Sis a subset of N and if S =1- 0, then there exists m E S such that m -:::: k for all k E S. On the basis of the Well-Ordering Property, we shall derive a version of the Principle of Mathematical Induction that is expressed in terms of subsets of N. 
 
+1.2.2 Principle of Mathematical Induction 
+Let S be a subset of N that possesses the two properties: (1) The number I E S. (2) For every k E N, if k E S, then k + I E S. Then we have S = N.
+
+Proof. Suppose to the contrary that S =1- N. Then the set N\S is not empty, so by the Well Ordering Principle it has a least element m. Since I E S by hypothesis (I), we know that m > 1. But this implies that m - 1 is also a natural number. Since m - I < m and since m is the least element in N such that m ¢:. S, we conclude that m - I E S. We now apply hypothesis (2) to the element k := m - I in S, to infer that k + I = ( m - 1) + 1 = m belongs to S. But this statement contradicts the fact that m ¢:. S. Since m was obtained from the assumption that N\S is not empty, we have obtained a contradiction. Therefore we must have S = N.
 ##   Functions
 
 ### Definition and Properties
