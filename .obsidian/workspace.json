@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Real Numbers.md",
+                "file": "Mathematics/Analysis/Real Analysis/Sets and Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Real Numbers"
+              "title": "Sets and Functions"
             }
           }
         ]
@@ -165,12 +165,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Real Analysis/Real Numbers.md",
     "Mathematics/Analysis/Real Analysis/Sets and Functions.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Analysis/Real Analysis/Problems.md",
-    "Mathematics/Analysis/Real Analysis/Real Numbers.md",
     "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Algebra/Linear Algebra/Linear Mappings.md",

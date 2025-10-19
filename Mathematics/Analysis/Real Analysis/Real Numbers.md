@@ -34,10 +34,12 @@ The third property is also called **Trichotomy Property**
 >[!tips] (Definition) Supremum Infimum
 > Let $S$ be a nonempty subset of $\mathbb{R}$ 
 > (a)  If $S$ is bounded above, then a number $u$ is said to be a supremum (or a least upper bound) of $s$ if it satisfies the conditions: 
-> (1) $u$ is an upper bound of $$S$
->  (2) if v is any upper bound of S, then u :::; v. 
+> 1. $u$ is an upper bound of $S$
+>  2. if $v$ is any upper bound of $S$, then $u\leq v$. 
 > 
-> (b) If Sis bounded below, then a number w is said to be an infimum (or a greatest lower (1') w bound) of S if it satisfies the conditions: is a lower bound of S, and (2') if t is any lower bound of S, then t :::; w.
+> (b) If $S$ is bounded below, then a number $w$ is said to be **an infimum** (or **a greatest lower  bound**) of $S$ if it satisfies the conditions: 
+>  1. $w$ is a lower bound of $S$
+>  2. if $t$ is any lower bound of $S$, then $t\leq w$.
 
 
 >[!tips] Completeness  Axiom of $\mathbb{R}$
