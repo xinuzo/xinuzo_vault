@@ -28,6 +28,23 @@ The third property is also called **Trichotomy Property**
 >[!tips] Completeness  Axiom of $\mathbb{R}$
 >Every nonempty set of **real numbers** that is **bounded above (below)** has a **least upper (greatest lower)** bound in $\mathbb{R}$.
 
+
+>[!tips] Archimedean Property
+> If $x \in R$, then there exists $n_{x}\in \mathbb{N}$ E N such that $n_{x}\geq x$.
+> 
+
+>[!success]- Proof 
+>Assume the assertion is false, then $n_{x}<x$ for all $\forall n\in \mathbb{N}$. Therefore, $x$ is an upper bound of N. Therefore, by the Completeness Property, the non empty set $\mathbb{N}$ has a supremum $u\in \mathbb{R}$. Subtracting $1$ from $u$ gives a number $u - 1$, which is smaller than the supremum $u$ of $\mathbb{N}$. Therefore $u - 1$ is not an upper bound of N, so there exists $m\in \mathbb{N}$ with $u - I < m$. Adding I gives u < m + I,
+>and since m + I E N, this inequality contradicts the fact that u is an upper bound of N.
+
+
+
+>[!tips] The Density Theorem
+>  $x,y \in \mathbb{R}$ \, $x < y$ $\implies \exists r\in \mathbb{Q} \ni x<r<y$
+
+>[!success]- Proof
+>WLOG assume $x>0$, 
+
 >[!tips] Bernoulli's Inequality
 >if $x>-1$, then $(1+x)^n\geq 1+xn$ $\forall n\in \mathbb{N}$.
 
@@ -35,8 +52,9 @@ The third property is also called **Trichotomy Property**
 >Induction. 
 i
 
->[!tips] The Density Theorem
-> If $x < y$, $x,y \in \mathbb{R} \implies \exists$ there exists a rational number r E
+
+
+
 ### Excercises
 
  Note: tbh there are a lot of weirdly obvious properties, only some of the interesting ones are included in the note and the rest as an excercise. 
