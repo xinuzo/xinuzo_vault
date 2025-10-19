@@ -1,4 +1,10 @@
 
+>[!tips] Algebraic Properties of $\mathbb{R}$
+>The set of real numbers ($\mathbb{R}$) equipped with two binary operations $(.) \text{ and } (+)$ satisfies the following properties:
+>(**A1**)$a+b=b+a$ $\forall a,b \in \mathbb{R}$
+>(**A2**)$(a+b)+c=a+(b+c)$
+
+
 ### Excercises
 
   > [!question] Prove inf and sup $S_{4}$ 
