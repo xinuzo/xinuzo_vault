@@ -43,4 +43,4 @@ $X$ is **decreasing** if it satisfies the inequalities $x_{1}\geq x_{2}\geq\dots
 >A bounded sequence of real numbers has a convergent subsequence. 
 
 >[!success]  Proof.
-> It follows from the [[**Monotone Subsequence Theorem**]] that if X= (xn) is a bounded sequence, then it has a subsequence X' = ( Xnk ) that is monotone. Since this subsequence is also bounded, it follows from the Monotone Convergence Theorem 3.3.2 that the subsequence is convergent.
+> It follows from the **Monotone Subsequence Theorem** that if X= (xn) is a bounded sequence, then it has a subsequence X' = ( Xnk ) that is monotone. Since this subsequence is also bounded, it follows from the Monotone Convergence Theorem 3.3.2 that the subsequence is convergent.
