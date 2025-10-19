@@ -1,17 +1,30 @@
 
 >[!tips] Algebraic Properties of $\mathbb{R}$
->The set of real numbers ($\mathbb{R}$) equipped with two binary operations $(.) \text{ and } (+)$ satisfies the following properties:
->(**A1**) $a+b=b+a$  $\forall a,b \in \mathbb{R}$ (Commutativity of Addition)
->(**A2**) $(a+b)+c=a+(b+c)$ $\forall a,b,c \in \mathbb{R}$ (Associativity of Addition)
->(**A3**) $\exists -a \in \mathbb{R} \ni a+(-a)=(-a)+a=0$ $\forall a \in \mathbb{R}$ ()
->(**A4**) $\exists 0 \in \mathbb{R} \ni a+0=0+a=a$ $\forall a \in \mathbb{R}$
->(**M1**) $(a \cdot b)\cdot c= a \cdot(b\cdot c)$ $\forall a,b,c \in \mathbb{R}$ 
->(**M2**) $a\cdot b=b\cdot a$ $\forall a,b \in \mathbb{R}$ (Commutativity of Multiplication)
->(**M3**) $\exists \frac{1}{a} \ni a \cdot \frac{1}{a}=\frac{1}{a} \cdot a=1$
->(**M4**) $\exists 1 \ni 1\cdot a=a\cdot 1=a$ $\forall a \in \mathbb{R}$
->(**D**) $a\cdot(b+c)=a\cdot b+a\cdot c$ $\forall a,b,c \in \mathbb{R}$
+>The set of real numbers ($\mathbb{R}$) equipped with two binary operations $(.) \text{ and } (+)$ satisfies the following properties: 
+>
+>(**A1**) $a+b=b+a$  $\forall a,b \in \mathbb{R}$ (**Commutativity of Addition**)
+>(**A2**) $(a+b)+c=a+(b+c)$ $\forall a,b,c \in \mathbb{R}$ (**Associativity of Addition**)
+>(**A3**) $\exists -a \in \mathbb{R} \ni a+(-a)=(-a)+a=0$ $\forall a \in \mathbb{R}$ (**Existence of Additive Inverse**)
+>(**A4**) $\exists 0 \in \mathbb{R} \ni a+0=0+a=a$ $\forall a \in \mathbb{R}$ (**Existence of Additive Identity**)
+>(**M1**) $(a \cdot b)\cdot c= a \cdot(b\cdot c)$ $\forall a,b,c \in \mathbb{R}$ (**Associativity of Multiplication**)
+>(**M2**) $a\cdot b=b\cdot a$ $\forall a,b \in \mathbb{R}$ (**Commutativity of Multiplication**)
+>(**M3**) $\exists \frac{1}{a} \ni a \cdot \frac{1}{a}=\frac{1}{a} \cdot a=1$ (**Existence of Multiplicative Inverse**)
+>(**M4**) $\exists 1 \ni 1\cdot a=a\cdot 1=a$ $\forall a \in \mathbb{R}$ (**Existence of Muliplicative Identity**)
+>(**D**) $a\cdot(b+c)=a\cdot b+a\cdot c$ and $(b+c)\cdot a=b\cdot a+c\cdot a$ $\forall a,b,c \in \mathbb{R}$ (**Distributive**)
 
+There are 9 of these.
 
+>[!tips]  Trichotomy of $\mathbb{R}$
+>In 
+
+>[!tips] Completeness  Axiom of $\mathbb{R}$
+>Every nonempty set of **real numbers** that is **bounded above (below)** has a **least upper (greatest lower)** bound in $\mathbb{R}$.
+
+>[!tips] Bernoulli's Inequality
+>if $x>-1$, then $(1+x)^n\geq 1+xn$ $\forall n\in \mathbb{N}$.
+
+>[!success] Proof
+>Induction. 
 ### Excercises
 
   > [!question] Prove inf and sup $S_{4}$ 
