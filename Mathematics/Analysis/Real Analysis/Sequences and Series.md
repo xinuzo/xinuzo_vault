@@ -40,4 +40,7 @@ $X$ is **decreasing** if it satisfies the inequalities $x_{1}\geq x_{2}\geq\dots
 3.4.5 Divergence Criteria If a sequence X= (xn) of real numbers has either of the fo llowing properties, then X is divergent. (i) X has two convergent subsequences X' = (xnk) and X" = (xrk ) whose limits are not equal. (ii) X is unbounded.
 
 >[!tips] 3.4.8 The Bolzano-Weierstrass Theorem
->A bounded sequence of real numbers has a convergent subsequence. First Proof. It follows from the Monotone Subsequence Theorem that if X= (xn) is a bounded sequence, then it has a subsequence X' = ( Xnk ) that is monotone. Since this subsequence is also bounded, it follows from the Monotone Convergence Theorem 3.3.2 that the subsequence is convergent.
+>A bounded sequence of real numbers has a convergent subsequence. 
+
+>[!success]  Proof.
+> It follows from the [[**Monotone Subsequence Theorem**]] that if X= (xn) is a bounded sequence, then it has a subsequence X' = ( Xnk ) that is monotone. Since this subsequence is also bounded, it follows from the Monotone Convergence Theorem 3.3.2 that the subsequence is convergent.
