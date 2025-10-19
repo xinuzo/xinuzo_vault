@@ -25,6 +25,21 @@ There are 9 of these.
 
 The third property is also called **Trichotomy Property**
 
+>[!tips] (Definition) Bounded Sets
+> Let $S$ be a nonempty subset of $\mathbb{R}$
+>  (a) The set S is said to be **bounded above** if there **exists** a number $u\in \mathbb{R}$ such that $s\leq u$ for all $s \in S$.  $u$ is called an **upper bound** of S.
+>   (b) The set S is said to be **bounded below** if there exists a number $w\in \mathbb{R}$ such that $w\leq s$ for all $s \in S$. $w$ is called a **lower bound** of S.
+>   (c) A set is said to be **bounded** if it is **both bounded above** and **bounded below**. A set is said to be **unbounded** if it is **not bounded**.
+
+>[!tips] (Definition) Supremum Infimum
+> Let $S$ be a nonempty subset of $\mathbb{R}$ 
+> (a)  If $S$ is bounded above, then a number $u$ is said to be a supremum (or a least upper bound) of $s$ if it satisfies the conditions: 
+> (1) $u$ is an upper bound of $$S$
+>  (2) if v is any upper bound of S, then u :::; v. 
+> 
+> (b) If Sis bounded below, then a number w is said to be an infimum (or a greatest lower (1') w bound) of S if it satisfies the conditions: is a lower bound of S, and (2') if t is any lower bound of S, then t :::; w.
+
+
 >[!tips] Completeness  Axiom of $\mathbb{R}$
 >Every nonempty set of **real numbers** that is **bounded above (below)** has a **least upper (greatest lower)** bound in $\mathbb{R}$.
 
@@ -34,9 +49,7 @@ The third property is also called **Trichotomy Property**
 > 
 
 >[!success]- Proof 
->Assume the assertion is false, then $n_{x}<x$ for all $\forall n\in \mathbb{N}$. Therefore, $x$ is an upper bound of N. Therefore, by the Completeness Property, the non empty set $\mathbb{N}$ has a supremum $u\in \mathbb{R}$. Subtracting $1$ from $u$ gives a number $u - 1$, which is smaller than the supremum $u$ of $\mathbb{N}$. Therefore $u - 1$ is not an upper bound of N, so there exists $m\in \mathbb{N}$ with $u - I < m$. Adding I gives u < m + I,
->and since m + I E N, this inequality contradicts the fact that u is an upper bound of N.
-
+>Assume the assertion is false, then $n_{x}<x$ for all $\forall n\in \mathbb{N}$. Therefore, $x$ is an upper bound of N. Therefore, by the Completeness Property, the non empty set $\mathbb{N}$ has a supremum $u\in \mathbb{R}$. Subtracting $1$ from $u$ gives a number $u - 1$, which is smaller than the supremum $u$ of $\mathbb{N}$. Therefore $u - 1$ is not an upper bound of N, so there exists $m\in \mathbb{N}$ with $u - 1 < m$. Adding $1$ gives $u < m + 1$, and since $m + 1\in \mathbb{N}$, this inequality contradicts the fact that u is an upper bound of N.
 
 
 >[!tips] The Density Theorem
