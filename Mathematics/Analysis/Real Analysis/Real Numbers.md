@@ -19,12 +19,9 @@ There are 9 of these.
  (i) $a,b\in P \implies a+b\in P$
  (ii)  $a,b\in P \implies ab \in P$
   (iii)  If $a\in \mathbb{R}$ , then exactly one of the following holds:
-  $$
-  $$
-\begin{align}
-a\in P      a=0       -a\in P
-\end{align}
-$$
+>$$
+>a \in P \qquad a=0 \qquad -a \in P
+>$$
 
 
 >[!tips] Completeness  Axiom of $\mathbb{R}$
