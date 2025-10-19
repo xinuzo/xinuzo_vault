@@ -117,3 +117,4 @@ Let $f: A \to B$ be a function.
 > 4. $f^{-1}(T_1 \cap T_2) = f^{-1}(T_1) \cap f^{-1}(T_2)$
 
 ### Excercises
+too lazy bro, it's easy anyway
