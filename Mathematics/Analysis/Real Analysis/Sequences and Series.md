@@ -20,7 +20,8 @@
 > [!success]- Proof
 >  We note that _for any p E N, the pth term of Xm is the (p + m)th term of X. Similarly, if q > m, then the qth term of X is the (q- m)th term of Xm. Assume X converges to x. Then given any 1; > 0, if the terms of X for n 2 K( t:) satisfy lxn- xl < B, then the terms of Xm for k 2 K(e)- m satisfy lxk- xl
 
-3.1.10 Theorem Let (xn) be a sequence of real numbers and let x E R If (an) is a sequence of positive real numbers with lim( an) = 0 and if for some constant C > 0 and some m E N we have l xn - xl ::; Can fo r all n -2: m, then it fo llows that lim(xn) = x.
+>[!tips] 3.1.10 Theorem 
+Let $(x_{n})$ be a sequence of real numbers and let $x \in \mathbb{R}$ If $(a_{n})$ is a sequence of positive real numbers with $lim(a_{n}) = 0$ and if for some constant C > 0 and some m E N we have l xn - xl ::; Can fo r all n -2: m, then it fo llows that lim(xn) = x.
 
 exists a real number M > 0 such that lxn I :S M for all n E N. Thus, the sequence (xn) is bounded if and only if the set { Xn : n E N} of its values is a bounded subset of R 3.2.2 Theorem A convergent sequence of real numbers is bounded. Proof Suppose that lim(xn) = x and let e := I. Then there exists a natural number K = K(l) such that lxn- xl < I for all n 2: K. If we apply the Triangle Inequality with n 2: K we obtain If we set l xnl = lxn -X+ xl :S lxn - xl + lxl < 1 + lxl M := sup{ lx, l , lx2l , . . . , lxK- I I , 1 + lxl }, then it follows that lxn I :S M for all n E N.
 
@@ -42,5 +43,5 @@ $X$ is **decreasing** if it satisfies the inequalities $x_{1}\geq x_{2}\geq\dots
 >[!tips] 3.4.8 The Bolzano-Weierstrass Theorem
 >A bounded sequence of real numbers has a convergent subsequence. 
 
->[!success]  Proof.
+>[!success]-  Proof.
 > It follows from the **Monotone Subsequence Theorem** that if X= (xn) is a bounded sequence, then it has a subsequence X' = ( Xnk ) that is monotone. Since this subsequence is also bounded, it follows from the Monotone Convergence Theorem 3.3.2 that the subsequence is convergent.
