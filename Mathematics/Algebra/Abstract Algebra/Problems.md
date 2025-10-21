@@ -238,7 +238,9 @@ Diberikan grup $G$ dan $a,b,c\in G$ yang memenuhi $G=\langle a,b,c\rangle$ dan $
 ## Problem 1 (Sesi II).
 
 > [!question]- 1
-Misalkan matriks $A$ berukuran $n\times n$ dengan $n\ge3$. Jika $\operatorname{rank}(A)=n-2$, maka tentukan $\operatorname{rank}(\operatorname{adj}(A))$.\n\nCatatan: Untuk matriks $A$ berukuran $n\times n$, $M_{ij}$ menyatakan determinan matriks yang diperoleh dengan cara menghilangkan baris ke-i dan kolom ke-j dari matriks $A$. Selanjutnya dibentuk matriks $K$ dengan $(K)_{ij}=(-1)^{i+j}M_{ij}$. Transpose dari matriks $K$ disebut adjoint dari matriks $A$.
+Misalkan matriks $A$ berukuran $n\times n$ dengan $n\ge3$. Jika $\operatorname{rank}(A)=n-2$, maka tentukan $\operatorname{rank}(\operatorname{adj}(A))$.
+>
+>Catatan: Untuk matriks $A$ berukuran $n\times n$, $M_{ij}$ menyatakan determinan matriks yang diperoleh dengan cara menghilangkan baris ke-i dan kolom ke-j dari matriks $A$. Selanjutnya dibentuk matriks $K$ dengan $(K)_{ij}=(-1)^{i+j}M_{ij}$. Transpose dari matriks $K$ disebut adjoint dari matriks $A$.
 
 > [!success]-
 **Solution.** For an $n\times n$ matrix $A$ with $\operatorname{rank}(A)=n-2$, all $(n-1)\times(n-1)$ minors vanish so $\operatorname{adj}(A)=0$. Hence $\operatorname{rank}(\operatorname{adj}(A))=0$.
