@@ -15,7 +15,6 @@ source: MathPi/Youtube
 > 1.  **Koset Kiri** dari $H$ yang diwakili oleh $g$ adalah himpunan $gH = \{gh \mid h \in H\}$.
 > 2.  **Koset Kanan** dari $H$ yang diwakili oleh $g$ adalah himpunan $Hg = \{hg \mid h \in H\}$.
 >
-> Intinya, koset adalah hasil "penggeseran" subgrup $H$ oleh elemen $g$. Jika operasinya penjumlahan, ditulis $g+H$.
 
 > [!tips] (Definition) Normal Subgroup 
 > Sebuah subgrup $N$ dari grup $G$ disebut **subgrup normal** jika koset kiri dan koset kanannya selalu sama untuk semua elemen $g \in G$. Artinya, $gN = Ng$ untuk setiap $g \in G$.
