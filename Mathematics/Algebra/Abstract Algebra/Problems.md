@@ -130,7 +130,7 @@ Diberikan matriks
 ## 11.
 
 > [!question]- 11
-Jika $A=\begin{pmatrix}1&3&2[2pt]2&1&3[2pt]3&2&1\end{pmatrix}$ dan $v\in\mathbb{R}^3$ dengan $v\ne0$, maka nilai maksimum dari $\dfrac{\|Av\|}{\|v\|}$ adalah . . ..
+Jika $A=\begin{pmatrix}1&3&2\\ 2&1&3\\3&2&1\end{pmatrix}$ dan $v\in\mathbb{R}^3$ dengan $v\ne0$, maka nilai maksimum dari $\dfrac{\|Av\|}{\|v\|}$ adalah . . ..
 
 > [!success]-
 **Solution.** The maximum of $\|Av\|/\|v\|$ equals the largest singular value of $A$. Computation gives the largest singular value $6$.
