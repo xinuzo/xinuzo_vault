@@ -32,6 +32,7 @@
 >[!tips] (Definition) Cumulative Distribution Function (CDF)
 >The **Cumulative Distribution Function** (CDF) of a random variable $X$ is the function $F(x)$ defined as:
 >$$ F(x) = P(X \le x), \quad \text{for all } x \in \mathbb{R} $$
+>$$F(x)=\int_{-\infty}^{x} f(t) dt \quad \text{for all } x \in \mathbb{R}$$ 
 >The CDF must satisfy three properties:
 >- $F(x)$ is a non-decreasing function.
 >- $\lim_{x \to \infty} F(x) = 1$ and $\lim_{x \to -\infty} F(x) = 0$.
