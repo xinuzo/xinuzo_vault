@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
+                "file": "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability and Distributions"
+              "title": "Introduction to Groups"
             }
           }
         ]
@@ -167,9 +167,9 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Statistics/Probability and Statistics/Some Special Distributions.md",
-    "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Algebra/Abstract Algebra/Problems.md",
     "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
