@@ -23,12 +23,53 @@
 >[!tips] 3.1.10 Theorem 
 Let $(x_{n})$ be a sequence of real numbers and let $x \in \mathbb{R}$ If $(a_{n})$ is a sequence of positive real numbers with $lim(a_{n}) = 0$ and if for some constant $C > 0$ and some $m \in \mathbb{N}$ we have $|x_{n} - x| <C$ an fo r all n -2: m, then it fo llows that lim(xn) = x.
 
-exists a real number M > 0 such that lxn I :S M for all n E N. Thus, the sequence (xn) is bounded if and only if the set { Xn : n E N} of its values is a bounded subset of R 3.2.2 Theorem A convergent sequence of real numbers is bounded. Proof Suppose that lim(xn) = x and let e := I. Then there exists a natural number K = K(l) such that lxn- xl < I for all n 2: K. If we apply the Triangle Inequality with n 2: K we obtain If we set l xnl = lxn -X+ xl :S lxn - xl + lxl < 1 + lxl M := sup{ lx, l , lx2l , . . . , lxK- I I , 1 + lxl }, then it follows that lxn I :S M for all n E N.
+>[!tips] Definisi: Barisan Terbatas
 
-3.2.4 Theorem If X= (x,) is a convergent sequence of real numbers and ifx11 ;:::: Ofor all n E N, then x = lim(x11) ;:::: 0.
+Sebuah barisan $(x_n)$ dikatakan terbatas jika terdapat sebuah bilangan real $M > 0$ sedemikian sehingga $|x_n| \le M$ untuk semua $n \in \mathbb{N}$.
 
-3.2.7 Squeeze Theorem Suppose that X= (x11), Y = (y11), and Z = (zn) are sequences of real numbers such that Xn :s; Yn :s; Zn for all n E N, and that lim(x11) = lim(z11). Then Y = (y11) is convergent and lim(xn) = Iim(y11) = Iim(zn)· Proof Let w := Iim(xn) = Iim(z11). If e > 0 is given, then it follows from the conver gence of X and Z to w that there exists a natural number K such that if n � K then J xn- w J < e and Since the hypothesis implies that : s ; Yn - w :s; Zn - w for all n E N, Xn - w it follows (why?) that -e < Yn- w < e for all n � K. Since e > 0 is arbitrary, this implies that Iim(y11) = w.
+Dengan demikian, barisan $(x_n)$ terbatas jika dan hanya jika himpunan nilai-nilainya $\{x_n : n \in \mathbb{N}\}$ adalah himpunan bagian terbatas dari $\mathbb{R}$.
 
+[!success]
+
+3.2.2 Teorema: Barisan Konvergen Pasti Terbatas
+
+Sebuah barisan bilangan real yang konvergen adalah terbatas.
+
+Bukti: Misalkan $\lim(x_n) = x$ dan ambil $\epsilon := 1$. Maka terdapat sebuah bilangan asli $K = K(1)$ sedemikian sehingga $|x_n - x| < 1$ untuk semua $n \ge K$.
+
+Jika kita menerapkan Ketaksamaan Segitiga untuk $n \ge K$, kita peroleh:
+
+$$|x_n| = |x_n - x + x| \le |x_n - x| + |x| < 1 + |x|$$
+
+Jika kita menetapkan:
+
+$$M := \sup\{ |x_1|, |x_2|, \dots, |x_{K-1}|, 1 + |x| \}$$
+
+maka berlaku $|x_n| \le M$ untuk semua $n \in \mathbb{N}$.
+
+3.2.4 Teorema
+
+Jika $X = (x_n)$ adalah barisan bilangan real yang konvergen dan jika $x_n \ge 0$ untuk semua $n \in \mathbb{N}$, maka $x = \lim(x_n) \ge 0$.
+
+3.2.7 Teorema Apit (Squeeze Theorem)
+
+Misalkan $X = (x_n)$, $Y = (y_n)$, dan $Z = (z_n)$ adalah barisan bilangan real sedemikian sehingga:
+
+$$x_n \le y_n \le z_n \quad \text{untuk semua } n \in \mathbb{N}$$
+
+dan $\lim(x_n) = \lim(z_n)$. Maka $Y = (y_n)$ adalah konvergen dan:
+
+$$\lim(x_n) = \lim(y_n) = \lim(z_n)$$
+
+Bukti: Misalkan $w := \lim(x_n) = \lim(z_n)$. Jika diberikan $\epsilon > 0$, maka dari konvergensi $X$ dan $Z$ ke $w$, terdapat sebuah bilangan asli $K$ sedemikian sehingga jika $n \ge K$ maka:
+
+$$|x_n - w| < \epsilon \quad \text{dan} \quad |z_n - w| < \epsilon$$
+
+Karena hipotesis menyiratkan bahwa $x_n - w \le y_n - w \le z_n - w$ untuk semua $n \in \mathbb{N}$, maka (mengapa?) berlaku:
+
+$$-\epsilon < y_n - w < \epsilon$$
+
+untuk semua $n \ge K$. Karena $\epsilon > 0$ adalah sembarang, ini menyiratkan bahwa $\lim(y_n) = w$.
 >[!tips] 3.3.1 (Definition) Monotone Increasing (Decreasing)
 > Let $X= (x_{n})$ be a sequence of real numbers.  $X$ is **increasing** if it satisfies the inequalities
 > $x_{1}\leq x_{2}\leq\dots\leq x_{n}\leq x_{n+1}\leq\dots$.
