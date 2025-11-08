@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
+                "file": "Mathematics/Combinatorics/Graph Theory/Graphs and Subgraphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multivariate Distributions"
+              "title": "Graphs and Subgraphs"
             }
           }
         ]
@@ -167,22 +167,24 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "Mathematics/Combinatorics/Graph Theory/Resource.md",
+    "Mathematics/Applied Math/QuantFinance/Resources.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Back Substitution.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Autovettore.md",
+    "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
+    "Mathematics/Applied Math/Optimization/Linear Programming.md",
     "Mathematics/Statistics/Probability and Statistics/Some Special Distributions.md",
     "Mathematics/Combinatorics/Graph Theory/Trees.md",
     "Mathematics/Combinatorics/Graph Theory/Euler Tours and Hamilton Cycles.md",
     "Mathematics/Combinatorics/Graph Theory/Connectivity.md",
     "Mathematics/Combinatorics/Graph Theory/Graphs and Subgraphs.md",
-    "Mathematics/Combinatorics/Graph Theory/Resource.md",
-    "Mathematics/Applied Math/Optimization/Linear Programming.md",
     "Mathematics/Applied Math/Optimization/Untitled 1.md",
     "Mathematics/Applied Math/Optimization/Minimum Network Flows.md",
     "Mathematics/Applied Math/Numerical Mathematics/Complessità computazionale del metodo di interpolazione di newton.md",
     "Mathematics/Applied Math/Numerical Mathematics/Calcolo inversa di una matrice.md",
     "Mathematics/Applied Math/Numerical Mathematics/Back substitution complessità.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Autovettore.md",
     "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
-    "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "Mathematics/Algebra/Abstract Algebra/Problems.md",
     "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces.md",
@@ -191,8 +193,6 @@
     "Mathematics/Analysis/Real Analysis/Sets and Functions.md",
     "Mathematics/Analysis/Real Analysis/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Linear Mappings.md",
-    "Mathematics/Algebra/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
-    "m3-scrolls/Library/Group Theory/1. Basic Properties of Groups/Theorems/Cancellation Properties on Groups.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",
