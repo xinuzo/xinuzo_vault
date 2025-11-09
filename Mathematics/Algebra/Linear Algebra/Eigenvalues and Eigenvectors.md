@@ -3,7 +3,7 @@
 >[!tips] Theorem: Linear Independence of Eigenvectors
 >If $v_1, v_2, \dots, v_k$ are eigenvectors of a matrix $A$ corresponding to **distinct** eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_k$, then the set $\{v_1, v_2, \dots, v_k\}$ is linearly independent.
 
->[!success]- Proof (by Mathematical Induction)
+>[!success]- Proof
 >The proof will proceed by induction on $k$, the number of eigenvectors.
 >
 >**1. Base Case (for k=1):**
