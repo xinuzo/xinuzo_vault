@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Opposite Category"
             }
+          },
+          {
+            "id": "73ef0dccad7f5fd8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "1414ec408d54c739",
+  "active": "73ef0dccad7f5fd8",
   "lastOpenFiles": [
     "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Locally Small Category.md",
     "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Isomorphism.md",
