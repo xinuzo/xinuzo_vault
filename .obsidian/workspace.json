@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra/Abstract Algebra/Problems.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Problems.md",
                 "mode": "source",
                 "source": false
               },
@@ -167,6 +167,8 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers.md",
+    "Mathematics/Algebra/Abstract Algebra/Problems.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Opposite Category.md",
@@ -191,8 +193,6 @@
     "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 2/soal modul 2 v2.md",
     "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 1/soal modul 1 v2.md",
     "Mathematics/Algebra/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
-    "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
-    "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",
