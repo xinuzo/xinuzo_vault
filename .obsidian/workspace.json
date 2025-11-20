@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
+                "file": "Mathematics/Algebra/Abstract Algebra/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sequences and Series"
+              "title": "Problems"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Opposite Category.md",
     "Mathematics/Analysis/Real Analysis/Continuous Function.md",
@@ -192,7 +193,6 @@
     "Mathematics/Algebra/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
     "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
-    "Mathematics/Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",

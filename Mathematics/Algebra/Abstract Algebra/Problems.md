@@ -7,7 +7,31 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 >[!success]- 
 >Akan ditunjukkan ada 7 subgrup.  Tinjau bahwa suatu subgrup  $H \leq G$ harus memiliki elemen **identitas**, setiap elemen memiliki **invers** dan **tertutup terhadap operasi**. Order dari suatu grup adalah banyaknya elemen pada grup tersebut. Dengan demikian, elemen **(1,1,1)** harus ada dalam subgrup karena ia adalah elemen **identitas**. Selanjutnya, perhatikan bahwa pemilhan 2 elemen sembarang akan menentukan 1 elemen lagi yang harus ada dalam grup itu karena sifat **tertutup terhadap operasi**. Dengan demikian ada **$\frac{\binom{7}{2}}{3} = 7$** subgrup berorder 4. 
  
+> [!question] Problem: Homomorphism $\phi(x) = x^3$
+> Let $G$ be a group where $\phi(x) = x^3$ is an injective homomorphism.
+> 1. Prove $a^2b^2 = b^2a^2$.
+> 2. Should $G$ be commutative?
 
+> [!success]- Proof
+> **1. Establish Identity**
+> Since $\phi$ is a homomorphism, $(ab)^3 = a^3b^3$. Expanding this:
+> $$ababab = a^3b^3 \implies baba = a^2b^2 \tag{1}$$
+>
+> **2. Prove $a^2 \in Z(G)$**
+> Apply (1) to $(ba)^3$:
+> $$(ba)^3 = b^3a^3 \implies (baba)ba = b^3a^3 \implies (a^2b^2)ba = b^3a^3$$
+> Left cancel $a^2$ and right cancel $a$:
+> $$b^3a^2 = a^2b^3 \implies b^3 = a^2b^3a^{-2}$$
+> This can be written as $\phi(b) = \phi(a^2ba^{-2})$. Since $\phi$ is **injective**:
+> $$b = a^2ba^{-2} \implies a^2b = ba^2$$
+> Since $a^2$ is central, it commutes with $b^2$, proving **$a^2b^2 = b^2a^2$**.
+>
+> **3. Conclusion: Commutativity**
+> Substitute $a^2b^2 = b^2a^2$ back into Eq (1):
+> $$baba = b^2a^2$$
+> Left cancel $b$ and right cancel $a$:
+> $$ab = ba$$
+> **Yes, $G$ is commutative.**
 
 **KOALA 2025**
 
