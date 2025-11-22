@@ -40,21 +40,69 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 > **(a)** Buktikan terdapat $s \in R$ sedemikian sehingga $A_r = B_s$ dan $B_r = A_s$.
 > **(b)** Jika $u$ adalah unit di $R$, buktikan $R/A_{ur} \cong B_{ur}$ sebagai grup.
 
-> [!success]- Solution
+> [!success]- Solusi
 > **Bagian (a): Konstruksi elemen $s$**
-> 1.  Definisikan $s = \phi(1_R + A_r)$. Karena $\phi$ homomorfisma modul, maka $\phi(x + A_r) = x\phi(1_R + A_r) = xs$.
-> 2.  **Bukti $B_r = A_s$**: Karena $\phi$ surjektif, $B_r = \text{Im}(\phi) = \{xs \mid x \in R\} = A_s$.
-> 3.  **Bukti $A_r = B_s$**: Karena $\phi$ injektif, kernelnya adalah elemen nol ($A_r$).
->     $$x \in \text{Ker}(\phi) \iff \phi(\bar{x}) = 0 \iff xs = 0 \iff x \in B_s$$
->     Maka $A_r = B_s$.
-> 
-> **Bagian (b): Isomorfisma dengan Unit**
-> 4.  **Identitas $A_{ur} = A_r$**: Karena $u$ unit, $R u = R$. Maka $A_{ur} = R(ur) = (Ru)r = Rr = A_r$.
-> 5.  **Relasi $B_{ur}$ dan $B_r$**: $x \in B_{ur} \iff xur = 0 \iff (xu)r = 0 \iff xu \in B_r$.
-> 6.  **Konstruksi Isomorfisma**:
->     Kita punya isomorfisma $\phi: R/A_r \to B_r$. Definisikan bijeksi $\psi: B_r \to B_{ur}$ dengan $\psi(y) = y u^{-1}$.
->     Maka komposisi pemetaan memberikan isomorfisma grup:
->     $$R/A_{ur} = R/A_r \xrightarrow{\phi} B_r \xrightarrow{\psi} B_{ur}$$
+> Diketahui bahwa $r$ adalah unsur rapi, sehingga terdapat isomorfisma modul kiri $\varphi : R/A_r \to B_r$.
+>
+> 1. **Definisi elemen $s$**
+>    Misalkan $1_R$ adalah identitas dari $R$. Definisikan:
+>    $$s := \varphi(1_R + A_r)$$
+>    Karena $\varphi$ adalah homomorfisma modul kiri, maka untuk setiap $x \in R$ berlaku sifat $R$-linear:
+>    $$
+>    \begin{aligned}
+>    \varphi(x + A_r) &= \varphi\big(x(1_R + A_r)\big) \\
+>    &= x\varphi(1_R + A_r) \\
+>    &= xs
+>    \end{aligned}
+>    $$
+>
+> 2. **Bukti $B_r = A_s$**
+>    Karena $\varphi$ adalah isomorfisma, maka $\varphi$ surjektif, sehingga $\operatorname{Im}(\varphi) = B_r$.
+>    Berdasarkan definisi pemetaan di atas:
+>    $$\operatorname{Im}(\varphi) = \{ xs \mid x \in R \} = A_s$$
+>    Dengan demikian, diperoleh kesamaan himpunan:
+>    $$B_r = A_s$$
+>
+> 3. **Bukti $A_r = B_s$**
+>    Tinjau kernel dari $\varphi$. Sebuah elemen berada di kernel jika dan hanya jika petanya adalah nol:
+>    $$
+>    \begin{aligned}
+>    x + A_r \in \ker\varphi &\iff \varphi(x + A_r) = 0 \\
+>    &\iff xs = 0 \\
+>    &\iff x \in B_s
+>    \end{aligned}
+>    $$
+>    Karena $\varphi$ adalah isomorfisma (injektif), maka kernelnya trivial ($\ker\varphi = \{0_{R/A_r}\}$). Artinya:
+>    $$x + A_r = A_r \iff x \in A_r$$
+>    Sehingga berlaku hubungan ekuivalensi:
+>    $$x \in B_s \iff x \in A_r$$
+>    Maka, $A_r = B_s$.
+>
+> ---
+>
+> **Bagian (b): Isomorfisma untuk $ur$ (bila $u$ unit)**
+>
+> 4. **Identitas Ideal $A_{ur} = A_r$**
+>    Perhatikan definisi ideal kiri yang dibangun oleh elemen (prinsipal):
+>    $$A_{ur} = \{x(ur) \mid x \in R\} = \{(xu)r \mid x \in R\}$$
+>    Karena $u$ adalah unit, maka perkalian dengan $u$ adalah bijeksi pada $R$ (atau $Ru = R$). Dengan substitusi $y = xu$, kita peroleh:
+>    $$\{(xu)r \mid x \in R\} = \{yr \mid y \in R\} = A_r$$
+>    Jadi, $A_{ur} = A_r$.
+>
+> 5. **Konstruksi Isomorfisma $\psi : B_r \to B_{ur}$**
+>    Definisikan pemetaan:
+>    $$\psi : B_r \to B_{ur}, \quad \psi(y) = y u^{-1}$$
+>    * **Well-defined:** Ambil sebarang $y \in B_r$, maka $yr = 0$. Periksa apakah $\psi(y) \in B_{ur}$:
+>        $$(\psi(y))(ur) = (y u^{-1})(ur) = y(u^{-1}u)r = yr = 0$$
+>        Maka benar bahwa $\psi(y) \in B_{ur}$.
+>    * **Bijektif:** Invers pemetaan ini adalah $\psi^{-1}(z) = zu$. Karena operasi ini linear dan memiliki invers, $\psi$ adalah isomorfisma grup additif.
+>
+> 6. **Kesimpulan**
+>    Kita memiliki komposisi isomorfisma sebagai berikut:
+>    $$R/A_{ur} = R/A_r \xrightarrow{\ \varphi\ } B_r \xrightarrow{\ \psi\ } B_{ur}$$
+>    Maka, terbukti bahwa:
+>    $$R/A_{ur} \cong B_{ur}$$
+
 **KOALA 2025**
 
 ## 1.
