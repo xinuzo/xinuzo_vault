@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Problems.md",
+                "file": "Mathematics/Algebra/Abstract Algebra/Problems.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Problems.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,9 +167,13 @@
   },
   "active": "6ab941b4fbf9a9d1",
   "lastOpenFiles": [
-    "Mathematics/Analysis/Complex Analysis/Problems.md",
-    "Mathematics/Analysis/Complex Analysis/Complex Numbers.md",
+    "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
+    "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
     "Mathematics/Algebra/Abstract Algebra/Problems.md",
+    "Mathematics/Analysis/Complex Analysis/Problems.md",
+    "Mathematics/Analysis/Real Analysis/Problems.md",
+    "Mathematics/Analysis/Complex Analysis/Elementary Functions.md",
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "m3-scrolls/Library/Category Theory/1. Basic Properties of Categories/Definitions/Opposite Category.md",
@@ -188,10 +193,6 @@
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Transitivity of Natural Number Comparison.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Reflexivity of Natural Number Comparison.md",
     "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Definitions/Function Space.md",
-    "m3-scrolls/Misc/Unlinked/(Set) More About Set Isomorphisms/Definitions/Disjoint Union.md",
-    "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 4/soal modul 4 v2.md",
-    "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 2/soal modul 2 v2.md",
-    "m3-scrolls/Misc/Tes Awal Praktikum Dasmat/Modul 1/soal modul 1 v2.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",

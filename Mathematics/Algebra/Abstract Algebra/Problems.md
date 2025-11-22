@@ -33,6 +33,28 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 > $$ab = ba$$
 > **Yes, $G$ is commutative.**
 
+> [!question] Soal 3: Unsur Rapi dalam Ring
+> Misalkan $(R, +, \cdot)$ adalah ring. Didefinisikan $A_r = \{xr \mid x \in R\}$ (ideal kiri) dan $B_r = \{x \in R \mid xr = 0_R\}$ (annihilator kiri).
+> Unsur $r \in R$ disebut **rapi** jika terdapat isomorfisma $\phi: R/A_r \to B_r$ dengan sifat $\phi(xa) = x\phi(a)$.
+> 
+> **(a)** Buktikan terdapat $s \in R$ sedemikian sehingga $A_r = B_s$ dan $B_r = A_s$.
+> **(b)** Jika $u$ adalah unit di $R$, buktikan $R/A_{ur} \cong B_{ur}$ sebagai grup.
+
+> [!success]- Solution
+> **Bagian (a): Konstruksi elemen $s$**
+> 1.  Definisikan $s = \phi(1_R + A_r)$. Karena $\phi$ homomorfisma modul, maka $\phi(x + A_r) = x\phi(1_R + A_r) = xs$.
+> 2.  **Bukti $B_r = A_s$**: Karena $\phi$ surjektif, $B_r = \text{Im}(\phi) = \{xs \mid x \in R\} = A_s$.
+> 3.  **Bukti $A_r = B_s$**: Karena $\phi$ injektif, kernelnya adalah elemen nol ($A_r$).
+>     $$x \in \text{Ker}(\phi) \iff \phi(\bar{x}) = 0 \iff xs = 0 \iff x \in B_s$$
+>     Maka $A_r = B_s$.
+> 
+> **Bagian (b): Isomorfisma dengan Unit**
+> 4.  **Identitas $A_{ur} = A_r$**: Karena $u$ unit, $R u = R$. Maka $A_{ur} = R(ur) = (Ru)r = Rr = A_r$.
+> 5.  **Relasi $B_{ur}$ dan $B_r$**: $x \in B_{ur} \iff xur = 0 \iff (xu)r = 0 \iff xu \in B_r$.
+> 6.  **Konstruksi Isomorfisma**:
+>     Kita punya isomorfisma $\phi: R/A_r \to B_r$. Definisikan bijeksi $\psi: B_r \to B_{ur}$ dengan $\psi(y) = y u^{-1}$.
+>     Maka komposisi pemetaan memberikan isomorfisma grup:
+>     $$R/A_{ur} = R/A_r \xrightarrow{\phi} B_r \xrightarrow{\psi} B_{ur}$$
 **KOALA 2025**
 
 ## 1.

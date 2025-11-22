@@ -52,3 +52,24 @@
 > Since $P(d) = 0$, $d$ must be a root of the polynomial. Since the roots are defined as $\{a, b, c\}$, it follows that:
 > 
 > $$d \in \{a, b, c\}$$
+
+
+
+>[!question] Problem
+> Determine the largest open set $\Omega \subseteq \mathbb{C}$ such that the function $f(z) = \text{Ln}(1-z^{2025})$ is analytic on $\Omega$.
+
+>[!success]- Solution
+> The principal logarithm $\text{Ln}(w)$ is analytic everywhere except on the branch point $w=0$ and the branch cut along the negative real axis $(-\infty, 0]$.
+> 
+> Therefore, $f(z)$ is **not** analytic when:
+> $$1 - z^{2025} \in (-\infty, 0]$$
+> Solving for the singular points:
+> $$1 - z^{2025} \leq 0 \implies z^{2025} \geq 1$$
+> 
+> This condition corresponds to values of $z$ where $z^{2025}$ is a real number greater than or equal to 1. Geometrically, if $z = re^{i\theta}$, this occurs when:
+> 1.  $r \geq 1$
+> 2.  $2025\theta = 2k\pi \implies \theta_k = \frac{2k\pi}{2025}$ for $k \in \mathbb{Z}$.
+> 
+> **Conclusion:**
+> The largest open set is the complex plane excluding these rays:
+> $$\Omega = \mathbb{C} \setminus \{ z \in \mathbb{C} : z^{2025} \in [1, \infty) \}$$
