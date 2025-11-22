@@ -102,6 +102,39 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 >    $$R/A_{ur} = R/A_r \xrightarrow{\ \varphi\ } B_r \xrightarrow{\ \psi\ } B_{ur}$$
 >    Maka, terbukti bahwa:
 >    $$R/A_{ur} \cong B_{ur}$$
+> [!info] Definisi Himpunan $R/A_r$
+> Secara formal, $R/A_r$ adalah himpunan dari semua **koset kiri** (left cosets) $A_r$ di dalam $R$.
+>
+> $$R/A_r = \{ x + A_r \mid x \in R \}$$
+>
+> Jika kita bongkar lebih dalam, setiap elemen $(x + A_r)$ itu sendiri adalah sebuah himpunan:
+>
+> $$x + A_r = \{ x + a \mid a \in A_r \}$$
+>
+> Jadi, $R/A_r$ adalah **himpunan dari himpunan-himpunan**.
+
+### Cara Membacanya
+
+1.  **Ambil satu elemen $x$ dari $R$.**
+2.  **Tambahkan $x$ ke *setiap* elemen yang ada di ideal $A_r$.**
+3.  Hasilnya adalah satu "bungkusan" (koset).
+4.  Kumpulkan semua kemungkinan bungkusan yang bisa dibuat. Itulah $R/A_r$.
+
+### Syarat Kesamaan (Kapan 2 elemen dianggap sama?)
+Dua koset dianggap elemen yang **sama** di dalam $R/A_r$ jika selisih wakilnya berada di dalam ideal $A_r$.
+$$x + A_r = y + A_r \iff x - y \in A_r$$
+
+### Contoh Konkret (Modul $\mathbb{Z}$)
+Misalkan $R = \mathbb{Z}$ dan idealnya $A_r = 4\mathbb{Z}$ (kelipatan 4).
+Maka $R/A_r$ (atau $\mathbb{Z}/4\mathbb{Z}$) hanya punya **4 elemen**. Setiap elemen adalah himpunan tak hingga:
+
+1.  $\mathbf{0 + A_r} = \{\dots, -4, 0, 4, 8, \dots\}$ (Himpunan kelipatan 4)
+2.  $\mathbf{1 + A_r} = \{\dots, -3, 1, 5, 9, \dots\}$ (Sisa bagi 1)
+3.  $\mathbf{2 + A_r} = \{\dots, -2, 2, 6, 10, \dots\}$ (Sisa bagi 2)
+4.  $\mathbf{3 + A_r} = \{\dots, -1, 3, 7, 11, \dots\}$ (Sisa bagi 3)
+
+Di sini, $1$ dan $5$ dianggap **berbeda** di $R$, tapi **sama** di $R/A_r$ karena mereka berada di "bungkusan" (koset) yang sama ($5-1 = 4 \in A_r$).
+
 
 **KOALA 2025**
 
