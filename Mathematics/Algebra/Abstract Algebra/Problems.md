@@ -35,10 +35,10 @@ Banyaknya subgrup dari $G^{3}$ dengan order 4 adalah . .
 
 > [!question] Soal 3: Unsur Rapi dalam Ring
 > Misalkan $(R, +, \cdot)$ adalah ring. Didefinisikan $A_r = \{xr \mid x \in R\}$ (ideal kiri) dan $B_r = \{x \in R \mid xr = 0_R\}$ (annihilator kiri).
-> Unsur $r \in R$ disebut **rapi** jika terdapat isomorfisma $\phi: R/A_r \to B_r$ dengan sifat $\phi(xa) = x\phi(a)$.
+> Unsur $r \in R$ disebut **rapi** jika terdapat isomorfisma $\phi: R/A_r \to B_r$ dengan sifat $\phi(xa) = x\phi(a)$ untuk semua $x \in R$ dan $a \in R /A_{r}$.
 > 
-> **(a)** Buktikan terdapat $s \in R$ sedemikian sehingga $A_r = B_s$ dan $B_r = A_s$.
-> **(b)** Jika $u$ adalah unit di $R$, buktikan $R/A_{ur} \cong B_{ur}$ sebagai grup.
+> **(a)** Misalkan $r$ unsur rapi di $R$. Buktikan terdapat $s \in R$ yang berbeda dengan $r$ sedemikian sehingga $A_r = B_s$ dan $B_r = A_s$.
+> **(b)** Misalkan $r$ unsur rapi di $R$ dan jika $u$ adalah unit di $R$, buktikan $R/A_{ur} \cong B_{ur}$ sebagai grup.
 
 > [!success]- Solusi
 > **Bagian (a): Konstruksi elemen $s$**
