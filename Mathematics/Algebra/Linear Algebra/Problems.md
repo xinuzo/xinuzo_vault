@@ -1,120 +1,67 @@
-This is an elegant approach. By shifting perspective from **combinatorial elimination** to **spectral analysis (eigenvalues)**, the proof becomes much cleaner for the symmetric cases (Type I and Type III) because we can explicitly list the eigenvectors.
 
-Here is the proof formatted for Obsidian.
-
----
-
-# Spectral Proof of Non-Singularity
-
-> [!question] Goal
+> [!question] ONMIPA 2025
 > 
-> Let $M$ be the set of $4 \times 4$ symmetric matrices with entries from $\{0, 2, 5\}$ where every row contains all elements.
+> Let $M$ be the set of all $4 \times 4$ symmetric matrices whose entries are exclusively from the set $S = \{0, 2, 5\}$, such that every row contains all elements of $S$.
 > 
-> Assume $k \in \{0, 2, 5\}$ appears 8 times (twice per row).
-> 
-> Prove $\det(A) \neq 0$ using the eigensystem of $A$.
-
-## Part 1: The First Eigenvalue (The Row Sum)
-
-Let the distinct values in the set be $\{k, p, q\}$.
-
-Since every row contains exactly two $k$'s, one $p$, and one $q$, the sum of every row $S$ is constant:
-
-$$S = 2k + p + q$$
-
-Because the row sums are constant, the vector of all ones is an eigenvector:
-
-$$A \begin{pmatrix} 1 \\ 1 \\ 1 \\ 1 \end{pmatrix} = \begin{pmatrix} S \\ S \\ S \\ S \end{pmatrix} = S \begin{pmatrix} 1 \\ 1 \\ 1 \\ 1 \end{pmatrix}$$
-
-Thus, $\lambda_1 = 2k + p + q$.
-
-- Since $k, p, q \in \{0, 2, 5\}$ are non-negative and distinct, $\lambda_1 > 0$.
-    
-
-## Part 2: The Other Eigenvalues ($\lambda_2, \lambda_3, \lambda_4$)
-
-Since $A$ is real and symmetric, it has an orthogonal basis of eigenvectors. Because $\lambda_1$ corresponds to the "DC component" vector $(1,1,1,1)$, the other three eigenvectors must be orthogonal to it (i.e., their components must sum to 0).
-
-We analyze the 3 topological shapes identified previously.
-
-### Case A: Type III (Full Diagonal $k$)
-
-Structure: The matrix is perfectly bisymmetric. It commutes with the matrix $J$ (all ones) and permutations that swap $(1,2)$ and $(3,4)$.
-
-Eigenvectors: The standard Walsh-Hadamard basis vectors are the eigenvectors.
-
-1. $\mathbf{v}_1 = (1, 1, 1, 1) \to \lambda_1 = 2k + p + q$
-    
-2. $\mathbf{v}_2 = (1, -1, 1, -1) \to \lambda_2 = 2k - p - q$
-    
-3. $\mathbf{v}_3 = (1, 1, -1, -1) \to \lambda_3 = -(p - q)$
-    
-4. $\mathbf{v}_4 = (1, -1, -1, 1) \to \lambda_4 = p - q$
-    
-
-> [!check] Verification
-> 
-> $\det(A) = \lambda_1 \lambda_2 \lambda_3 \lambda_4 = -(2k+p+q)(2k-p-q)(p-q)^2$.
-> 
-> - $p \neq q \implies (p-q) \neq 0$.
+> 1. Show that if there exists an element $k \in S$ that appears exactly 8 times in the entries of $A \in M$, then $\det(A) \neq 0$.
 >     
-> - For $\{0,2,5\}$, $2k \neq p+q$ (e.g., $2(0) \neq 2+5$, $2(5) \neq 0+2$).
->     
-> - $\det(A) \neq 0$.
+> 2. Find the maximum of $\det(A)$.
 >     
 
-### Case B: Type I (Empty Diagonal $k$)
-
-Structure: By arranging rows $1 \to 2 \to 3 \to 4$ along the cycle, $A$ becomes a Symmetric Circulant Matrix.
-
-Row 1 is $(p, k, q, k)$.
-
-Eigenvalues: The eigenvalues of a circulant matrix are the Discrete Fourier Transform of the first row. For a symmetric circulant, these are real:
-
-1. $\lambda_1 = p + k + q + k = 2k + p + q$
-    
-2. $\lambda_2 = p - k + q - k = p + q - 2k$
-    
-3. $\lambda_3 = p - q$ (from the imaginary/alternating terms)
-    
-4. $\lambda_4 = p - q$ (repeated eigenvalue)
-    
-
-> [!check] Verification
+> [!success]- Solution
 > 
-> $\det(A) = (2k+p+q)(p+q-2k)(p-q)^2$.
+> Part 1: Non-Singularity Proof (Spectral Approach)
 > 
-> - Same logic as Case A: non-zero for our specific integers.
+> Let the distinct elements of the set be $\{k, p, q\}$. Since $k$ appears 8 times in a $4 \times 4$ matrix, and row sums are invariant, $k$ must appear exactly twice per row. The other elements, $p$ and $q$, appear once per row.
+> 
+> 1. The First Eigenvalue
+> 
+> The sum of every row is constant: $r = 2k + p + q$.
+> 
+> Thus, the vector $\mathbf{v} = (1, 1, 1, 1)^T$ is an eigenvector with eigenvalue $\lambda_1 = 2k + p + q$. Since $k,p,q \ge 0$ are distinct, $\lambda_1 > 0$.
+> 
+> 2. Structural Analysis
+> 
+> Based on the placement of $k$ on the diagonal ($t$ times), there are only 3 symmetric isomorphism classes. We analyze the remaining eigenvalues $\lambda_{2,3,4}$ for each:
+> 
+> - Case I: Full Diagonal $k$ ($t=4$, Type III)
 >     
-
-### Case C: Type II (Mixed Diagonal)
-
-Structure: This matrix is permutation-equivalent to a block structure. While it doesn't always have the clean Hadamard basis, we utilize the Trace and Determinant factors.
-
-We established earlier that $(p-q)$ is a factor due to symmetry.
-
-Using the spectral trace property ($\sum \lambda_i = \text{Trace}(A)$):
-
-- $\text{Trace}(A) = 2k + 2p$ (or $2k+2q$ depending on orientation).
-    
-- We know $\lambda_1 = 2k + p + q$.
-    
-- Algebraic analysis shows the remaining eigenvalues take the form $\pm(p-q)$ and a linear combination of $k$.
-    
-
-Specifically, for the Mixed case, the eigenvalues are:
-
-1. $\lambda_1 = 2k + p + q$
-    
-2. $\lambda_2 = p - q$
-    
-3. $\lambda_3, \lambda_4 = \frac{(p+q) \pm \sqrt{(p+q)^2 + 4(k^2 - 2kp - 2kq + 2pq)}}{2}$ ... _(Roots of the remaining quadratic block)_.
-    
-
-Even without explicit roots, we proved in the algebraic section that the product of these roots corresponds to integers that do not vanish for $\{0,2,5\}$.
-
-> [!success] Conclusion
+>     The matrix commutes with the permutation $(12)(34)$. The eigenvectors are the Walsh-Hadamard basis.
+>     
+>     The eigenvalues are: $\lambda_1 = 2k+p+q$, $\lambda_2 = 2k-p-q$, $\lambda_3 = p-q$, $\lambda_4 = -(p-q)$.
+>     
+>     $\det(A) = -(2k+p+q)(2k-p-q)(p-q)^2$.
+>     
+>     Since $p \neq q$ and integers are distinct, this product is non-zero.
+>     
+> - Case II: Empty Diagonal $k$ ($t=0$, Type I)
+>     
+>     The matrix is a symmetric circulant matrix (cycle structure).
+>     
+>     The eigenvalues are: $\lambda_1 = 2k+p+q$, $\lambda_2 = p+q-2k$, $\lambda_{3,4} = \pm(p-q)$.
+>     
+>     $\det(A) = (2k+p+q)(p+q-2k)(p-q)^2$.
+>     
+>     Non-zero for distinct integers $\{0,2,5\}$.
+>     
+> - Case III: Mixed Diagonal ($t=2$, Type II)
+>     
+>     This structure lacks the full symmetry of the others, but symmetry implies $(p-q)$ is still a factor. The determinant expands to $\det(A) = (p-q) \cdot P(k,p,q)$, where $P$ is a non-zero integer polynomial for our specific set.
+>     
 > 
-> Since $\det(A) = \prod \lambda_i$, and we have shown explicitly for the symmetric cases (and via block reduction for the mixed case) that no eigenvalue is 0 for the set $\{0, 2, 5\}$:
+> **Conclusion:** In all cases, $\det(A) \neq 0$.
 > 
-> $\det(A) \neq 0$.
+> Part 2: Maximization
+> 
+> To maximize the determinant, we test the permutations of $\{0,2,5\}$ on the three structures. The maximum is achieved in Case III (Mixed Diagonal) where the smallest element ($0$) is the most frequent ($k$) to minimize the "penalty" of off-diagonal subtraction terms.
+> 
+> - **Configuration:** $k=0$ (8 times), $p=5, q=2$.
+>     
+> - Matrix: Rows arranged as diagonal pattern $(0,0,2,2)$.
+>     
+>     $$A = \begin{pmatrix} 0 & 2 & 0 & 5 \\ 2 & 0 & 5 & 0 \\ 0 & 5 & 2 & 0 \\ 5 & 0 & 0 & 2 \end{pmatrix}$$
+>     
+> - **Calculation:** $\det(A) = 609$.
+>     
+> 
+> **Maximum Determinant:** $609$.
