@@ -1,7 +1,7 @@
 
 
 > [!tips] (Definition) Binomial Distribution
-> Consider a sequence of $n$ independent **Bernoulli trials** from from [[Bernoulli Distribution]], with probability of success $p$. Let $X$ be the number of successes in these $n$ trials.
+> Consider a sequence of $n$ independent **Bernoulli trials** from [[Bernoulli Distribution]], with probability of success $p$. Let $X$ be the number of successes in these $n$ trials.
 > $$X \sim b(n, p)$$
 > **P.M.F.:**
 > $$p(x) = \binom{n}{x}p^x(1-p)^{n-x}, \quad x = 0, 1, \dots, n$$
