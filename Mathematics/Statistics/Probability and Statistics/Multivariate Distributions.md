@@ -1,7 +1,15 @@
 >[!tips] Definition 2.1.1 (Random Vector). 
 >Given a random experiment with a sample space $C$, consider two random variables $X_{1}$ and $X_{2}$, which assign to each element $c$ of $C$ **one and only one** ordered pair of numbers $X_{1}(c) = x_{1}$ , $X_{2}(c) = x_{2}$. Then  $(X_{1}, X_{2})$ is a random vector. The space of $(X{1}, X_{2})$ is the set of ordered pairs $D = {(x1, x2) : x_{1} = X_{1}(c), x_{2} = X_{2}(c), c ∈ C}$.
 
->[!tips] Properties 1 
->$P[a_{1}<X_{1}<b_{1} , a_{2}<X_{2}<b_{2}]=F_{x_{1},x_{2}}(b_{1},b_{2})-F_{x_{1},x_{2}}(a_{1},b_{2})-F_{x_{1},x_{2}}(b_{1},a_{2})+F_{x_{1},x_{2}}(a_{1},a_{2})$
-
-Theorem2.3.1. Let(X1,X2)bearandomvectorsuchthat thevarianceofX2 is finite.Then, (a)E[E(X2|X1)]=E(X2). (b)Var[E(X2|X1)]≤Var(X2)
+> [!success]- Proof
+> This is an application of the **Inclusion-Exclusion Principle** on the geometry of the probability plane.
+> 
+> Let the total region up to point $(b_1, b_2)$ be represented by $F(b_1, b_2)$. We want to find the probability of the rectangle defined by $a_1 < X_1 < b_1$ and $a_2 < X_2 < b_2$.
+> 
+> 1.  **Start** with the total area up to the top-right corner: $F(b_1, b_2)$.
+> 2.  **Subtract** the area to the left of $a_1$: $F(a_1, b_2)$.
+> 3.  **Subtract** the area below $a_2$: $F(b_1, a_2)$.
+> 4.  **Add back** the bottom-left corner $F(a_1, a_2)$, because it was subtracted twice (once in step 2 and once in step 3).
+> 
+> $$P(\text{Rectangle}) = \text{Total} - \text{Left} - \text{Bottom} + \text{Overlap}$$
+> $$P = F(b_1, b_2) - F(a_1, b_2) - F(b_1, a_2) + F(a_1, a_2)$$
