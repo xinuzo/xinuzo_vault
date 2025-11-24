@@ -7,7 +7,7 @@ A sequence of **Bernoulli trials** occurs when a **Bernoulli experiment** is per
 >Let $X$ be a random variable associated with **Bernoulli trial**, written $X \sim Ber(p)$, defined by:
 >$$X(\text{success})=1 \text{, }X(\text{fail})=0$$ \
 >then the **p.m.f of X** is
-> $$p(x)=p^{x}(1-p)^{x}, \quad x=0,1,\dots$$ 
+> $$p(x)=p^{x}(1-p)^{x}, \quad x=0,1$$ 
 
 it is easy to show that $\mu=p$ and $\sigma^2=p(1-p)$ .
 

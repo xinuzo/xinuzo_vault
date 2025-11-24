@@ -139,6 +139,62 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hypergeometric Distribution"
+            }
+          },
+          {
+            "id": "4d878e9c522dd064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gamma Distribution"
+            }
+          },
+          {
+            "id": "61d8054e2ad40335",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chi Square Distribution"
+            }
+          },
+          {
+            "id": "f1ba68b83b2112f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "F Distribution"
+            }
+          },
+          {
+            "id": "2775145be3eb21f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
                 "mode": "source",
                 "source": false
@@ -148,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -292,24 +348,28 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "34c451071e0bfdaf",
+  "active": "2775145be3eb21f8",
   "lastOpenFiles": [
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Poisson Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Uniform Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Poisson Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
     "Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous",
     "Mathematics/Statistics/Probability and Statistics/Distributions",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Antisymmetry of Natural Number Comparison.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions/Naturals.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Definitions/Comparison on Natural Numbers.md",
@@ -320,10 +380,6 @@
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Zero as Least and Minimal Element of Natural Number Comparison.md",
     "m3-scrolls/Misc/Unlinked/Constructions of Real Numbers/Additions on Naturals/Theorems/Reflexivity of Natural Number Comparison.md",
     "m3-scrolls/Probability Theory Glossary.md",
-    "Mathematics/Algebra/Linear Algebra/Problems.md",
-    "Mathematics/Algebra/Abstract Algebra/Problems.md",
-    "Mathematics/Algebra/Abstract Algebra/Introduction to Groups.md",
-    "Mathematics/Algebra/Linear Algebra/Others.md",
     "Mathematics/Statistics",
     "Mathematics/Applied Math",
     "Mathematics/Combinatorics",
