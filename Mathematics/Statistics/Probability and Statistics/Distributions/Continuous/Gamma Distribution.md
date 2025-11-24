@@ -1,5 +1,5 @@
 > [!tips] (Definition) Gamma Distribution
-> Generalization of the Exponential. Models waiting time until the $\alpha$-th event.
+> Generalization of the [[Exponential Distribution]]. Models waiting time until the $\alpha$-th event. Let $X$ be random variables that represents a **continuous waiting time** for an event to occur, such as the time until a certain number of events have happened
 > $$X \sim \Gamma(\alpha, \theta)$$
 > **P.D.F.:**
 > $$f(x) = \frac{1}{\Gamma(\alpha)\theta^\alpha} x^{\alpha-1}e^{-x/\theta}, \quad 0 < x < \infty$$

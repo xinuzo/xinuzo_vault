@@ -1,5 +1,5 @@
 > [!tips] (Definition) Exponential Distribution
-> Models waiting time between events in a Poisson process. It is the only continuous distribution with the "memoryless" property. Note: Hogg uses $\theta$ as the mean.
+> Models waiting time between events in a [[Poisson Distribution|Poisson process]]. Let $X$ bethe **time until a specific event occurs** or the **waiting time between independent events** It is the only continuous distribution with the "memoryless" property. Note: Hogg uses $\theta$ as the mean.
 > $$X \sim Exp(\theta)$$
 > **P.D.F.:**
 > $$f(x) = \frac{1}{\theta}e^{-x/\theta}, \quad 0 < x < \infty$$
