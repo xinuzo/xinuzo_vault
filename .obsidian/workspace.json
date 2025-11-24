@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exponential Distribution"
+              "title": "Normal Distribution"
             }
           }
         ],
@@ -350,9 +350,10 @@
   },
   "active": "2775145be3eb21f8",
   "lastOpenFiles": [
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Uniform Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Poisson Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
@@ -364,7 +365,6 @@
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
     "Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
