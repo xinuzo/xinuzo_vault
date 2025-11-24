@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "t-student Distribution"
+              "title": "Beta Distribution"
             }
           }
         ],
@@ -350,11 +350,11 @@
   },
   "active": "2775145be3eb21f8",
   "lastOpenFiles": [
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
