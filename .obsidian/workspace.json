@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gamma Distribution"
+              "title": "Negative Binomial Distribution"
             }
           }
         ],
@@ -350,8 +350,10 @@
   },
   "active": "2775145be3eb21f8",
   "lastOpenFiles": [
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
@@ -363,9 +365,7 @@
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Uniform Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Poisson Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Multivariate Distributions.md",
-    "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous",
