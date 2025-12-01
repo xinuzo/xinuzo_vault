@@ -1,4 +1,3 @@
-# Hampiran Turunan (Diferensiasi Numerik)
 
 Berasal dari deret Taylor: $f(x+h) = f(x) + f'(x)h + \frac{f''(x)}{2!}h^2 + \dots$
 
