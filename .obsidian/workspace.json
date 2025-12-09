@@ -8,315 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ab941b4fbf9a9d1",
+            "id": "1fec2f8c8a4f09d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
+                "file": "Mathematics/Applied Math/Optimization/Constrained Optimization Problem for Nonlinear Objective Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Normal Distribution"
-            }
-          },
-          {
-            "id": "0d220af5f452ea46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gamma Distribution"
-            }
-          },
-          {
-            "id": "00e623c583507624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Beta Distribution"
-            }
-          },
-          {
-            "id": "c98d11fb9f368818",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypergeometric Distribution"
-            }
-          },
-          {
-            "id": "bfc1a172bc3ad7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypergeometric Distribution"
-            }
-          },
-          {
-            "id": "3a757dc93f949e3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exponential Distribution"
-            }
-          },
-          {
-            "id": "aada632ea1380095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Geometric Distribution"
-            }
-          },
-          {
-            "id": "7627e35908d29611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bernoulli Distribution"
-            }
-          },
-          {
-            "id": "aca6eed8f8c3fc79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bernoulli Distribution"
-            }
-          },
-          {
-            "id": "34c451071e0bfdaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypergeometric Distribution"
-            }
-          },
-          {
-            "id": "4d878e9c522dd064",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gamma Distribution"
-            }
-          },
-          {
-            "id": "61d8054e2ad40335",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chi Square Distribution"
-            }
-          },
-          {
-            "id": "f1ba68b83b2112f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "F Distribution"
-            }
-          },
-          {
-            "id": "2775145be3eb21f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Negative Binomial Distribution"
-            }
-          },
-          {
-            "id": "c7eaddaef7cc1c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/Akar Persamaan Tak Linear.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Akar Persamaan Tak Linear"
-            }
-          },
-          {
-            "id": "39f5de51a10bea4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/Matriks dan SPL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Matriks dan SPL"
-            }
-          },
-          {
-            "id": "7d6e0e5bb2092e7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/Pencocokan Kurva.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pencocokan Kurva"
-            }
-          },
-          {
-            "id": "9824855ff80012ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/Interpolasi dan Ekstrapolasi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interpolasi dan Ekstrapolasi"
-            }
-          },
-          {
-            "id": "87abc3703b2a96f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PDB (Persamaan Diferensial Biasa)"
-            }
-          },
-          {
-            "id": "658e1dbc50f92012",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/Pengintegralan Numerik.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pengintegralan Numerik"
-            }
-          },
-          {
-            "id": "c1c1e39c0556fd91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PDB (Persamaan Diferensial Biasa)"
-            }
-          },
-          {
-            "id": "da659abd5e5e442a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PDB (Persamaan Diferensial Biasa)"
+              "title": "Constrained Optimization Problem for Nonlinear Objective Function"
             }
           }
-        ],
-        "currentTab": 21
+        ]
       }
     ],
     "direction": "vertical"
@@ -460,17 +165,28 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "da659abd5e5e442a",
+  "active": "1fec2f8c8a4f09d0",
   "lastOpenFiles": [
+    "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
     "Mathematics/Applied Math/Numerical Mathematics/Pengintegralan Numerik.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Interpolasi dan Ekstrapolasi.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Pencocokan Kurva.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Matriks dan SPL.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Akar Persamaan Tak Linear.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
+    "Mathematics/Applied Math/Optimization/Constrained Optimization Problem for Nonlinear Objective Function.md",
+    "Mathematics/Applied Math/Optimization",
     "Mathematics/Applied Math/Numerical Mathematics/Hampiran Turunan.md",
     "Mathematics/Applied Math/Numerical Mathematics/PDP (Persamaan Diferensial Parsial).md",
-    "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
-    "Mathematics/Applied Math/Numerical Mathematics/Matriks dan SPL.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Interpolasi dan Ekstrapolasi.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Akar Persamaan Tak Linear.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Pencocokan Kurva.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
     "Mathematics/Applied Math/Numerical Mathematics/Autovalore.md",
     "Mathematics/Applied Math/Numerical Mathematics/l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno.md",
     "Mathematics/Applied Math/Numerical Mathematics/Indice di condizionamento relativo.md",
@@ -478,16 +194,6 @@
     "Mathematics/Applied Math/Numerical Mathematics/indice di condizionamento assoluto.md",
     "Mathematics/Applied Math/Numerical Mathematics/Velocità di convergenza di un metodo iterativo.md",
     "Mathematics/Applied Math/Numerical Mathematics/Teorema di Weiestrass.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Teorema di Stein-Rosenmberg.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Sommatoria di un quadrato.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Problema matematico.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Problema mal condizionato.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Problema ben posto.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Problema dell'interpolazione.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Sommatoria di k.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Raggio spettrale.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Polinomio di Newton.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Pivoting parziale.md",
     "Others/Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous",
@@ -499,7 +205,6 @@
     "Mathematics/Analysis",
     "Others/~syncthing~Project Ideas.md.tmp",
     "Others/assets/Pasted image 20251005191534.png",
-    "Others/assets",
     "Mathematics/Algebra/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "JLPT/assets/8EA083D7-509D-4B40-98AF-7E86BE4FDA21.jpg",
     "JLPT/assets/Pasted image 20250922185721.png",
