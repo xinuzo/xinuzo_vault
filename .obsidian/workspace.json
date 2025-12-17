@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Combinatorial Atlas & Matroid Log-Concavity"
+              "title": "Binomial Distribution"
             }
           }
         ],
@@ -194,10 +194,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "b63567639401f64c",
   "lastOpenFiles": [
-    "Mathematics/Combinatorics/Matroid/Untitled 1.md",
     "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
+    "Mathematics/Combinatorics/Matroid/Untitled 1.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Combinatorics/Matroid",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
