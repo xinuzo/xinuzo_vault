@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Combinatorics/Graph Theory/Euler Tours and Hamilton Cycles.md",
+                "file": "Mathematics/Combinatorics/Graph Theory/Connectivity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Euler Tours and Hamilton Cycles"
+              "title": "Connectivity"
             }
           }
         ],
@@ -196,8 +196,8 @@
   },
   "active": "b63567639401f64c",
   "lastOpenFiles": [
-    "Mathematics/Combinatorics/Graph Theory/Connectivity.md",
     "Mathematics/Combinatorics/Graph Theory/Euler Tours and Hamilton Cycles.md",
+    "Mathematics/Combinatorics/Graph Theory/Connectivity.md",
     "Mathematics/Combinatorics/Graph Theory/Trees.md",
     "Mathematics/Combinatorics/Graph Theory/Glossary.md",
     "Mathematics/Combinatorics/Graph Theory/Graphs and Subgraphs.md",
