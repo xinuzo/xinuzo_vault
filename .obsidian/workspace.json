@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
+                "file": "Mathematics/Combinatorics/Graph Theory/Euler Tours and Hamilton Cycles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binomial Distribution"
+              "title": "Euler Tours and Hamilton Cycles"
             }
           }
         ],
@@ -196,7 +196,14 @@
   },
   "active": "b63567639401f64c",
   "lastOpenFiles": [
+    "Mathematics/Combinatorics/Graph Theory/Connectivity.md",
+    "Mathematics/Combinatorics/Graph Theory/Euler Tours and Hamilton Cycles.md",
+    "Mathematics/Combinatorics/Graph Theory/Trees.md",
+    "Mathematics/Combinatorics/Graph Theory/Glossary.md",
+    "Mathematics/Combinatorics/Graph Theory/Graphs and Subgraphs.md",
+    "Mathematics/Combinatorics/Graph Theory/Resource.md",
     "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
     "Mathematics/Combinatorics/Matroid/Untitled 1.md",
     "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Combinatorics/Matroid",
@@ -216,14 +223,7 @@
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Hypergeometric Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Exponential Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Beta Distribution.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
     "Mathematics/Applied Math/Optimization",
-    "Mathematics/Applied Math/Numerical Mathematics/Hampiran Turunan.md",
-    "Mathematics/Applied Math/Numerical Mathematics/PDP (Persamaan Diferensial Parsial).md",
-    "Mathematics/Applied Math/Numerical Mathematics/Autovalore.md",
-    "Mathematics/Applied Math/Numerical Mathematics/l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Indice di condizionamento relativo.md",
     "Others/Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous",
