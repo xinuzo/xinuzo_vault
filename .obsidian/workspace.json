@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Limits.md",
+                "file": "Mathematics/Combinatorics/Graph Theory/Edge Colorings/Definitions and Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Limits"
+              "title": "Definitions and Theorems"
             }
           }
         ],
@@ -236,8 +236,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "49a83cfca9911eca",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Real Analysis/Limits.md",
     "Mathematics/Analysis/Real Analysis/Continuous Function.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Analysis/Real Analysis/Real Numbers.md",
@@ -267,7 +268,6 @@
     "Mathematics/Applied Math/Numerical Mathematics/Pencocokan Kurva.md",
     "Mathematics/Applied Math/Numerical Mathematics/Matriks dan SPL.md",
     "Mathematics/Applied Math/Numerical Mathematics/Akar Persamaan Tak Linear.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Negative Binomial Distribution.md",
     "Mathematics/Applied Math/Optimization",
     "Others/Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
