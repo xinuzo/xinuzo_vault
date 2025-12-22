@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
+                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gamma Distribution"
+              "title": "t-student Distribution"
             }
           }
         ],
@@ -238,6 +238,9 @@
   },
   "active": "49a83cfca9911eca",
   "lastOpenFiles": [
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Uniform Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/F Distribution.md",
+    "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Gamma Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Chi Square Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Bernoulli Distribution.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Geometric Distribution.md",
@@ -265,9 +268,6 @@
     "Mathematics/Combinatorics/Matroid",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Poisson Distribution.md",
     "Mathematics/Applied Math/Optimization/Constrained Optimization Problem for Nonlinear Objective Function.md",
-    "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
-    "Mathematics/Applied Math/Numerical Mathematics/Pengintegralan Numerik.md",
-    "Mathematics/Applied Math/Numerical Mathematics/Interpolasi dan Ekstrapolasi.md",
     "Mathematics/Applied Math/Optimization",
     "Others/Pasted image 20251011134051.png",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete",
