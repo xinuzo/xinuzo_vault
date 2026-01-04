@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
+                "file": "Mathematics/Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "t-student Distribution"
+              "title": "Eigenvalues and Eigenvectors"
             }
           }
         ],
@@ -236,8 +236,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "49a83cfca9911eca",
   "lastOpenFiles": [
+    "Mathematics/Algebra/Linear Algebra/Vector Spaces.md",
+    "Mathematics/Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Mathematics/Algebra/Linear Algebra/Others.md",
+    "Mathematics/Algebra/Linear Algebra/Problems.md",
+    "Mathematics/Algebra/Linear Algebra/Linear Mappings.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/t-student Distribution.md",
     "asdnas.md",
     "Mathematics/Statistics/Probability and Statistics/Distributions/Continuous/Uniform Distribution.md",
@@ -262,11 +267,6 @@
     "Mathematics/Combinatorics/Graph Theory/Vertex Colorings",
     "Mathematics/Combinatorics/Graph Theory/Edge Colorings",
     "Mathematics/Combinatorics/Graph Theory/Glossary.md",
-    "Mathematics/Combinatorics/Graph Theory/Resource.md",
-    "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
-    "Mathematics/Statistics/Probability and Statistics/Distributions/Discrete/Binomial Distribution.md",
-    "Mathematics/Combinatorics/Matroid/Untitled 1.md",
-    "Mathematics/Statistics/Probability and Statistics/Probability and Distributions.md",
     "Mathematics/Combinatorics/Matroid",
     "Mathematics/Applied Math/Optimization",
     "Others/Pasted image 20251011134051.png",
