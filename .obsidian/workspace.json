@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra/Linear Algebra/Vector Spaces/Definitions.md",
+                "file": "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitions"
+              "title": "Theorems 1"
             }
           }
         ],
@@ -252,8 +252,9 @@
   },
   "active": "e28aaf9543b9ca43",
   "lastOpenFiles": [
-    "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces/Definitions.md",
+    "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems 1.md",
+    "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces",
     "Mathematics/Algebra/Linear Algebra/Others.md",
@@ -278,7 +279,6 @@
     "Mathematics/Analysis/Real Analysis/Continuous Function.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series.md",
     "Mathematics/Analysis/Real Analysis/Real Numbers.md",
-    "Mathematics/Combinatorics/Graph Theory/Planar Graph/Untitled 1.md",
     "Mathematics/Combinatorics/Graph Theory/Planar Graph",
     "Mathematics/Combinatorics/Graph Theory/Vertex Colorings",
     "Mathematics/Combinatorics/Graph Theory/Edge Colorings",
