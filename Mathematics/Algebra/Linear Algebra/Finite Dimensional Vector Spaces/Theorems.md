@@ -1,37 +1,47 @@
->[!tips] 1.2 properties of complex arithmetic
->- **commutativity**: $\alpha + \beta = \beta + \alpha$ and $\alpha\beta = \beta\alpha$ for all $\alpha, \beta \in \mathbf{C}$.
->- **associativity**: $(\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)$ and $(\alpha\beta)\lambda = \alpha(\beta\lambda)$ for all $\alpha, \beta, \lambda \in \mathbf{C}$.
->- **identities**: $\lambda + 0 = \lambda$ and $\lambda 1 = \lambda$ for all $\lambda \in \mathbf{C}$.
->- **additive inverse**: For every $\alpha \in \mathbf{C}$, there exists a unique $\beta \in \mathbf{C}$ such that $\alpha + \beta = 0$.
->- **multiplicative inverse**: For every $\alpha \in \mathbf{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbf{C}$ such that $\alpha\beta = 1$.
->- **distributive property**: $\lambda(\alpha + \beta) = \lambda\alpha + \lambda\beta$ for all $\lambda, \alpha, \beta \in \mathbf{C}$.
+>[!tips] 2.5 span is the smallest containing subspace
+>The span of a list of vectors in $V$ is the smallest subspace of $V$ containing all the vectors in the list.
 
->[!tips] 1.4 unique additive identity
->A vector space has a unique additive identity.
+>[!tips] 2.12 $\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$
+>$\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$.
 
->[!tips] 1.5 unique additive inverse
->Every element in a vector space has a unique additive inverse.
+>[!tips] 2.20 Linear Dependence Lemma
+>Suppose $v_1, \dots, v_m$ is a linearly dependent list in $V$. Then there exists $j \in \{1, \dots, m\}$ such that:
+>1. $v_j \in \text{span}(v_1, \dots, v_{j-1})$;
+>2. if the $j^{\text{th}}$ term is removed from $v_1, \dots, v_m$, the span of the remaining list equals $\text{span}(v_1, \dots, v_m)$.
 
->[!tips] 1.6 the number 0 times a vector
->$0v = 0$ for every $v \in V$.
+>[!tips] 2.22 length of linearly independent list $\le$ length of spanning list
+>In a finite-dimensional vector space, the length of every linearly independent list of vectors is less than or equal to the length of every spanning list of vectors.
 
->[!tips] 1.7 a number times the vector 0
->$a0 = 0$ for every $a \in \mathbf{F}$.
+>[!tips] 2.23 finite-dimensional subspaces
+>Every subspace of a finite-dimensional vector space is finite-dimensional.
 
->[!tips] 1.8 the number $-1$ times a vector
->$(-1)v = -v$ for every $v \in V$.
+>[!tips] 2.27 criterion for basis
+>A list $v_1, \dots, v_n$ of vectors in $V$ is a basis of $V$ if and only if every $v \in V$ can be written uniquely in the form
+>$$v = a_1v_1 + \dots + a_nv_n$$
+>where $a_1, \dots, a_n \in \mathbf{F}$.
 
->[!tips] 1.19 conditions for a subspace
->A subset $U$ of $V$ is a subspace of $V$ if and only if $U$ satisfies the following three conditions:
->- **additive identity**: $0 \in U$.
->- **closed under addition**: $u, w \in U$ implies $u+w \in U$.
->- **closed under scalar multiplication**: $a \in \mathbf{F}$ and $u \in U$ implies $au \in U$.
+>[!tips] 2.28 spanning list contains a basis
+>Every spanning list in a vector space can be reduced to a basis of the vector space.
 
->[!tips] 1.20 sums of subspaces
->Suppose $U_1, \dots, U_m$ are subspaces of $V$. Then $U_1 + \dots + U_m$ is the smallest subspace of $V$ containing $U_1, \dots, U_m$.
+>[!tips] 2.29 basis of finite-dimensional vector space
+>Every finite-dimensional vector space has a basis.
 
->[!tips] 1.26 condition for a direct sum
->Suppose $U_1, \dots, U_m$ are subspaces of $V$. Then $U_1 + \dots + U_m$ is a direct sum if and only if the only way to write $0$ as a sum $u_1 + \dots + u_m$, where each $u_j \in U_j$, is by taking each $u_j$ equal to $0$.
+>[!tips] 2.31 linearly independent list extends to a basis
+>Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space.
 
->[!tips] 1.27 direct sum of two subspaces
->Suppose $U$ and $W$ are subspaces of $V$. Then $U+W$ is a direct sum if and only if $U \cap W = \{0\}$.
+>[!tips] 2.32 subspaces
+>Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then $\dim U \le \dim V$.
+
+>[!tips] 2.35 basis length does not depend on basis
+>Any two bases of a finite-dimensional vector space have the same length.
+
+>[!tips] 2.36 dimension of a subspace
+>If $V$ is finite-dimensional and $U$ is a subspace of $V$, then $\dim U \le \dim V$.
+
+>[!tips] 2.38 dimension of a direct sum
+>If $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $V = U_1 \oplus \dots \oplus U_m$, then
+>$$\dim V = \dim U_1 + \dots + \dim U_m$$
+
+>[!tips] 2.39 dimension of a sum
+>If $U_1$ and $U_2$ are subspaces of a finite-dimensional vector space, then
+>$$\dim(U_1 + U_2) = \dim U_1 + \dim U_2 - \dim(U_1 \cap U_2)$$
