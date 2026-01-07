@@ -1,33 +1,30 @@
->[!tips] 5.6 equivalent conditions to be an invariant subspace
->Suppose $T \in \mathcal{L}(V)$ and $U$ is a subspace of $V$. Then the following are equivalent:
->- $U$ is invariant under $T$;
->- $T|_U$ is an operator on $U$;
->- $T$ maps $U$ into $U$.
+>[!tips] Theorem 9.1 Equivalence Classes Partition
+>The equivalence classes associated with an equivalence relation on a set $S$ form a partition of $S$. Conversely, any partition of $S$ defines an equivalence relation.
 
->[!tips] 5.10 linearly independent eigenvectors
->Let $T \in \mathcal{L}(V)$. Suppose $\lambda_1, \dots, \lambda_m$ are distinct eigenvalues of $T$ and $v_1, \dots, v_m$ are corresponding eigenvectors. Then $v_1, \dots, v_m$ is linearly independent.
+>[!tips] Theorem 10.1 Congruence Characterization
+>$a \equiv b \pmod n$ iff $a$ and $b$ leave the same nonnegative remainder when divided by $n$.
 
->[!tips] 5.13 number of eigenvalues
->Suppose $V$ is finite-dimensional. Then each operator on $V$ has at most $\dim V$ distinct eigenvalues.
+>[!tips] Theorem 10.3 The Division Algorithm
+>If $a, b \in \mathbb{Z}$ and $b > 0$, there exist unique integers $q$ (quotient) and $r$ (remainder) such that $a = bq + r$ and $0 \le r < b$.
 
->[!tips] 5.19 operators on complex vector spaces have an eigenvalue
->Every operator on a finite-dimensional, nonzero, complex vector space has an eigenvalue.
+>[!tips] Theorem 11.1 Group Property of $\mathbb{Z}_n$
+>$\mathbb{Z}_n$ is a group with respect to $\oplus$ (addition modulo $n$). It is Abelian of order $n$.
 
->[!tips] 5.27 conditions for upper-triangular matrix
->Suppose $T \in \mathcal{L}(V)$ and $v_1, \dots, v_n$ is a basis of $V$. The following are equivalent:
->- the matrix of $T$ with respect to $v_1, \dots, v_n$ is upper triangular;
->- $Tv_j \in \text{span}(v_1, \dots, v_j)$ for each $j = 1, \dots, n$;
->- $\text{span}(v_1, \dots, v_j)$ is invariant under $T$ for each $j = 1, \dots, n$.
+>[!tips] Theorem 12.1 Existence of GCD
+>Any two nonzero integers $a$ and $b$ have a unique positive greatest common divisor $(a, b)$.
 
->[!tips] 5.30 Upper-Triangular Matrix Theorem
->Suppose $V$ is a finite-dimensional complex vector space and $T \in \mathcal{L}(V)$. Then $T$ has an upper-triangular matrix with respect to some basis of $V$.
+>[!tips] Theorem 12.2 Linear Combination
+>If $a$ and $b$ are integers, not both zero, then $(a, b)$ is the smallest positive integer that can be written in the form $ar + bs$ for integers $r$ and $s$.
 
->[!tips] 5.32 determination of eigenvalues from upper-triangular matrix
->Suppose $T \in \mathcal{L}(V)$ has an upper-triangular matrix with respect to some basis of $V$. Then the eigenvalues of $T$ are precisely the entries on the diagonal of that upper-triangular matrix.
+>[!tips] Theorem 12.3 Euclidean Algorithm
+>A procedure using repeated division to compute $(a, b)$ and express it as $ar + bs$.
 
->[!tips] 5.41 conditions for diagonalizability
->Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V)$. Let $\lambda_1, \dots, \lambda_m$ denote the distinct eigenvalues of $T$. The following are equivalent:
->- $T$ is diagonalizable;
->- $V$ has a basis consisting of eigenvectors of $T$;
->- $V = E(\lambda_1, T) \oplus \dots \oplus E(\lambda_m, T)$;
->- $\dim V = \dim E(\lambda_1, T) + \dots + \dim E(\lambda_m, T)$.
+>[!tips] Theorem 13.1 Fundamental Theorem of Arithmetic
+>Every integer $n > 1$ can be expressed as a product of prime numbers. This representation is unique, except for the order of the factors.
+
+>[!tips] Theorem 13.2 Euclid's Lemma
+>If $p$ is a prime and $p | ab$, then $p | a$ or $p | b$.
+
+>[!tips] Theorem 13.3 Formula for $\phi(n)$
+>If $n = p_1^{e_1} p_2^{e_2} \dots p_k^{e_k}$, then
+>$\phi(n) = n (1 - 1/p_1)(1 - 1/p_2)\dots(1 - 1/p_k)$.
