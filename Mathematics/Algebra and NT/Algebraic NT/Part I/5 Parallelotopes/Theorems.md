@@ -1,14 +1,19 @@
->[!tips] Theorem 56.2 Orbit-Stabilizer Theorem
->$|G| = |\text{Orb}(x)| \cdot |G_x|$.
+# Theorems - Chapter V: Parallelotopes
 
->[!tips] Theorem 57.1 Burnside's Counting Theorem
->The number of distinct orbits of $G$ acting on $S$ is the average number of elements fixed by each permutation in $G$: $N = \frac{1}{|G|} \sum_{g \in G} |\text{fix}(g)|$.
+## §1. The Product Formula
 
->[!tips] Theorem 58.1 Sylow's Theorem (Existence)
->If $p$ is a prime and $p^k$ divides $|G|$, then $G$ has a subgroup of order $p^k$.
+>[!tips] 5.1 Theorem 1 (Product Formula)
+>Let $\alpha \in k, \alpha \neq 0$. Let $M_k$ be the set of canonical absolute values. Then:
+>$$\prod_{v \in M_k} |\alpha|_v = 1$$
 
->[!tips] Theorem 58.1 Sylow's Theorem (Extended)
->Let $|G| = p^k m$ with $p \nmid m$.
->1. The number of Sylow p-subgroups $n_p$ satisfies $n_p \equiv 1 \pmod p$.
->2. $n_p$ divides $m$.
->3. Any two Sylow p-subgroups are conjugate.
+## §2. Lattice Points in Parallelotopes
+
+>[!tips] 5.2 Theorem 1 (Minkowski's Lattice Point Theorem)
+>Let $L$ be a lattice in $V$ of dimension $n$. Let $S$ be a measurable set in $V$ that is convex and centrally symmetric. If $Vol(S) > 2^n Vol(F)$ (where $F$ is the fundamental domain of $L$), then $S$ contains a non-zero lattice point.
+
+## §4. Minkowski's Constant
+
+>[!tips] 5.4 Theorem (Minkowski Bound)
+>In every ideal class of $k$, there exists an integral ideal $\mathfrak{a}$ such that:
+>$$N\mathfrak{a} \le C_k \sqrt{|D_k|}$$
+>where $C_k = \left( \frac{4}{\pi} \right)^{r_2} \frac{n!}{n^n}$ is the Minkowski constant ($n = [k:\mathbb{Q}]$, $r_2$ is the number of complex places).

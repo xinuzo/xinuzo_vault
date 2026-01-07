@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and NT/Algebraic NT/Part I/4 Cyclotomic Fields/Theorems.md",
+                "file": "Mathematics/Algebra and NT/Algebraic NT/Part I/7 Ideles and Adeles/Definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Theorems"
+              "title": "Definitions"
             }
           }
         ]
@@ -167,9 +167,14 @@
   },
   "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/7 Ideles and Adeles/Theorems.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/6 The Ideal Function/Theorems.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/6 The Ideal Function/Definitions.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/5 Parallelotopes/Theorems.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/5 Parallelotopes/Definitions.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/4 Cyclotomic Fields/Theorems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/4 Cyclotomic Fields/Problems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/4 Cyclotomic Fields/Definitions.md",
-    "Mathematics/Algebra and NT/Algebraic NT/Part I/4 Cyclotomic Fields/Theorems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/3 The DIfferent and DIscriminant/Theorems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/3 The DIfferent and DIscriminant/Definitions.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/2 Completions/Theorems.md",
@@ -191,13 +196,8 @@
     "Mathematics/Algebra and NT/Algebraic NT/Part III/17 Explicit Formulas",
     "Mathematics/Algebra and NT/Algebraic NT/Part III/15 Density of Primes and Tauberian Theorem/Theorems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part III/15 Density of Primes and Tauberian Theorem/Problems.md",
-    "Mathematics/Algebra and NT/Algebraic NT/Part III/15 Density of Primes and Tauberian Theorem/Definitions.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part III/15 Density of Primes and Tauberian Theorem",
-    "Mathematics/Algebra and NT/Algebraic NT/Part III/14 Functional Equation, Tate's Thesis/Theorems.md",
-    "Mathematics/Algebra and NT/Algebraic NT/Part III/14 Functional Equation, Tate's Thesis/Problems.md",
-    "Mathematics/Algebra and NT/Algebraic NT/Part III/14 Functional Equation, Tate's Thesis/Definitions.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part III/14 Functional Equation, Tate's Thesis",
-    "Mathematics/Algebra and NT/Algebraic NT/Part II/12 L-series Again/Theorems.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part II/12 L-series Again",
     "Mathematics/Algebra and NT/Algebraic NT/Part II/11 Existence Theorem and Local Class Field Theory",
     "Mathematics/Algebra and NT/Algebraic NT/Part II/10 Artin Symbol, Reciprocity Law, Class Field Theory",

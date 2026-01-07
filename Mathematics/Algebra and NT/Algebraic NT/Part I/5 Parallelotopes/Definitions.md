@@ -1,11 +1,23 @@
->[!tips] 56.1 Group Action
->A group $G$ acts on a set $S$ if there is a mapping $G \times S \to S$, denoted $(g, x) \mapsto gx$, such that $ex = x$ and $(gh)x = g(hx)$.
+# Definitions - Chapter V: Parallelotopes
 
->[!tips] 56.1 Orbit
->The orbit of $x \in S$ under $G$ is $\text{Orb}(x) = \{gx : g \in G\}$.
+## §1. The Product Formula
 
->[!tips] 56.1 Stabilizer
->The stabilizer of $x \in S$ is $G_x = \{g \in G : gx = x\}$.
+>[!tips] 5.1 Normalized Absolute Values
+>For a number field $k$:
+>- If $v$ is finite (corresponding to prime $\mathfrak{p}$), $|x|_v = (1/N\mathfrak{p})^{ord_{\mathfrak{p}} x}$.
+>- If $v$ is real, $|x|_v$ is the ordinary absolute value.
+>- If $v$ is complex, $|x|_v = |z|^2 = z\bar{z}$.
 
->[!tips] 58.1 Sylow p-Subgroup
->If $|G| = p^k m$ with $p \nmid m$, a subgroup of order $p^k$ is called a Sylow p-subgroup.
+## §2. Lattice Points in Parallelotopes
+
+>[!tips] 5.2 Lattice
+>A **lattice** in a vector space $V$ (finite dimensional over $\mathbb{R}$) is a discrete subgroup of $V$ of maximal rank.
+
+>[!tips] 5.2 Fundamental Domain
+>Let $L$ be a lattice spanned by basis $\{v_1, \dots, v_n\}$. The **fundamental domain** is the set of vectors $x = \sum c_i v_i$ where $0 \le c_i < 1$.
+
+>[!tips] 5.2 Centrally Symmetric
+>A subset $S$ of $V$ is **centrally symmetric** if $x \in S$ implies $-x \in S$.
+
+>[!tips] 5.2 Convex
+>A set $S$ is **convex** if for any $x, y \in S$, the segment connecting them lies entirely in $S$.
