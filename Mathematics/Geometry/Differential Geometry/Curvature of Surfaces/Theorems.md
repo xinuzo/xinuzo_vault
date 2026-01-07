@@ -1,9 +1,7 @@
->[!tips] Proposition 2.1 Differentiation Rules
->Let $\mathbf{u}(t), \mathbf{v}(t)$ be vector functions and $\lambda(t)$ a scalar function.
->1. $\frac{d}{dt}(\mathbf{u} + \mathbf{v}) = \dot{\mathbf{u}} + \dot{\mathbf{v}}$
->2. $\frac{d}{dt}(\lambda \mathbf{u}) = \dot{\lambda}\mathbf{u} + \lambda\dot{\mathbf{u}}$
->3. $\frac{d}{dt}(\mathbf{u} \cdot \mathbf{v}) = \dot{\mathbf{u}} \cdot \mathbf{v} + \mathbf{u} \cdot \dot{\mathbf{v}}$
->4. $\frac{d}{dt}(\mathbf{u} \times \mathbf{v}) = \dot{\mathbf{u}} \times \mathbf{v} + \mathbf{u} \times \dot{\mathbf{v}}$
+>[!tips] Proposition 7.3 Decomposition of Curvature
+>For a curve $\gamma$ on a surface, the curvature vector $\ddot{\gamma}$ decomposes into normal and geodesic components:
+>$$\ddot{\gamma} = \kappa_n \mathbf{N} + \kappa_g (\mathbf{N} \times \mathbf{t})$$
+>Also, $\kappa^2 = \kappa_n^2 + \kappa_g^2$.
 
->[!tips] Constant Norm Property
->If $||\mathbf{v}(t)||$ is constant, then $\mathbf{v}(t) \cdot \dot{\mathbf{v}}(t) = 0$ (the tangent is orthogonal to the position vector for curves on a sphere).
+>[!tips] Meusnier's Theorem
+>All curves on a surface passing through a given point with the same tangent line have the same normal curvature.

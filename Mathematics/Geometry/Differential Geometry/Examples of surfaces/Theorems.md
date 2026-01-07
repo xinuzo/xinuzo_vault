@@ -1,14 +1,5 @@
->[!tips] Theorem 15.1 Heawood Map Colouring Theorem
->The chromatic number of a surface $S$ with Euler characteristic $\chi < 2$ is given by:
->$$\chi(S) = \lfloor \frac{7 + \sqrt{49 - 24\chi}}{2} \rfloor$$
->For the torus ($\chi=0$), this gives $\chi(Torus) = 7$.
+>[!tips] Proposition 5.1 Tangent to Level Surface
+>For a level surface $f(x, y, z) = c$, the gradient vector $\nabla f$ is orthogonal to the tangent plane at every regular point. Hence, $\mathbf{N} = \nabla f / ||\nabla f||$.
 
->[!tips] Theorem 15.2 Map Colouring of the Torus
->Every map on the torus can be coloured with 7 colours. (Heawood).
-
->[!tips] Theorem 15.12 Hadwiger's Conjecture (Cases)
->Known to be true for $k \le 6$. (Robertson, Seymour, Thomas proved $k=6$).
->Open for $k \ge 7$.
-
->[!tips] Theorem 15.13 Duchet-Meyniel
->Every simple graph $G$ with $m \ge 2^{k-3}n$ has a $K_k$-minor.
+>[!tips] Proposition 5.6 Inverse Function Theorem Application
+>If $f: \mathbb{R}^3 \to \mathbb{R}$ is smooth and $c$ is a regular value (meaning $\nabla f \neq 0$ whenever $f(p)=c$), then the set $f^{-1}(c)$ is a smooth surface.
