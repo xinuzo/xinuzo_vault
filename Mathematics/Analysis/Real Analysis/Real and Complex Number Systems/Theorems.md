@@ -1,47 +1,25 @@
->[!tips] 2.5 span is the smallest containing subspace
->The span of a list of vectors in $V$ is the smallest subspace of $V$ containing all the vectors in the list.
+>[!tips] Theorem 1.11 Supremum of Lower Bounds
+>Suppose $S$ is an ordered set with the least-upper-bound property, $B \subset S$, $B$ is not empty, and $B$ is bounded below. Let $L$ be the set of all lower bounds of $B$. Then $\alpha = \sup L$ exists in $S$, and $\alpha = \inf B$.
 
->[!tips] 2.12 $\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$
->$\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$.
+>[!tips] Theorem 1.19 Existence of R
+>There exists an ordered field $R$ which has the least-upper-bound property. Moreover, $R$ contains $Q$ as a subfield.
 
->[!tips] 2.20 Linear Dependence Lemma
->Suppose $v_1, \dots, v_m$ is a linearly dependent list in $V$. Then there exists $j \in \{1, \dots, m\}$ such that:
->1. $v_j \in \text{span}(v_1, \dots, v_{j-1})$;
->2. if the $j^{\text{th}}$ term is removed from $v_1, \dots, v_m$, the span of the remaining list equals $\text{span}(v_1, \dots, v_m)$.
+>[!tips] Theorem 1.20 Archimedean Property
+>(a) If $x \in R, y \in R$, and $x > 0$, then there is a positive integer $n$ such that $nx > y$.
+>(b) ($Q$ is dense in $R$) If $x \in R, y \in R$, and $x < y$, then there exists a $p \in Q$ such that $x < p < y$.
 
->[!tips] 2.22 length of linearly independent list $\le$ length of spanning list
->In a finite-dimensional vector space, the length of every linearly independent list of vectors is less than or equal to the length of every spanning list of vectors.
+>[!tips] Theorem 1.21 Existence of nth Roots
+>For every real $x > 0$ and every integer $n > 0$ there is one and only one positive real $y$ such that $y^n = x$.
 
->[!tips] 2.23 finite-dimensional subspaces
->Every subspace of a finite-dimensional vector space is finite-dimensional.
+>[!tips] Theorem 1.35 Schwarz Inequality
+>If $a_1, ..., a_n$ and $b_1, ..., b_n$ are complex numbers, then
+>$$|\sum_{j=1}^n a_j \bar{b}_j|^2 \le \sum_{j=1}^n |a_j|^2 \sum_{j=1}^n |b_j|^2$$
 
->[!tips] 2.27 criterion for basis
->A list $v_1, \dots, v_n$ of vectors in $V$ is a basis of $V$ if and only if every $v \in V$ can be written uniquely in the form
->$$v = a_1v_1 + \dots + a_nv_n$$
->where $a_1, \dots, a_n \in \mathbf{F}$.
-
->[!tips] 2.28 spanning list contains a basis
->Every spanning list in a vector space can be reduced to a basis of the vector space.
-
->[!tips] 2.29 basis of finite-dimensional vector space
->Every finite-dimensional vector space has a basis.
-
->[!tips] 2.31 linearly independent list extends to a basis
->Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space.
-
->[!tips] 2.32 subspaces
->Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then $\dim U \le \dim V$.
-
->[!tips] 2.35 basis length does not depend on basis
->Any two bases of a finite-dimensional vector space have the same length.
-
->[!tips] 2.36 dimension of a subspace
->If $V$ is finite-dimensional and $U$ is a subspace of $V$, then $\dim U \le \dim V$.
-
->[!tips] 2.38 dimension of a direct sum
->If $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $V = U_1 \oplus \dots \oplus U_m$, then
->$$\dim V = \dim U_1 + \dots + \dim U_m$$
-
->[!tips] 2.39 dimension of a sum
->If $U_1$ and $U_2$ are subspaces of a finite-dimensional vector space, then
->$$\dim(U_1 + U_2) = \dim U_1 + \dim U_2 - \dim(U_1 \cap U_2)$$
+>[!tips] Theorem 1.37 Properties of Norm
+>Suppose $x, y, z \in R^k$, and $\alpha$ is real. Then
+>(a) $|x| \ge 0$;
+>(b) $|x| = 0$ if and only if $x = 0$;
+>(c) $|\alpha x| = |\alpha||x|$;
+>(d) $|x \cdot y| \le |x||y|$;
+>(e) $|x + y| \le |x| + |y|$;
+>(f) $|x - z| \le |x - y| + |y - z|$.

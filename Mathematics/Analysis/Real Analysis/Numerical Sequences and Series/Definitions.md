@@ -1,41 +1,28 @@
->[!tips] 2.1 linear combination
->A **linear combination** of a list $v_1, \dots, v_m$ of vectors in $V$ is a vector of the form
->$$a_1v_1 + \dots + a_mv_m$$
->where $a_1, \dots, a_m \in \mathbf{F}$.
+>[!tips] 3.1 Convergent Sequence
+>A sequence $\{p_n\}$ in a metric space $X$ is said to converge if there is a point $p \in X$ with the following property: For every $\epsilon > 0$ there is an integer $N$ such that $n \ge N$ implies $d(p_n, p) < \epsilon$. We write $p_n \to p$ or $\lim_{n\to\infty} p_n = p$.
 
->[!tips] 2.3 span
->The set of all linear combinations of a list of vectors $v_1, \dots, v_m$ in $V$ is called the **span** of $v_1, \dots, v_m$, denoted $\text{span}(v_1, \dots, v_m)$.
->$$\text{span}(v_1, \dots, v_m) = \{a_1v_1 + \dots + a_mv_m : a_1, \dots, a_m \in \mathbf{F}\}$$
->The span of the empty list $()$ is defined to be $\{0\}$.
+>[!tips] 3.5 Subsequence
+>Given a sequence $\{p_n\}$, consider a sequence $\{n_k\}$ of positive integers, such that $n_1 < n_2 < n_3 < ...$. Then the sequence $\{p_{n_k}\}$ is called a subsequence of $\{p_n\}$.
 
->[!tips] 2.8 finite-dimensional vector space
->A vector space $V$ is called **finite-dimensional** if there exists a list $v_1, \dots, v_m$ of vectors in $V$ such that $V = \text{span}(v_1, \dots, v_m)$.
+>[!tips] 3.8 Cauchy Sequence
+>A sequence $\{p_n\}$ in a metric space $X$ is said to be a Cauchy sequence if for every $\epsilon > 0$ there is an integer $N$ such that $d(p_n, p_m) < \epsilon$ if $n \ge N$ and $m \ge N$.
 
->[!tips] 2.9 polynomial, $\mathcal{P}(\mathbf{F})$
->- A function $p: \mathbf{F} \to \mathbf{F}$ is called a **polynomial** with coefficients in $\mathbf{F}$ if there exist $a_0, \dots, a_m \in \mathbf{F}$ such that
->$$p(z) = a_0 + a_1z + \dots + a_mz^m$$
->for all $z \in \mathbf{F}$.
->- $\mathcal{P}(\mathbf{F})$ is the set of all polynomials with coefficients in $\mathbf{F}$.
+>[!tips] 3.12 Complete Metric Space
+>A metric space in which every Cauchy sequence converges is said to be complete.
 
->[!tips] 2.10 degree of a polynomial, $\deg p$
->- A polynomial $p \in \mathcal{P}(\mathbf{F})$ is said to have **degree** $m$ if there exist scalars $a_0, a_1, \dots, a_m \in \mathbf{F}$ with $a_m \neq 0$ such that $p(z) = a_0 + a_1z + \dots + a_mz^m$ for all $z \in \mathbf{F}$.
->- The degree of a polynomial $p$ is denoted by $\deg p$.
->- The degree of the 0 polynomial is defined to be $-\infty$.
+>[!tips] 3.15 Divergence to Infinity
+>$s_n \to +\infty$ means for every real $M$ there is an integer $N$ such that $n \ge N$ implies $s_n \ge M$.
 
->[!tips] 2.15 infinite-dimensional vector space
->A vector space $V$ is called **infinite-dimensional** if it is not finite-dimensional.
+>[!tips] 3.16 Upper and Lower Limits
+>Let $\{s_n\}$ be a sequence of real numbers. Let $E$ be the set of numbers $x$ (in the extended real number system) such that $s_{n_k} \to x$ for some subsequence.
+>$s^* = \sup E = \limsup_{n\to\infty} s_n$.
+>$s_* = \inf E = \liminf_{n\to\infty} s_n$.
 
->[!tips] 2.17 linearly independent
->- A list $v_1, \dots, v_m$ of vectors in $V$ is called **linearly independent** if the only choice of $a_1, \dots, a_m \in \mathbf{F}$ that satisfies $a_1v_1 + \dots + a_mv_m = 0$ is $a_1 = \dots = a_m = 0$.
->- The empty list $()$ is also declared to be linearly independent.
+>[!tips] 3.21 Series
+>Given a sequence $\{a_n\}$, the symbol $\sum_{n=1}^\infty a_n$ is called an infinite series. $s_n = \sum_{k=1}^n a_k$ are the partial sums. If $\{s_n\}$ converges to $s$, the series converges and $s$ is the sum.
 
->[!tips] 2.19 linearly dependent
->- A list of vectors in $V$ is called **linearly dependent** if it is not linearly independent.
->- In other words, a list $v_1, \dots, v_m$ of vectors in $V$ is linearly dependent if there exist $a_1, \dots, a_m \in \mathbf{F}$, not all 0, such that $a_1v_1 + \dots + a_mv_m = 0$.
+>[!tips] 3.38 Power Series
+>A series of the form $\sum_{n=0}^\infty c_n z^n$ is called a power series.
 
->[!tips] 2.26 basis
->A **basis** of $V$ is a list of vectors in $V$ that is linearly independent and spans $V$.
-
->[!tips] 2.34 dimension, $\dim V$
->- The **dimension** of a finite-dimensional vector space $V$ is the length of any basis of the list of vectors in $V$.
->- The dimension of $V$ (if $V$ is finite-dimensional) is denoted by $\dim V$.
+>[!tips] 3.45 Absolute Convergence
+>The series $\sum a_n$ is said to converge absolutely if the series $\sum |a_n|$ converges.

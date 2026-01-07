@@ -1,41 +1,55 @@
->[!tips] 2.1 linear combination
->A **linear combination** of a list $v_1, \dots, v_m$ of vectors in $V$ is a vector of the form
->$$a_1v_1 + \dots + a_mv_m$$
->where $a_1, \dots, a_m \in \mathbf{F}$.
+>[!tips] 1.5 Order
+>Let $S$ be a set. An order on $S$ is a relation, denoted by $<$, with the following two properties:
+>(i) If $x \in S$ and $y \in S$ then one and only one of the statements $x < y$, $x = y$, $y < x$ is true.
+>(ii) If $x, y, z \in S$, if $x < y$ and $y < z$, then $x < z$.
 
->[!tips] 2.3 span
->The set of all linear combinations of a list of vectors $v_1, \dots, v_m$ in $V$ is called the **span** of $v_1, \dots, v_m$, denoted $\text{span}(v_1, \dots, v_m)$.
->$$\text{span}(v_1, \dots, v_m) = \{a_1v_1 + \dots + a_mv_m : a_1, \dots, a_m \in \mathbf{F}\}$$
->The span of the empty list $()$ is defined to be $\{0\}$.
+>[!tips] 1.6 Ordered Set
+>An ordered set is a set $S$ in which an order is defined.
 
->[!tips] 2.8 finite-dimensional vector space
->A vector space $V$ is called **finite-dimensional** if there exists a list $v_1, \dots, v_m$ of vectors in $V$ such that $V = \text{span}(v_1, \dots, v_m)$.
+>[!tips] 1.7 Upper Bound, Lower Bound
+>Suppose $S$ is an ordered set, and $E \subset S$. If there exists a $\beta \in S$ such that $x \le \beta$ for every $x \in E$, we say that $E$ is bounded above, and call $\beta$ an upper bound of $E$.
+>Lower bounds are defined in the same way (with $\ge$ in place of $\le$).
 
->[!tips] 2.9 polynomial, $\mathcal{P}(\mathbf{F})$
->- A function $p: \mathbf{F} \to \mathbf{F}$ is called a **polynomial** with coefficients in $\mathbf{F}$ if there exist $a_0, \dots, a_m \in \mathbf{F}$ such that
->$$p(z) = a_0 + a_1z + \dots + a_mz^m$$
->for all $z \in \mathbf{F}$.
->- $\mathcal{P}(\mathbf{F})$ is the set of all polynomials with coefficients in $\mathbf{F}$.
+>[!tips] 1.8 Least Upper Bound (Supremum)
+>Suppose $S$ is an ordered set, $E \subset S$, and $E$ is bounded above. Suppose there exists an $\alpha \in S$ with the following properties:
+>(i) $\alpha$ is an upper bound of $E$.
+>(ii) If $\gamma < \alpha$ then $\gamma$ is not an upper bound of $E$.
+>Then $\alpha$ is called the least upper bound of $E$ or the supremum of $E$, and we write $\alpha = \sup E$.
 
->[!tips] 2.10 degree of a polynomial, $\deg p$
->- A polynomial $p \in \mathcal{P}(\mathbf{F})$ is said to have **degree** $m$ if there exist scalars $a_0, a_1, \dots, a_m \in \mathbf{F}$ with $a_m \neq 0$ such that $p(z) = a_0 + a_1z + \dots + a_mz^m$ for all $z \in \mathbf{F}$.
->- The degree of a polynomial $p$ is denoted by $\deg p$.
->- The degree of the 0 polynomial is defined to be $-\infty$.
+>[!tips] 1.8 Greatest Lower Bound (Infimum)
+>The greatest lower bound, or infimum, of a set $E$ which is bounded below is defined in the same manner: The statement $\alpha = \inf E$ means that $\alpha$ is a lower bound of $E$ and that no $\beta$ with $\beta > \alpha$ is a lower bound of $E$.
 
->[!tips] 2.15 infinite-dimensional vector space
->A vector space $V$ is called **infinite-dimensional** if it is not finite-dimensional.
+>[!tips] 1.10 Least-upper-bound Property
+>An ordered set $S$ is said to have the least-upper-bound property if the following is true: If $E \subset S$, $E$ is not empty, and $E$ is bounded above, then $\sup E$ exists in $S$.
 
->[!tips] 2.17 linearly independent
->- A list $v_1, \dots, v_m$ of vectors in $V$ is called **linearly independent** if the only choice of $a_1, \dots, a_m \in \mathbf{F}$ that satisfies $a_1v_1 + \dots + a_mv_m = 0$ is $a_1 = \dots = a_m = 0$.
->- The empty list $()$ is also declared to be linearly independent.
+>[!tips] 1.12 Field
+>A field is a set $F$ with two operations, called addition and multiplication, which satisfy the following "field axioms" (A), (M), and (D):
+>(A) Axioms for addition (Closure, Commutative, Associative, Identity 0, Inverse $-x$).
+>(M) Axioms for multiplication (Closure, Commutative, Associative, Identity 1, Inverse $1/x$).
+>(D) The distributive law: $x(y+z) = xy + xz$.
 
->[!tips] 2.19 linearly dependent
->- A list of vectors in $V$ is called **linearly dependent** if it is not linearly independent.
->- In other words, a list $v_1, \dots, v_m$ of vectors in $V$ is linearly dependent if there exist $a_1, \dots, a_m \in \mathbf{F}$, not all 0, such that $a_1v_1 + \dots + a_mv_m = 0$.
+>[!tips] 1.17 Ordered Field
+>An ordered field is a field $F$ which is also an ordered set, such that:
+>(i) $x + y < x + z$ if $x, y, z \in F$ and $y < z$.
+>(ii) $xy > 0$ if $x \in F, y \in F, x > 0$, and $y > 0$.
 
->[!tips] 2.26 basis
->A **basis** of $V$ is a list of vectors in $V$ that is linearly independent and spans $V$.
+>[!tips] 1.23 Extended Real Number System
+>The extended real number system consists of the real field $R$ and two symbols, $+\infty$ and $-\infty$. We preserve the original order in $R$, and define $-\infty < x < +\infty$ for every $x \in R$.
 
->[!tips] 2.34 dimension, $\dim V$
->- The **dimension** of a finite-dimensional vector space $V$ is the length of any basis of the list of vectors in $V$.
->- The dimension of $V$ (if $V$ is finite-dimensional) is denoted by $\dim V$.
+>[!tips] 1.24 Complex Number
+>A complex number is an ordered pair $(a, b)$ of real numbers. $x = (a, b)$, $y = (c, d)$.
+>$x + y = (a + c, b + d)$
+>$xy = (ac - bd, ad + bc)$
+
+>[!tips] 1.30 Conjugate
+>If $a, b$ are real and $z = a + bi$, then the complex number $\bar{z} = a - bi$ is called the conjugate of $z$.
+
+>[!tips] 1.32 Absolute Value
+>If $z$ is a complex number, its absolute value $|z|$ is the non-negative square root of $z\bar{z}$; that is, $|z| = (z\bar{z})^{1/2}$.
+
+>[!tips] 1.36 Euclidean k-space
+>For each positive integer $k$, let $R^k$ be the set of all ordered k-tuples $x = (x_1, x_2, ..., x_k)$, where $x_i$ are real numbers (coordinates).
+>Addition: $x + y = (x_1 + y_1, ..., x_k + y_k)$.
+>Scalar multiplication: $\alpha x = (\alpha x_1, ..., \alpha x_k)$.
+>Inner product: $x \cdot y = \sum_{i=1}^k x_i y_i$.
+>Norm: $|x| = (x \cdot x)^{1/2} = (\sum_{1}^k x_i^2)^{1/2}$.

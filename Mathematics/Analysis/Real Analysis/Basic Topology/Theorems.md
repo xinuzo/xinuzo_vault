@@ -1,47 +1,49 @@
->[!tips] 2.5 span is the smallest containing subspace
->The span of a list of vectors in $V$ is the smallest subspace of $V$ containing all the vectors in the list.
+>[!tips] Theorem 2.8 Countable Subsets
+>Every infinite subset of a countable set $A$ is countable.
 
->[!tips] 2.12 $\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$
->$\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$.
+>[!tips] Theorem 2.12 Union of Countable Sets
+>Let $\{E_n\}$ be a sequence of countable sets. Then $S = \bigcup_{n=1}^\infty E_n$ is countable.
 
->[!tips] 2.20 Linear Dependence Lemma
->Suppose $v_1, \dots, v_m$ is a linearly dependent list in $V$. Then there exists $j \in \{1, \dots, m\}$ such that:
->1. $v_j \in \text{span}(v_1, \dots, v_{j-1})$;
->2. if the $j^{\text{th}}$ term is removed from $v_1, \dots, v_m$, the span of the remaining list equals $\text{span}(v_1, \dots, v_m)$.
+>[!tips] Theorem 2.14 Uncountability of Binary Sequences
+>Let $A$ be the set of all sequences whose elements are the digits 0 and 1. This set $A$ is uncountable. (Implies $R$ is uncountable).
 
->[!tips] 2.22 length of linearly independent list $\le$ length of spanning list
->In a finite-dimensional vector space, the length of every linearly independent list of vectors is less than or equal to the length of every spanning list of vectors.
+>[!tips] Theorem 2.19 Neighborhoods
+>Every neighborhood is an open set.
 
->[!tips] 2.23 finite-dimensional subspaces
->Every subspace of a finite-dimensional vector space is finite-dimensional.
+>[!tips] Theorem 2.20 Limit Points
+>If $p$ is a limit point of a set $E$, then every neighborhood of $p$ contains infinitely many points of $E$.
 
->[!tips] 2.27 criterion for basis
->A list $v_1, \dots, v_n$ of vectors in $V$ is a basis of $V$ if and only if every $v \in V$ can be written uniquely in the form
->$$v = a_1v_1 + \dots + a_nv_n$$
->where $a_1, \dots, a_n \in \mathbf{F}$.
+>[!tips] Theorem 2.23 Open and Closed Sets
+>A set $E$ is open if and only if its complement is closed.
 
->[!tips] 2.28 spanning list contains a basis
->Every spanning list in a vector space can be reduced to a basis of the vector space.
+>[!tips] Theorem 2.27 Closure Properties
+>(a) $\bar{E}$ is closed.
+>(b) $E = \bar{E}$ if and only if $E$ is closed.
+>(c) $\bar{E} \subset F$ for every closed set $F \subset X$ such that $E \subset F$.
 
->[!tips] 2.29 basis of finite-dimensional vector space
->Every finite-dimensional vector space has a basis.
+>[!tips] Theorem 2.30 Open Relative to Subspace
+>Suppose $Y \subset X$. A subset $E$ of $Y$ is open relative to $Y$ if and only if $E = Y \cap G$ for some open subset $G$ of $X$.
 
->[!tips] 2.31 linearly independent list extends to a basis
->Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space.
+>[!tips] Theorem 2.34 Compact Sets are Closed
+>Compact subsets of metric spaces are closed.
 
->[!tips] 2.32 subspaces
->Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then $\dim U \le \dim V$.
+>[!tips] Theorem 2.35 Closed Subsets of Compact Sets
+>Closed subsets of compact sets are compact.
 
->[!tips] 2.35 basis length does not depend on basis
->Any two bases of a finite-dimensional vector space have the same length.
+>[!tips] Theorem 2.36 Finite Intersection Property
+>If $\{K_\alpha\}$ is a collection of compact subsets of a metric space $X$ such that the intersection of every finite subcollection of $\{K_\alpha\}$ is nonempty, then $\bigcap K_\alpha$ is nonempty.
 
->[!tips] 2.36 dimension of a subspace
->If $V$ is finite-dimensional and $U$ is a subspace of $V$, then $\dim U \le \dim V$.
+>[!tips] Theorem 2.40 Compactness of k-cells
+>Every k-cell is compact.
 
->[!tips] 2.38 dimension of a direct sum
->If $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $V = U_1 \oplus \dots \oplus U_m$, then
->$$\dim V = \dim U_1 + \dots + \dim U_m$$
+>[!tips] Theorem 2.41 Heine-Borel Theorem
+>If a set $E$ in $R^k$ has one of the following three properties, then it has the other two:
+>(a) $E$ is closed and bounded.
+>(b) $E$ is compact.
+>(c) Every infinite subset of $E$ has a limit point in $E$.
 
->[!tips] 2.39 dimension of a sum
->If $U_1$ and $U_2$ are subspaces of a finite-dimensional vector space, then
->$$\dim(U_1 + U_2) = \dim U_1 + \dim U_2 - \dim(U_1 \cap U_2)$$
+>[!tips] Theorem 2.43 Perfect Sets
+>Let $P$ be a nonempty perfect set in $R^k$. Then $P$ is uncountable.
+
+>[!tips] Theorem 2.47 Connected Sets in R
+>A subset $E$ of the real line $R^1$ is connected if and only if it has the following property: If $x \in E, y \in E$, and $x < z < y$, then $z \in E$.
