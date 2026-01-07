@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Real Analysis/Differentiation/Theorems.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Theorems"
+              "title": "Problems"
             }
           }
         ]
@@ -165,8 +165,23 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "7b9975bf8ab3531f",
+  "active": "8f9f612ed2f0c6e1",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Lebesgue  Integral",
+    "Mathematics/Analysis/Measure Theory",
+    "Mathematics/Analysis/Complex Analysis/Elementary Functions.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbet Space/Theorems.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbet Space/Problems.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbet Space",
+    "Mathematics/Analysis/Complex Analysis/Basic Topology 1/Theorems.md",
+    "Mathematics/Analysis/Complex Analysis/Basic Topology 1/Problems.md",
+    "Mathematics/Analysis/Complex Analysis/Basic Topology 1/Definitions.md",
+    "Mathematics/Analysis/Complex Analysis/Basic Topology 1",
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers.md",
+    "Mathematics/Analysis/Complex Analysis/Analytic Functions.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbert Space.md",
+    "Mathematics/Analysis/Real Analysis/Differentiation/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Problems.md",
     "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Definitions.md",
@@ -178,31 +193,16 @@
     "Mathematics/Analysis/Real Analysis/Sequences and Series of Functions/Definitions.md",
     "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral/Theorems.md",
     "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Differentiation/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Differentiation/Definitions.md",
     "Mathematics/Analysis/Real Analysis/Continuity/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Continuity/Problems.md",
-    "Mathematics/Analysis/Real Analysis/Continuity/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Numerical Sequences and Series/Theorems.md",
-    "Mathematics/Analysis/Real Analysis/Numerical Sequences and Series/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Basic Topology/Theorems.md",
-    "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Theorems.md",
-    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Problems.md",
     "Mathematics/Analysis/Real Analysis/Lebesgue Theory",
-    "Mathematics/Analysis/Real Analysis/Integration of Differential Forms/Problems.md",
     "Mathematics/Analysis/Real Analysis/Integration of Differential Forms",
-    "Mathematics/Analysis/Real Analysis/Functions of Several Variables/Problems.md",
     "Mathematics/Analysis/Real Analysis/Functions of Several Variables",
-    "Mathematics/Algebra/Abstract Algebra/Lattices and Boolean Algebra/Definitions.md",
     "Mathematics/Analysis/Real Analysis/Sequences and Series of Functions",
     "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral",
     "Mathematics/Analysis/Real Analysis/Differentiation",
     "Mathematics/Analysis/Real Analysis/Continuity",
-    "Mathematics/Analysis/Real Analysis/Numerical Sequences and Series",
-    "Mathematics/Analysis/Real Analysis/Basic Topology",
-    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems",
     "Mathematics/Algebra/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Others/Pasted image 20251011134051.png",
     "Others/assets/Pasted image 20251005191534.png",

@@ -18,7 +18,7 @@
 >If $f$ is continuous on $[a, b]$ and differentiable on $(a, b)$, there exists $x \in (a, b)$ such that
 >$$f(b) - f(a) = (b - a)f'(x)$$
 
-[[Cauchy MVT Visual Proof][https://www.youtube.com/watch?v=VxH89U2E1bQ]]
+**link**:  **[[Cauchy MVT Visual Proof]]**
 
 >[!tips] Theorem 5.11 L'Hospital's Rule
 >Suppose $f, g$ are differentiable in $(a, b)$, $g'(x) \ne 0$, $f(x) \to 0$ and $g(x) \to 0$ as $x \to a$ (or $g(x) \to \infty$). If $\lim_{x\to a} f'(x)/g'(x) = A$, then $\lim_{x\to a} f(x)/g(x) = A$.
