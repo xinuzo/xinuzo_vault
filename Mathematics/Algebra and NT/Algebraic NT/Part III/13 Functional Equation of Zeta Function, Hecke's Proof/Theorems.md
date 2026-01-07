@@ -1,14 +1,14 @@
->[!tips] Theorem 56.2 Orbit-Stabilizer Theorem
->$|G| = |\text{Orb}(x)| \cdot |G_x|$.
+# Theorems - Chapter XIII: Functional Equation (Hecke's Proof)
 
->[!tips] Theorem 57.1 Burnside's Counting Theorem
->The number of distinct orbits of $G$ acting on $S$ is the average number of elements fixed by each permutation in $G$: $N = \frac{1}{|G|} \sum_{g \in G} |\text{fix}(g)|$.
+## §1. Poisson Summation Formula
 
->[!tips] Theorem 58.1 Sylow's Theorem (Existence)
->If $p$ is a prime and $p^k$ divides $|G|$, then $G$ has a subgroup of order $p^k$.
+>[!tips] 13.1 Poisson Summation
+>For a lattice $L$ and nice function $f$:
+>$$\sum_{x \in L} f(x) = Vol(V/L)^{-1} \sum_{y \in L^*} \hat{f}(y)$$
 
->[!tips] Theorem 58.1 Sylow's Theorem (Extended)
->Let $|G| = p^k m$ with $p \nmid m$.
->1. The number of Sylow p-subgroups $n_p$ satisfies $n_p \equiv 1 \pmod p$.
->2. $n_p$ divides $m$.
->3. Any two Sylow p-subgroups are conjugate.
+## §3. Functional Equation
+
+>[!tips] 13.3 Theorem 1
+>Let $\Lambda(s) = A^s \Gamma(s/2)^{r_1} \Gamma(s)^{r_2} \zeta_K(s)$. Then $\Lambda(s)$ is meromorphic with simple poles at $s=0, 1$ and satisfies:
+>$$\Lambda(s) = \Lambda(1-s)$$
+>Also applies to L-series with character $\chi$: $\Lambda(s, \chi) = W(\chi) \Lambda(1-s, \bar{\chi})$.

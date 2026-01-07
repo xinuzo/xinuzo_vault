@@ -1,11 +1,13 @@
->[!tips] 56.1 Group Action
->A group $G$ acts on a set $S$ if there is a mapping $G \times S \to S$, denoted $(g, x) \mapsto gx$, such that $ex = x$ and $(gh)x = g(hx)$.
+# Definitions - Chapter VIII: Elementary Properties of the Zeta Function
 
->[!tips] 56.1 Orbit
->The orbit of $x \in S$ under $G$ is $\text{Orb}(x) = \{gx : g \in G\}$.
+## §2. Zeta Function of a Number Field
 
->[!tips] 56.1 Stabilizer
->The stabilizer of $x \in S$ is $G_x = \{g \in G : gx = x\}$.
+>[!tips] 8.2 Dedekind Zeta Function ($\zeta_k(s)$)
+>For $Re(s) > 1$, defined by the series:
+>$$\zeta_k(s) = \sum_{\mathfrak{a}} \frac{1}{N\mathfrak{a}^s} = \prod_{\mathfrak{p}} \frac{1}{1 - N\mathfrak{p}^{-s}}$$
 
->[!tips] 58.1 Sylow p-Subgroup
->If $|G| = p^k m$ with $p \nmid m$, a subgroup of order $p^k$ is called a Sylow p-subgroup.
+## §3. The L-Series
+
+>[!tips] 8.3 L-Series ($L(s, \chi)$)
+>Given a character $\chi$ of the ideal class group, the **L-series** is:
+>$$L(s, \chi) = \sum_{\mathfrak{a}} \frac{\chi(\mathfrak{a})}{N\mathfrak{a}^s}$$

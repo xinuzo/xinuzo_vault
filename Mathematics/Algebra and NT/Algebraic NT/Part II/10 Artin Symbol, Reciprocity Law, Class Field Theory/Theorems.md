@@ -1,14 +1,8 @@
->[!tips] Theorem 56.2 Orbit-Stabilizer Theorem
->$|G| = |\text{Orb}(x)| \cdot |G_x|$.
+# Theorems - Chapter X: The Artin Symbol
 
->[!tips] Theorem 57.1 Burnside's Counting Theorem
->The number of distinct orbits of $G$ acting on $S$ is the average number of elements fixed by each permutation in $G$: $N = \frac{1}{|G|} \sum_{g \in G} |\text{fix}(g)|$.
+## §1. Formalism of the Artin Symbol
 
->[!tips] Theorem 58.1 Sylow's Theorem (Existence)
->If $p$ is a prime and $p^k$ divides $|G|$, then $G$ has a subgroup of order $p^k$.
-
->[!tips] Theorem 58.1 Sylow's Theorem (Extended)
->Let $|G| = p^k m$ with $p \nmid m$.
->1. The number of Sylow p-subgroups $n_p$ satisfies $n_p \equiv 1 \pmod p$.
->2. $n_p$ divides $m$.
->3. Any two Sylow p-subgroups are conjugate.
+>[!tips] 10.1 Artin Reciprocity Law
+>The Artin map $\mathfrak{a} \mapsto (\mathfrak{a}, L/K)$ induces an isomorphism:
+>$$I_K(\mathfrak{c}) / P_K(\mathfrak{c}) \cdot N(\mathfrak{c}) \xrightarrow{\sim} Gal(L/K)$$
+>where $P_K(\mathfrak{c})$ is the ray group and $N(\mathfrak{c})$ contains norms from $L$.

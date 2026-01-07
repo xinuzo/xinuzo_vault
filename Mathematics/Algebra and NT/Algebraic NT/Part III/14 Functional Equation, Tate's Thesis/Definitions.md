@@ -1,11 +1,12 @@
->[!tips] 56.1 Group Action
->A group $G$ acts on a set $S$ if there is a mapping $G \times S \to S$, denoted $(g, x) \mapsto gx$, such that $ex = x$ and $(gh)x = g(hx)$.
+# Definitions - Chapter XIV: Functional Equation (Tate's Thesis)
 
->[!tips] 56.1 Orbit
->The orbit of $x \in S$ under $G$ is $\text{Orb}(x) = \{gx : g \in G\}$.
+## §1. Local Additive Duality
 
->[!tips] 56.1 Stabilizer
->The stabilizer of $x \in S$ is $G_x = \{g \in G : gx = x\}$.
+>[!tips] 14.1 Additive Character
+>A continuous homomorphism $\psi: k_v \to \mathbb{S}^1$. The standard character is constructed from the trace.
 
->[!tips] 58.1 Sylow p-Subgroup
->If $|G| = p^k m$ with $p \nmid m$, a subgroup of order $p^k$ is called a Sylow p-subgroup.
+## §7. Global Functional Equation
+
+>[!tips] 14.7 Adelic Zeta Function ($\zeta(f, \chi)$)
+>Defined on the ideles $J_K$ for a Schwartz-Bruhat function $f$:
+>$$\zeta(f, \chi, s) = \int_{J_K} f(a) \chi(a) |a|^s d^*a$$

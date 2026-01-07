@@ -1,14 +1,9 @@
->[!tips] Theorem 56.2 Orbit-Stabilizer Theorem
->$|G| = |\text{Orb}(x)| \cdot |G_x|$.
+# Theorems - Chapter XV: Density of Primes
 
->[!tips] Theorem 57.1 Burnside's Counting Theorem
->The number of distinct orbits of $G$ acting on $S$ is the average number of elements fixed by each permutation in $G$: $N = \frac{1}{|G|} \sum_{g \in G} |\text{fix}(g)|$.
+## §5. Densities
 
->[!tips] Theorem 58.1 Sylow's Theorem (Existence)
->If $p$ is a prime and $p^k$ divides $|G|$, then $G$ has a subgroup of order $p^k$.
+>[!tips] 15.5 Chebotarev Density Theorem
+>Let $L/K$ be Galois with group $G$. Let $C$ be a conjugacy class in $G$. The set of primes $\mathfrak{p}$ of $K$ whose Frobenius symbol $(\mathfrak{p}, L/K)$ lies in $C$ has Dirichlet density $|C|/|G|$.
 
->[!tips] Theorem 58.1 Sylow's Theorem (Extended)
->Let $|G| = p^k m$ with $p \nmid m$.
->1. The number of Sylow p-subgroups $n_p$ satisfies $n_p \equiv 1 \pmod p$.
->2. $n_p$ divides $m$.
->3. Any two Sylow p-subgroups are conjugate.
+>[!tips] 15.5 Dirichlet's Theorem on Primes in Progression
+>As a special case: The primes splitting completely in a cyclotomic extension $Q(\zeta_m)$ are those $p \equiv 1 \pmod m$. They have density $1/\varphi(m)$.

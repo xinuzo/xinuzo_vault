@@ -1,11 +1,14 @@
->[!tips] 56.1 Group Action
->A group $G$ acts on a set $S$ if there is a mapping $G \times S \to S$, denoted $(g, x) \mapsto gx$, such that $ex = x$ and $(gh)x = g(hx)$.
+# Definitions - Chapter X: The Artin Symbol
 
->[!tips] 56.1 Orbit
->The orbit of $x \in S$ under $G$ is $\text{Orb}(x) = \{gx : g \in G\}$.
+## §1. Formalism of the Artin Symbol
 
->[!tips] 56.1 Stabilizer
->The stabilizer of $x \in S$ is $G_x = \{g \in G : gx = x\}$.
+>[!tips] 10.1 Artin Symbol $(\mathfrak{p}, L/K)$
+>For an abelian extension $L/K$ and unramified prime $\mathfrak{p}$, the unique element $\sigma \in Gal(L/K)$ such that $\sigma x \equiv x^{N\mathfrak{p}} \pmod{\mathfrak{P}}$.
 
->[!tips] 58.1 Sylow p-Subgroup
->If $|G| = p^k m$ with $p \nmid m$, a subgroup of order $p^k$ is called a Sylow p-subgroup.
+>[!tips] 10.1 Artin Map
+>The map extending the Artin symbol to fractional ideals (prime to the conductor): $\mathfrak{a} \mapsto (\mathfrak{a}, L/K)$.
+
+## §2. Existence of Conductor
+
+>[!tips] 10.2 Conductor
+>The smallest modulus $\mathfrak{f}$ such that the Artin map factors through the ray class group modulo $\mathfrak{f}$.

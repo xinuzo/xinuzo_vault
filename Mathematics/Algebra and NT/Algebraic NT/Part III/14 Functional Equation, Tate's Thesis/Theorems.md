@@ -1,14 +1,13 @@
->[!tips] Theorem 56.2 Orbit-Stabilizer Theorem
->$|G| = |\text{Orb}(x)| \cdot |G_x|$.
+# Theorems - Chapter XIV: Functional Equation (Tate's Thesis)
 
->[!tips] Theorem 57.1 Burnside's Counting Theorem
->The number of distinct orbits of $G$ acting on $S$ is the average number of elements fixed by each permutation in $G$: $N = \frac{1}{|G|} \sum_{g \in G} |\text{fix}(g)|$.
+## §3. Local Functional Equation
 
->[!tips] Theorem 58.1 Sylow's Theorem (Existence)
->If $p$ is a prime and $p^k$ divides $|G|$, then $G$ has a subgroup of order $p^k$.
+>[!tips] 14.3 Local Functional Equation
+>For a local field $k_v$:
+>$$\frac{\zeta(f, \chi, 1-s)}{\zeta(\hat{f}, \bar{\chi}, s)} = \rho(\chi)$$
+>where $\rho(\chi)$ is a local factor (root number) independent of $f$.
 
->[!tips] Theorem 58.1 Sylow's Theorem (Extended)
->Let $|G| = p^k m$ with $p \nmid m$.
->1. The number of Sylow p-subgroups $n_p$ satisfies $n_p \equiv 1 \pmod p$.
->2. $n_p$ divides $m$.
->3. Any two Sylow p-subgroups are conjugate.
+## §7. Global Functional Equation
+
+>[!tips] 14.7 Main Theorem
+>The global zeta function has meromorphic continuation and satisfies $\zeta(f, \chi, s) = \zeta(\hat{f}, \bar{\chi}, 1-s)$. This implies the classical Hecke functional equation.
