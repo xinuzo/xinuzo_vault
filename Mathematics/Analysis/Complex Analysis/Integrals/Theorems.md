@@ -1,49 +1,29 @@
->[!tips] Theorem 2.8 Countable Subsets
->Every infinite subset of a countable set $A$ is countable.
+>[!tips] 4.43 ML-Inequality
+>If $|f(z)| \le M$ on $C$ and $L$ is the length of $C$, then:
+>$$\left| \int_C f(z) dz \right| \le ML$$
 
->[!tips] Theorem 2.12 Union of Countable Sets
->Let $\{E_n\}$ be a sequence of countable sets. Then $S = \bigcup_{n=1}^\infty E_n$ is countable.
+>[!tips] 4.44 Fundamental Theorem of Calculus for Contours
+>If $f(z)$ has an antiderivative $F(z)$ in a domain $D$, then for any contour $C$ in $D$ from $z_1$ to $z_2$:
+>$$\int_C f(z) dz = F(z_2) - F(z_1)$$
+>Corollary: If $C$ is closed, the integral is 0.
 
->[!tips] Theorem 2.14 Uncountability of Binary Sequences
->Let $A$ be the set of all sequences whose elements are the digits 0 and 1. This set $A$ is uncountable. (Implies $R$ is uncountable).
+>[!tips] 4.46 Cauchy-Goursat Theorem
+>If $f$ is analytic at all points within and on a simple closed contour $C$, then:
+>$$\int_C f(z) dz = 0$$
 
->[!tips] Theorem 2.19 Neighborhoods
->Every neighborhood is an open set.
+>[!tips] 4.50 Cauchy Integral Formula
+>Let $f$ be analytic everywhere inside and on a simple closed contour $C$ (positive orientation). If $z_0$ is any point interior to $C$:
+>$$f(z_0) = \frac{1}{2\pi i} \int_C \frac{f(z)}{z - z_0} dz$$
 
->[!tips] Theorem 2.20 Limit Points
->If $p$ is a limit point of a set $E$, then every neighborhood of $p$ contains infinitely many points of $E$.
+>[!tips] 4.51 Derivatives of Analytic Functions
+>If $f$ is analytic at $z_0$, its derivatives of all orders exist and are analytic.
+>$$f^{(n)}(z_0) = \frac{n!}{2\pi i} \int_C \frac{f(z)}{(z - z_0)^{n+1}} dz$$
 
->[!tips] Theorem 2.23 Open and Closed Sets
->A set $E$ is open if and only if its complement is closed.
+>[!tips] 4.52 Liouville's Theorem
+>If a function $f$ is entire (analytic everywhere) and bounded in the complex plane, then $f(z)$ is constant.
 
->[!tips] Theorem 2.27 Closure Properties
->(a) $\bar{E}$ is closed.
->(b) $E = \bar{E}$ if and only if $E$ is closed.
->(c) $\bar{E} \subset F$ for every closed set $F \subset X$ such that $E \subset F$.
+>[!tips] 4.53 Fundamental Theorem of Algebra
+>Every polynomial $P(z) = a_n z^n + \dots + a_0$ ($n \ge 1$) has at least one zero in $\mathbb{C}$.
 
->[!tips] Theorem 2.30 Open Relative to Subspace
->Suppose $Y \subset X$. A subset $E$ of $Y$ is open relative to $Y$ if and only if $E = Y \cap G$ for some open subset $G$ of $X$.
-
->[!tips] Theorem 2.34 Compact Sets are Closed
->Compact subsets of metric spaces are closed.
-
->[!tips] Theorem 2.35 Closed Subsets of Compact Sets
->Closed subsets of compact sets are compact.
-
->[!tips] Theorem 2.36 Finite Intersection Property
->If $\{K_\alpha\}$ is a collection of compact subsets of a metric space $X$ such that the intersection of every finite subcollection of $\{K_\alpha\}$ is nonempty, then $\bigcap K_\alpha$ is nonempty.
-
->[!tips] Theorem 2.40 Compactness of k-cells
->Every k-cell is compact.
-
->[!tips] Theorem 2.41 Heine-Borel Theorem
->If a set $E$ in $R^k$ has one of the following three properties, then it has the other two:
->(a) $E$ is closed and bounded.
->(b) $E$ is compact.
->(c) Every infinite subset of $E$ has a limit point in $E$.
-
->[!tips] Theorem 2.43 Perfect Sets
->Let $P$ be a nonempty perfect set in $R^k$. Then $P$ is uncountable.
-
->[!tips] Theorem 2.47 Connected Sets in R
->A subset $E$ of the real line $R^1$ is connected if and only if it has the following property: If $x \in E, y \in E$, and $x < z < y$, then $z \in E$.
+>[!tips] 4.54 Maximum Modulus Principle
+>If $f$ is analytic and not constant in a domain $D$, then $|f(z)|$ has no maximum value in $D$. The maximum of $|f(z)|$ on a bounded region occurs on the boundary.

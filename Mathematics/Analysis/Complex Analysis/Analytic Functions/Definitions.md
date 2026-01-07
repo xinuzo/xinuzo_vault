@@ -1,39 +1,19 @@
->[!tips] 2.7 Sequence
->A function $f$ defined on the set $J$ of all positive integers. If $f(n) = x_n$, for $n \in J$, it is denoted by $\{x_n\}$.
+>[!tips] 2.12 Limit
+>$\lim_{z \to z_0} f(z) = w_0$ means for every $\epsilon > 0$, there exists $\delta > 0$ such that $|f(z) - w_0| < \epsilon$ whenever $0 < |z - z_0| < \delta$.
 
->[!tips] 2.15 Metric Space
->A set $X$ is said to be a metric space if with any two points $p$ and $q$ of $X$ there is associated a real number $d(p, q)$, called the distance from $p$ to $q$, such that:
->(a) $d(p, q) > 0$ if $p \ne q$; $d(p, p) = 0$;
->(b) $d(p, q) = d(q, p)$;
->(c) $d(p, q) \le d(p, r) + d(r, q)$, for any $r \in X$.
+>[!tips] 2.15 Continuity
+>A function $f$ is continuous at $z_0$ if $\lim_{z \to z_0} f(z) = f(z_0)$.
 
->[!tips] 2.17 k-cell, Ball, Convex
->If $a_i < b_i$ for $i=1,...,k$, the set of all points $x = (x_1, ..., x_k)$ in $R^k$ such that $a_i \le x_i \le b_i$ is called a k-cell.
->Open ball $B$ with center $x$ and radius $r > 0$: $\{y \in R^k : |y - x| < r\}$.
->A set $E \subset R^k$ is convex if $\lambda x + (1 - \lambda)y \in E$ whenever $x \in E, y \in E$, and $0 < \lambda < 1$.
+>[!tips] 2.19 Derivative
+>The derivative of $f$ at $z_0$ is:
+>$$f'(z_0) = \lim_{z \to z_0} \frac{f(z) - f(z_0)}{z - z_0}$$
 
->[!tips] 2.18 Topological Properties
->Let $X$ be a metric space.
->(a) A neighborhood of $p$ is a set $N_r(p) = \{q : d(p, q) < r\}$.
->(b) $p$ is a limit point of $E$ if every neighborhood of $p$ contains a point $q \ne p$ such that $q \in E$.
->(c) If $p \in E$ and $p$ is not a limit point of $E$, then $p$ is an isolated point of $E$.
->(d) $E$ is closed if every limit point of $E$ is a point of $E$.
->(e) $p$ is an interior point of $E$ if there is a neighborhood $N$ of $p$ such that $N \subset E$.
->(f) $E$ is open if every point of $E$ is an interior point of $E$.
->(g) The complement of $E$ (denoted by $E^c$) is the set of all points $p \in X$ such that $p \notin E$.
->(h) $E$ is perfect if $E$ is closed and if every point of $E$ is a limit point of $E$.
->(i) $E$ is bounded if there is a real number $M$ and a point $q \in X$ such that $d(p, q) < M$ for all $p \in E$.
->(j) $E$ is dense in $X$ if every point of $X$ is a limit point of $E$, or a point of $E$ (or both).
+>[!tips] 2.24 Analytic Function
+>A function $f$ is analytic at $z_0$ if it has a derivative at each point in some neighborhood of $z_0$. It is analytic on a domain $D$ if it is analytic at every point in $D$.
+>An **entire function** is analytic at every point in the complex plane.
 
->[!tips] 2.26 Closure
->If $E \subset X$, the closure of $E$ is the set $\bar{E} = E \cup E'$, where $E'$ is the set of all limit points of $E$.
+>[!tips] 2.25 Singular Point
+>A point $z_0$ is a singular point (singularity) of $f$ if $f$ fails to be analytic at $z_0$ but is analytic at some point in every neighborhood of $z_0$.
 
->[!tips] 2.31 Open Cover
->By an open cover of a set $E$ in a metric space $X$ we mean a collection $\{G_\alpha\}$ of open subsets of $X$ such that $E \subset \bigcup_\alpha G_\alpha$.
-
->[!tips] 2.32 Compact
->A subset $K$ of a metric space $X$ is said to be compact if every open cover of $K$ contains a finite subcover.
-
->[!tips] 2.45 Separated, Connected
->Two subsets $A$ and $B$ of a metric space $X$ are said to be separated if both $A \cap \bar{B}$ and $\bar{A} \cap B$ are empty.
->A set $E \subset X$ is said to be connected if $E$ is not a union of two nonempty separated sets.
+>[!tips] 2.26 Harmonic Function
+>A real-valued function $H(x, y)$ is harmonic if it has continuous partial derivatives of the first and second order and satisfies Laplace's equation: $H_{xx} + H_{yy} = 0$.

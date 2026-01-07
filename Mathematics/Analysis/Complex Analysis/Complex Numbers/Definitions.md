@@ -1,39 +1,27 @@
->[!tips] 2.7 Sequence
->A function $f$ defined on the set $J$ of all positive integers. If $f(n) = x_n$, for $n \in J$, it is denoted by $\{x_n\}$.
+>[!tips] 1.2 Complex Number
+>A complex number $z$ is an ordered pair $(x, y)$ of real numbers. $x$ is the real part, $Re(z)$, and $y$ is the imaginary part, $Im(z)$.
+>Sum: $z_1 + z_2 = (x_1+x_2, y_1+y_2)$.
+>Product: $z_1 z_2 = (x_1 x_2 - y_1 y_2, y_1 x_2 + x_1 y_2)$.
+>Algebraic form: $z = x + iy$, where $i = (0, 1)$ and $i^2 = -1$.
 
->[!tips] 2.15 Metric Space
->A set $X$ is said to be a metric space if with any two points $p$ and $q$ of $X$ there is associated a real number $d(p, q)$, called the distance from $p$ to $q$, such that:
->(a) $d(p, q) > 0$ if $p \ne q$; $d(p, p) = 0$;
->(b) $d(p, q) = d(q, p)$;
->(c) $d(p, q) \le d(p, r) + d(r, q)$, for any $r \in X$.
+>[!tips] 1.4 Modulus
+>The modulus (or absolute value) of $z = x + iy$ is $|z| = \sqrt{x^2 + y^2}$.
 
->[!tips] 2.17 k-cell, Ball, Convex
->If $a_i < b_i$ for $i=1,...,k$, the set of all points $x = (x_1, ..., x_k)$ in $R^k$ such that $a_i \le x_i \le b_i$ is called a k-cell.
->Open ball $B$ with center $x$ and radius $r > 0$: $\{y \in R^k : |y - x| < r\}$.
->A set $E \subset R^k$ is convex if $\lambda x + (1 - \lambda)y \in E$ whenever $x \in E, y \in E$, and $0 < \lambda < 1$.
+>[!tips] 1.5 Conjugate
+>The complex conjugate of $z = x + iy$ is $\bar{z} = x - iy$.
 
->[!tips] 2.18 Topological Properties
->Let $X$ be a metric space.
->(a) A neighborhood of $p$ is a set $N_r(p) = \{q : d(p, q) < r\}$.
->(b) $p$ is a limit point of $E$ if every neighborhood of $p$ contains a point $q \ne p$ such that $q \in E$.
->(c) If $p \in E$ and $p$ is not a limit point of $E$, then $p$ is an isolated point of $E$.
->(d) $E$ is closed if every limit point of $E$ is a point of $E$.
->(e) $p$ is an interior point of $E$ if there is a neighborhood $N$ of $p$ such that $N \subset E$.
->(f) $E$ is open if every point of $E$ is an interior point of $E$.
->(g) The complement of $E$ (denoted by $E^c$) is the set of all points $p \in X$ such that $p \notin E$.
->(h) $E$ is perfect if $E$ is closed and if every point of $E$ is a limit point of $E$.
->(i) $E$ is bounded if there is a real number $M$ and a point $q \in X$ such that $d(p, q) < M$ for all $p \in E$.
->(j) $E$ is dense in $X$ if every point of $X$ is a limit point of $E$, or a point of $E$ (or both).
+>[!tips] 1.6 Argument
+>The argument of $z \neq 0$, denoted $arg z$, is the set of angles $\theta$ such that $x = |z|\cos \theta$ and $y = |z|\sin \theta$.
+>Principal argument, $Arg z$, is the unique value $\Theta$ such that $-\pi < \Theta \le \pi$.
 
->[!tips] 2.26 Closure
->If $E \subset X$, the closure of $E$ is the set $\bar{E} = E \cup E'$, where $E'$ is the set of all limit points of $E$.
+>[!tips] 1.7 Roots of Unity
+>The $n$th roots of unity are the solutions to $z^n = 1$. They are given by $\omega_k = \exp(i \frac{2k\pi}{n})$ for $k = 0, 1, ..., n-1$.
 
->[!tips] 2.31 Open Cover
->By an open cover of a set $E$ in a metric space $X$ we mean a collection $\{G_\alpha\}$ of open subsets of $X$ such that $E \subset \bigcup_\alpha G_\alpha$.
-
->[!tips] 2.32 Compact
->A subset $K$ of a metric space $X$ is said to be compact if every open cover of $K$ contains a finite subcover.
-
->[!tips] 2.45 Separated, Connected
->Two subsets $A$ and $B$ of a metric space $X$ are said to be separated if both $A \cap \bar{B}$ and $\bar{A} \cap B$ are empty.
->A set $E \subset X$ is said to be connected if $E$ is not a union of two nonempty separated sets.
+>[!tips] 1.11 Region
+>A set $S$ is:
+>- **Open**: If every point has a neighborhood entirely in $S$.
+>- **Closed**: If it contains all its boundary points.
+>- **Connected**: If any two points can be joined by a polygonal line in $S$.
+>- **Domain**: An open connected set.
+>- **Region**: A domain together with some, none, or all of its boundary points.
+>- **Bounded**: If it can be enclosed in a circle.
