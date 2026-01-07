@@ -1,14 +1,11 @@
->[!tips] Theorem 15.1 Heawood Map Colouring Theorem
->The chromatic number of a surface $S$ with Euler characteristic $\chi < 2$ is given by:
->$$\chi(S) = \lfloor \frac{7 + \sqrt{49 - 24\chi}}{2} \rfloor$$
->For the torus ($\chi=0$), this gives $\chi(Torus) = 7$.
+>[!tips] Theorem 8.1.1 Neyman-Pearson Lemma
+>To test simple $H_0: \theta = \theta_0$ vs simple $H_1: \theta = \theta_1$, the Most Powerful test rejects $H_0$ when:
+>$$\frac{L(\theta_1)}{L(\theta_0)} \ge k$$
+>for some constant $k$ determined by the significance level $\alpha$.
 
->[!tips] Theorem 15.2 Map Colouring of the Torus
->Every map on the torus can be coloured with 7 colours. (Heawood).
+>[!tips] Theorem 8.2.1 Karlin-Rubin Theorem
+>If the family of distributions has a Monotone Likelihood Ratio (MLR) in sufficient statistic $Y$, then the UMP test of size $\alpha$ for $H_0: \theta \le \theta_0$ vs $H_1: \theta > \theta_0$ rejects $H_0$ if $Y \ge c$.
 
->[!tips] Theorem 15.12 Hadwiger's Conjecture (Cases)
->Known to be true for $k \le 6$. (Robertson, Seymour, Thomas proved $k=6$).
->Open for $k \ge 7$.
-
->[!tips] Theorem 15.13 Duchet-Meyniel
->Every simple graph $G$ with $m \ge 2^{k-3}n$ has a $K_k$-minor.
+>[!tips] Theorem 8.3.1 Asymptotic Distribution of LRT
+>Under regularity conditions, if $H_0$ puts $r$ constraints on the parameter space, then as $n \to \infty$:
+>$$-2 \log \Lambda \xrightarrow{D} \chi^2(r)$$
