@@ -95,14 +95,12 @@
             "id": "e28aaf9543b9ca43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Mathematics/Algebra/Linear Algebra/Polynomials/Definitions.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathematics/Algebra/Abstract Algebra/assets/Pasted image 20250930131038.png"
               },
-              "icon": "lucide-file",
-              "title": "Definitions"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250930131038"
             }
           }
         ],
@@ -250,8 +248,16 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "e28aaf9543b9ca43",
+  "active": "8f9f612ed2f0c6e1",
   "lastOpenFiles": [
+    "Mathematics/Algebra/Abstract Algebra/Equivalence, Congruents, Divisibility.md",
+    "Mathematics/Algebra/Abstract Algebra/assets/Pasted image 20250930131038.png",
+    "Mathematics/Algebra/Abstract Algebra/Mappings and Operations.md",
+    "Mathematics/Algebra/Abstract Algebra/Eigenvalue and Eigenvectors 1/Theorems.md",
+    "Mathematics/Algebra/Abstract Algebra/Eigenvalue and Eigenvectors 1/Problems.md",
+    "Mathematics/Algebra/Abstract Algebra/Eigenvalue and Eigenvectors 1/Definitions.md",
+    "Mathematics/Algebra/Abstract Algebra/Eigenvalue and Eigenvectors 1",
+    "Mathematics/Algebra/Linear Algebra/Polynomials/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Polynomials/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Problems.md",
@@ -274,23 +280,15 @@
     "Mathematics/Algebra/Linear Algebra/Inner Product Spaces/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Inner Product Spaces",
     "Mathematics/Algebra/Linear Algebra/Polynomials/Theorems.md",
-    "Mathematics/Algebra/Linear Algebra/Polynomials/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces/Definitions.md",
-    "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Theorems.md",
-    "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Problems.md",
-    "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Definitions.md",
-    "Mathematics/Algebra/Linear Algebra/Linear Maps/Theorems.md",
-    "Mathematics/Algebra/Linear Algebra/Linear Maps/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Eigenvalue and Eigenvectors",
     "Mathematics/Algebra/Linear Algebra/Polynomials",
     "Mathematics/Algebra/Linear Algebra/Linear Maps",
     "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces",
-    "Mathematics/Combinatorics/Graph Theory/Planar Graph",
     "Others/Pasted image 20251011134051.png",
     "Others/assets/Pasted image 20251005191534.png",
-    "Mathematics/Algebra/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "JLPT/assets/8EA083D7-509D-4B40-98AF-7E86BE4FDA21.jpg",
     "JLPT/assets/Pasted image 20250922185721.png",
     "JLPT/assets/18ABDDD8-F8D0-40CC-9B1A-47C5A6F939DC.jpg",
