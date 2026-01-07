@@ -1,47 +1,30 @@
->[!tips] 2.5 span is the smallest containing subspace
->The span of a list of vectors in $V$ is the smallest subspace of $V$ containing all the vectors in the list.
+>[!tips] Theorem 7.9 Uniform Convergence and Continuity
+>If $\{f_n\}$ converges uniformly to $f$ on $E$ and each $f_n$ is continuous, then $f$ is continuous.
 
->[!tips] 2.12 $\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$
->$\mathcal{P}(\mathbf{F})$ is a subspace of $\mathbf{F}^\mathbf{F}$.
+>[!tips] Theorem 7.10 Weierstrass M-Test
+>If $|f_n(x)| \le M_n$ for $x \in E$ and $\sum M_n$ converges, then $\sum f_n$ converges uniformly on $E$.
 
->[!tips] 2.20 Linear Dependence Lemma
->Suppose $v_1, \dots, v_m$ is a linearly dependent list in $V$. Then there exists $j \in \{1, \dots, m\}$ such that:
->1. $v_j \in \text{span}(v_1, \dots, v_{j-1})$;
->2. if the $j^{\text{th}}$ term is removed from $v_1, \dots, v_m$, the span of the remaining list equals $\text{span}(v_1, \dots, v_m)$.
+>[!tips] Theorem 7.17 Uniform Convergence and Differentiation
+>If $\{f_n\}$ is differentiable, $\{f_n(x_0)\}$ converges, and $\{f_n'\}$ converges uniformly, then $\{f_n\}$ converges uniformly to $f$, and $f'(x) = \lim f_n'(x)$.
 
->[!tips] 2.22 length of linearly independent list $\le$ length of spanning list
->In a finite-dimensional vector space, the length of every linearly independent list of vectors is less than or equal to the length of every spanning list of vectors.
+>[!tips] Theorem 7.25 Arzela-Ascoli Theorem
+>If $K$ is compact, and $\{f_n\}$ is a sequence of pointwise bounded, equicontinuous functions on $K$, then $\{f_n\}$ contains a uniformly convergent subsequence.
 
->[!tips] 2.23 finite-dimensional subspaces
->Every subspace of a finite-dimensional vector space is finite-dimensional.
+>[!tips] Theorem 7.26 Stone-Weierstrass Theorem
+>If $f$ is a continuous complex function on $[a, b]$, there exists a sequence of polynomials $P_n$ converging uniformly to $f$ on $[a, b]$.
+>Generalized: If $\mathscr{A}$ is a closed subalgebra of $C(K)$ that separates points and vanishes at no point, then $\mathscr{A} = C(K)$.
 
->[!tips] 2.27 criterion for basis
->A list $v_1, \dots, v_n$ of vectors in $V$ is a basis of $V$ if and only if every $v \in V$ can be written uniquely in the form
->$$v = a_1v_1 + \dots + a_nv_n$$
->where $a_1, \dots, a_n \in \mathbf{F}$.
+>[!tips] Theorem 8.1 Series Arithmetic
+>Power series can be added, multiplied, and composed within their radii of convergence.
 
->[!tips] 2.28 spanning list contains a basis
->Every spanning list in a vector space can be reduced to a basis of the vector space.
+>[!tips] Theorem 8.7 Properties of $E(z)$
+>$E(z)E(w) = E(z+w)$, $E'(z) = E(z)$, $E(x) > 0$ for real $x$.
 
->[!tips] 2.29 basis of finite-dimensional vector space
->Every finite-dimensional vector space has a basis.
+>[!tips] Theorem 8.8 Algebraic Completeness of $\mathbb{C}$
+>Every nonconstant polynomial over $\mathbb{C}$ has a root in $\mathbb{C}$.
 
->[!tips] 2.31 linearly independent list extends to a basis
->Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space.
+>[!tips] Theorem 8.14 Parseval's Theorem
+>If $f \in \mathscr{R}$ and periodic, $\frac{1}{2\pi} \int_{-\pi}^\pi |f(x)|^2 dx = \sum |c_n|^2$.
 
->[!tips] 2.32 subspaces
->Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$. Then $\dim U \le \dim V$.
-
->[!tips] 2.35 basis length does not depend on basis
->Any two bases of a finite-dimensional vector space have the same length.
-
->[!tips] 2.36 dimension of a subspace
->If $V$ is finite-dimensional and $U$ is a subspace of $V$, then $\dim U \le \dim V$.
-
->[!tips] 2.38 dimension of a direct sum
->If $U_1, \dots, U_m$ are finite-dimensional subspaces of $V$ such that $V = U_1 \oplus \dots \oplus U_m$, then
->$$\dim V = \dim U_1 + \dots + \dim U_m$$
-
->[!tips] 2.39 dimension of a sum
->If $U_1$ and $U_2$ are subspaces of a finite-dimensional vector space, then
->$$\dim(U_1 + U_2) = \dim U_1 + \dim U_2 - \dim(U_1 \cap U_2)$$
+>[!tips] Theorem 8.18 Properties of Gamma
+>$\Gamma(x+1) = x\Gamma(x)$, $\Gamma(n+1) = n!$, $\log \Gamma$ is convex.
