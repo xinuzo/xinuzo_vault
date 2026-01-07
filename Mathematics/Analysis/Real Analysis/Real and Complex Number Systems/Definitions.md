@@ -1,3 +1,5 @@
+Based on **Principles of Analysis** by **Walter Rudin**
+
 >[!tips] 1.5 Order
 >Let $S$ be a set. An order on $S$ is a relation, denoted by $<$, with the following two properties:
 >(i) If $x \in S$ and $y \in S$ then one and only one of the statements $x < y$, $x = y$, $y < x$ is true.
