@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Theorems.md",
+                "file": "Mathematics/Algebra/Linear Algebra/Polynomials/Definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Theorems"
+              "title": "Definitions"
             }
           }
         ],
@@ -252,6 +252,10 @@
   },
   "active": "e28aaf9543b9ca43",
   "lastOpenFiles": [
+    "Mathematics/Algebra/Linear Algebra/Polynomials/Problems.md",
+    "Mathematics/Algebra/Linear Algebra/Problems.md",
+    "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Problems.md",
+    "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Operators on Complex Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Operators on Complex Vector Spaces/Definitions.md",
@@ -263,8 +267,6 @@
     "Mathematics/Algebra/Linear Algebra/Eigenvalue and Eigenvectors/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Eigenvalue and Eigenvectors/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Eigenvalue and Eigenvectors/Problems.md",
-    "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Theorems.md",
-    "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Multilinear Algebra and Determinants",
     "Mathematics/Algebra/Linear Algebra/Operators on Complex Vector Spaces/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Operators on Complex Vector Spaces",
@@ -275,13 +277,11 @@
     "Mathematics/Algebra/Linear Algebra/Polynomials/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Vector Spaces/Definitions.md",
-    "Mathematics/Algebra/Linear Algebra/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Problems.md",
     "Mathematics/Algebra/Linear Algebra/Finite Dimensional Vector Spaces/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Linear Maps/Theorems.md",
     "Mathematics/Algebra/Linear Algebra/Linear Maps/Problems.md",
-    "Mathematics/Algebra/Linear Algebra/Linear Maps/Definitions.md",
     "Mathematics/Algebra/Linear Algebra/Eigenvalue and Eigenvectors",
     "Mathematics/Algebra/Linear Algebra/Polynomials",
     "Mathematics/Algebra/Linear Algebra/Linear Maps",
