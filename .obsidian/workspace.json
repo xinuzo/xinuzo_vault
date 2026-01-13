@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Applied Math/Statistics/Probability and Statistics/Inferences about Normal Linear Models/Definitions.md",
+                "file": "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitions"
+              "title": "Theorems"
             }
           }
         ]
@@ -165,10 +165,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
-    "Mathematics/Applied Math/Statistics/Probability and Statistics/Inferences about Normal Linear Models/Definitions.md",
+    "Mathematics/Algebra and NT/Abstract Algebra/Groups/Theorems.md",
+    "Mathematics/Algebra and NT/Abstract Algebra/Groups/Definitions.md",
     "Untitled.md",
+    "Mathematics/Applied Math/Statistics/Probability and Statistics/Inferences about Normal Linear Models/Definitions.md",
     "Mathematics/Applied Math/Statistics/Probability and Statistics/Multivariate Distributions/Definitions.md",
     "Mathematics/Applied Math/Statistics/Probability and Statistics/Multivariate Distributions/Theorems.md",
     "Mathematics/Applied Math/Statistics/Probability and Statistics/Some Special Distributions/Definitions.md",
@@ -195,9 +197,7 @@
     "Mathematics/Geometry/Algebraic Geometry/Surfaces",
     "Mathematics/Geometry/Algebraic Geometry/Curves/Theorems.md",
     "Mathematics/Geometry/Algebraic Geometry/Curves/Problems.md",
-    "Mathematics/Geometry/Algebraic Geometry/Curves/Definitions.md",
     "Mathematics/Geometry/Algebraic Geometry/Curves",
-    "Mathematics/Geometry/Algebraic Geometry/Schemes/Theorems.md",
     "Mathematics/Geometry/Algebraic Geometry/Schemes",
     "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Mathematics/Geometry/Algebraic Geometry/Varieties",
