@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quotes and Reading Notes/Beyond Infinity/Notes.md",
+                "file": "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Problems"
             }
           }
         ]
@@ -165,11 +165,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
+    "Quotes and Reading Notes/Beyond Infinity/Notes.md",
     "Mathematics/Combinatorics/Game Theory",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Problems.md",
-    "Quotes and Reading Notes/Beyond Infinity/Notes.md",
     "Quotes and Reading Notes/Beyond Infinity",
     "Quotes and Reading Notes/How to Bake Pi",
     "Quotes and Reading Notes/Joy of Abstraction",
@@ -202,7 +202,6 @@
     "Mathematics/Geometry/Algebraic Geometry/Cohomology",
     "Mathematics/Geometry/Algebraic Geometry/Surfaces",
     "Mathematics/Geometry/Algebraic Geometry/Curves",
-    "Mathematics/Geometry/Algebraic Geometry/Schemes",
     "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Untitled.canvas",
     "Others/Pasted image 20251011134051.png",
