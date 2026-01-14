@@ -62,15 +62,16 @@ In both cases ($p \neq 5$), we found that $Q^k \equiv I \pmod p$ where $k$ divid
 >$$
 >Since $p \mid F_{p^2-1}$, then **$p \mid F_{2p(p^2-1)}$**.
 
+>[!question] Problem 1C Napkin
+>Show that $D_{6} \cong S_{3}$, but $D_{24} \ncong S_{4}$.
+
+>[!success]- Solution
+>It is easy to see that $D_{6} \cong S_{3}$ by associating each transformation of the identity element in $D_{6}$ as permutation function in $S_{3}$. Since $D_{6}$ contains all 6 permutations of 3 objects, it is then congruent to $S_{3}$
+>
+>To prove that $D_{24} \ncong S_{4}$, notice that the order of elements in $D_{24}$ is
+
 >[!question] Problem 1B Napkin
 >Prove Lagrange’s theorem for orders in the special case that $G$ is a finite abelian group.
 
 >[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
-
->[!question] Problem 1B Napkin
->Prove Lagrange’s theorem for orders in the special case that $G$ is a finite abelian group.
-
->[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
-
+>$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $
