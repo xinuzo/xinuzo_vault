@@ -37,3 +37,7 @@
 >[!tips] 2.45 Separated, Connected
 >Two subsets $A$ and $B$ of a metric space $X$ are said to be separated if both $A \cap \bar{B}$ and $\bar{A} \cap B$ are empty.
 >A set $E \subset X$ is said to be connected if $E$ is not a union of two nonempty separated sets.
+
+>[!tips] Definition 2.4.1 Homeomorphism
+>Let $M$ and $N$ be metric spaces. A function $f : M → N$ is a homeomorphism if it is a bijection, and both $f : M → N$ and its inverse $f^{-1} : N → M$ are continuous. We say $M$ and $N$ are homeomorphic.
+
