@@ -17,16 +17,16 @@
 is itself a continuous function (where $M \times M$ is equipped with the product metric).
 
 >[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
+>Consider $|d(x_{n},y_{n})-d(x,y)|\leq |d(x_{n},x)+d(y_{n},y)|$. We then have $d(x_{n},y_{n})=d(x,y)$ when $x_{n} \to x$ and $y_{n}\to y$
 
 >[!question] Problem 2B Napkin
 >Consider $Q$ and $N$ as metric spaces (each with the obvious metric $d(x, y) = |x − y|$). Are these spaces homeomorphic?
 
 >[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
+>no, coz homeomorphism $\mathbb{Q} \to \mathbb{N}$ is impossible. 
 
 >[!question] Problem 2E Napkin
->Prove that a function $f : R → R$ which is strictly increasing must be continuous at some point
+>Prove that a function $f : \mathbb{R} → \mathbb{R}$ which is strictly increasing must be continuous at some point
 
 >[!success]- Solution
 >$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
@@ -35,4 +35,9 @@ is itself a continuous function (where $M \times M$ is equipped with the product
 >Continuity of arithmetic continued). Show that subtraction is a continuous map $−: \mathbb{R} × \mathbb{R} → \mathbb{R}$, and division is a continuous map $÷: \mathbb{R} × \mathbb{R}_{>0} → \mathbb{R}$.
 
 >[!success]- Solution
->well
+>**1. Subtraction:** Let $(x_n, y_n) \to (x, y)$. 
+>$$ >|(x_n - y_n) - (x - y)| = |(x_n - x) - (y_n - y)| \le |x_n - x| + |y_n - y| >$$ Since $|x_n - x| \to 0$ and $|y_n - y| \to 0$, the limit is 0. 
+>**2. Division:** Let $(x_n, y_n) \to (x, y)$ with $y \neq 0$. 
+>$$ \left| \frac{x_n}{y_n} - \frac{x}{y} \right| = \left| \frac{x_n y - x y_n}{y_n y} \right| = \left| \frac{y(x_n - x) - x(y_n - y)}{y_n y} \right| $$ 
+>$$ \le \frac{|y||x_n - x| + |x||y_n - y|}{|y_n||y|} $$
+ >Since the numerator $\to 0$ and $|y_n|$ is bounded away from 0, the limit is 0.
