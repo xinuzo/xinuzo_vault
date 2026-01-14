@@ -68,10 +68,32 @@ In both cases ($p \neq 5$), we found that $Q^k \equiv I \pmod p$ where $k$ divid
 >[!success]- Solution
 >It is easy to see that $D_{6} \cong S_{3}$ by associating each transformation of the identity element in $D_{6}$ as permutation function in $S_{3}$. Since $D_{6}$ contains all 6 permutations of 3 objects, it is then congruent to $S_{3}$
 >
->To prove that $D_{24} \ncong S_{4}$, notice that the order of elements in $D_{24}$ is
+>To prove that $D_{24} \ncong S_{4}$, notice that the largest order of elements in $D_{24}$ is 12 but all elements in $S_{4}$ has order at most 4. Therefore, these two groups can't be congruent.
 
->[!question] Problem 1B Napkin
->Prove Lagrange’s theorem for orders in the special case that $G$ is a finite abelian group.
+>[!question] Problem 1D Napkin
+>Let p be a prime. Show that if $G$ is a group of order $p$ then $G \cong \mathbb{Z}/p\mathbb{Z}$
 
 >[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $
+>By Lagrange's Theorem, the order of any element must divide $|G|=p$. Since $p$ is prime, the only possible orders are $1$ or $p$. Since the identity is unique, any element $x \neq 1$ must have order $p$. **Thus, $x$ generates the whole group ($G = \langle x \rangle$).** Since $G$ is a cyclic group of order $p$, it is isomorphic to $\mathbb{Z}/p\mathbb{Z}$.
+
+>[!question] Problem 1E Napkin
+>Find a subgroup $H$ of $S_{8}$ which is isomorphic to $D_{8}$, and write the isomorphism explicitly
+
+>[!success]- Solution
+>Make a copy of square and number it 5678, and the former 1234. All transormations of elements in $D_{8}$ corresponds to a permutation functions of its vertices in $S_{8}$. Therefore, take those elements in $S_{8}$ as a subgroup $H$, by that correspondence, $H \cong D_{8}$
+
+
+>[!question] Problem 1D Napkin
+>Let p be a prime. Show that if $G$ is a group of order $p$ then $G \cong \mathbb{Z}/p\mathbb{Z}$
+
+>[!success]- Solution
+>By Lagrange's Theorem, all elements in G is either of order 1 or p since p is prime and the order for all elements must divide $|G|=p$. Therefore, $G \cong \mathbb{Z} /p\mathbb{Z}$ 
+
+
+>[!question] Problem 1F Napkin
+Let G be a finite group.1 Show that there exists a positive integer n such that (a) (Cayley’s theorem) G is isomorphic to some subgroup of the symmetric group Sn. (b) (Representation Theory) G is isomorphic to some subgroup of the general linear group GLn(R). (This is the group of invertible n × n matrices.)
+
+>[!success]- Solution
+>By Lagrange's Theorem, all elements in G is either of order 1 or p since p is prime and the order for all elements must divide $|G|=p$. Therefore, $G \cong \mathbb{Z} /p\mathbb{Z}$ 
+
+
