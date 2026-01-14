@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Problems.md",
+                "file": "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "Definitions"
             }
           }
         ]
@@ -167,7 +167,15 @@
   },
   "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Real Analysis/Basic Topology/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Basic Topology/Problems.md",
+    "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
+    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Definitions.md",
+    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Theorems.md",
+    "Mathematics/Applied Math/Optimization/Constrained Optimization Problem for Nonlinear Objective Function.md",
+    "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Definitions.md",
+    "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Theorems.md",
+    "Mathematics/Analysis/Real Analysis/Calculus/Others.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Problems.md",
     "Quotes and Reading Notes/Beyond Infinity/Notes.md",
     "Mathematics/Combinatorics/Game Theory",
@@ -177,11 +185,7 @@
     "Quotes and Reading Notes",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Theorems.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Groups/Problems.md",
-    "Mathematics/Analysis/Real Analysis/Basic Topology/Theorems.md",
-    "Mathematics/Analysis/Real Analysis/Lebesgue Theory/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Functions of Several Variables/Definitions.md",
     "Mathematics/Analysis/Real Analysis/Continuity/Definitions.md",
     "Mathematics/Analysis/Real Analysis/Continuity/Problems.md",
@@ -194,9 +198,6 @@
     "Mathematics/Analysis/Complex Analysis/Application of Residues/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Application of Conformal Mapping/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Integrals/Theorems.md",
-    "Mathematics/Analysis/Complex Analysis/Integrals/Definitions.md",
-    "Mathematics/Analysis/Complex Analysis/Integral Formulas of Poisson Type/Definitions.md",
-    "Mathematics/Analysis/Complex Analysis/Elementary Functions/Definitions.md",
     "Mathematics/Geometry/Algebraic Geometry/Surfaces 2",
     "Mathematics/Geometry/Algebraic Geometry/Transcendental Method",
     "Mathematics/Geometry/Algebraic Geometry/Cohomology",
