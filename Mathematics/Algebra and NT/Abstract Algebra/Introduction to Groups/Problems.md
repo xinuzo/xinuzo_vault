@@ -8,9 +8,9 @@
 >Prove Lagrange’s theorem for orders in the special case that $G$ is a finite abelian group.
 
 >[!success]- Solution
->Take any $x \in G$, let $G=\{1,a_{1},a_{2},..,a_{n-1}\}$ so that $|G|=n$ . Consider $xG=\{x,xa_{1},xa_{2},..,xa_{n} \}$, then $xG=$ multiply all the elements inside $xG$ and with the fact that G is abelian, we have
+>Take any $x \in G$, let $G=\{1,a_{1},a_{2},..,a_{n-1}\}$ so that $|G|=n$ . Consider $xG=\{x,xa_{1},xa_{2},..,xa_{n} \}$, then $xG=G$, multiply all the elements inside $xG$ and with the fact that G is abelian, we have
 >$$x^n \cdot 1 \cdot  a_{1} \dots \cdot a_{n-1}= 1 \cdot  a_{1} \dots \cdot a_{n-1} $$
-llet $P= 1 \cdot  a_{1} \dots \cdot a_{n-1}$, therefore $x^n=1$
+let $P= 1 \cdot  a_{1} \dots \cdot a_{n-1}$, therefore $x^n=1$
 
 
 >[!question] Problem 1I Napkin
