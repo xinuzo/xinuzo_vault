@@ -97,3 +97,6 @@ Let G be a finite group.1 Show that there exists a positive integer n such that 
 >By Lagrange's Theorem, all elements in G is either of order 1 or p since p is prime and the order for all elements must divide $|G|=p$. Therefore, $G \cong \mathbb{Z} /p\mathbb{Z}$ 
 
 
+Problem 1G. Find the smallest integer n such that the symmetric group Sn has a subgroup isomorphic to the dihedral group D2018 of order 2018. 
+
+Problem 1H (IMO SL 2005 C5). There are n markers, each with one side white and the other side black. In the beginning, these n markers are aligned in a row so that their white sides are all up. In each step, if possible, we choose a marker whose white side is up (but not one of the outermost markers), remove it, and reverse the closest marker to the left of it and also reverse the closest marker to the right of it. Prove that if n ≡ 1 (mod 3) it’s impossible to reach a state with only two markers remaining. (In fact the converse is true as well.)
