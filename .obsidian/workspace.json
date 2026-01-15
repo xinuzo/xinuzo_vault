@@ -11,14 +11,12 @@
             "id": "f0cdb3fc450c18d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Philosophy/Death.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png"
               },
-              "icon": "lucide-file",
-              "title": "Death"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250930131038"
             }
           }
         ]
@@ -167,8 +165,8 @@
   },
   "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
-    "Social Sciences/Economics/Lec 1 Supply and Demand.md",
     "Philosophy/Death.md",
+    "Social Sciences/Economics/Lec 1 Supply and Demand.md",
     "Philosophy",
     "Social Sciences/Economics/Resources.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals/Definitions.md",
