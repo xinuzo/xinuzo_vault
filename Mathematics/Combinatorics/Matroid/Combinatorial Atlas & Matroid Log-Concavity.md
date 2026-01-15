@@ -1,76 +1,112 @@
-# Combinatorial Atlas & Matroid Log-Concavity
+---
+tags:
+  - math/combinatorics
+  - math/algebra
+  - paper-notes
+  - graph-theory
+source: arXiv:2203.01533v1
+authors: Swee Hong Chan, Igor Pak
+---
 
-**Tags:** #combinatorics #matroids #linear-algebra #log-concavity #spectral-graph-theory
-[cite_start]**Source:** Chan & Pak, "Introduction to the Combinatorial Atlas" [cite: 1]
+# Introduction to the Combinatorial Atlas
+
+> [!abstract] Overview
+> This paper introduces the **Combinatorial Atlas** technology to provide elementary, self-contained proofs for deep results in combinatorics and geometry, specifically the **Strong Mason Conjecture** and the **Alexandrov-Fenchel Inequality**. [cite_start]It also connects these concepts to **Lorentzian Polynomials**[cite: 6, 9].
 
 ---
 
-## 1. Matroid Fundamentals
-[cite_start]A **Matroid** $\mathcal{M} = (X, \mathcal{I})$ consists of a ground set $X$ (size $n$) and a collection of independent sets $\mathcal{I} \subseteq 2^X$ satisfying two properties[cite: 199]:
+## 1. The Combinatorial Atlas Structure
 
-1.  [cite_start]**Hereditary Property:** If $T \in \mathcal{I}$ and $S \subset T$, then $S \in \mathcal{I}$[cite: 200].
-2.  **Exchange Property:** If $S, T \in \mathcal{I}$ and $|S| [cite_start]< |T|$, there exists $x \in T \setminus S$ such that $S \cup \{x\} \in \mathcal{I}$[cite: 201].
+The core object is an acyclic digraph equipped with linear algebraic data. [cite_start]This structure is often derived from the Hasse diagram of a poset[cite: 66].
 
-**Key Definitions:**
-* [cite_start]**Rank:** $rk(\mathcal{M}) := \max_{S \in \mathcal{I}} |S|$[cite: 202].
-* [cite_start]**Independent Set Count:** $I(k)$ denotes the number of independent sets of size $k$[cite: 203].
-
----
-
-## 2. The Log-Concavity Conjectures (Mason's Conjectures)
-The paper addresses the behavior of the sequence $I(k)$. The sequence is "ultra-log-concave," meaning it satisfies specific quadratic inequalities.
-
-### Weak Mason Conjecture (Log-concavity)
-$$I(k)^2 \ge I(k-1)I(k+1)$$
-[cite_start]*Established by Adiprasito, Huh, and Katz[cite: 215].*
-
-### Strong/Ultra Mason Conjecture
-[cite_start]The "Combinatorial Atlas" provides an elementary proof for the **Ultra-log-concavity** of matroids (formerly the Strong Mason Conjecture)[cite: 366]:
-
-$$I(k)^2 \ge \left(1+\frac{1}{k}\right)\left(1+\frac{1}{n-k}\right)I(k-1)I(k+1)$$
-[cite_start]*For $1 \le k < rk(\mathcal{M})$[cite: 369].*
-
----
-
-## 3. The Combinatorial Atlas Framework
-The **Combinatorial Atlas** is a linear-algebraic framework used to prove these inequalities. [cite_start]It generalizes techniques used for Lorentzian polynomials and the Alexandrov-Fenchel inequality[cite: 13, 25].
-
-### Structure
-An atlas $\mathbb{A}$ is an acyclic digraph $\Gamma = (\Omega, \Theta)$ where:
-* [cite_start]**Vertices ($v$):** Associated with a symmetric matrix $M_v$ (nonnegative diagonals) and a vector $h_v \in \mathbb{R}_{\ge 0}^d$[cite: 69].
-* [cite_start]**Edges ($e^{\langle i \rangle}$):** Associated with a linear transformation $T^{\langle i \rangle}: \mathbb{R}^d \to \mathbb{R}^d$[cite: 72].
-
+> [!definition] Definition: Combinatorial Atlas
+> A **Combinatorial Atlas** $\mathbb{A}$ of dimension $d$ consists of an acyclic digraph $\Gamma = (\Omega, \Theta)$ where:
+> 1. **Vertices:** Each vertex $v \in \Omega$ is associated with a pair $(M_v, h_v)$:
+>    - $M_v$: A symmetric $d \times d$ matrix.
+>    - $h_v \in \mathbb{R}_{\ge 0}^d$: A nonnegative vector.
+> 2. **Edges:** Outgoing edges from non-sink vertices are labeled with indices $i \in [d]$.
+> [cite_start]3. **Maps:** Each edge $e^{\langle i \rangle} = (v, v^{\langle i \rangle})$ is associated with a linear transformation $T^{\langle i \rangle}_v: \mathbb{R}^d \to \mathbb{R}^d$ [cite: 68-72].
 
 ### Key Properties
-To prove log-concavity, the Atlas must satisfy specific conditions:
 
-1.  **Hyperbolic Property (Hyp):** A vertex is hyperbolic if its matrix $M$ satisfies the reverse Cauchy-Schwarz inequality on the positive cone:
-    $$\langle v, Mw \rangle^2 \ge \langle v, Mv \rangle \langle w, Mw \rangle$$
-    [cite_start]*Provided $\langle w, Mw \rangle > 0$[cite: 78].*
+For the machinery to work, the atlas must satisfy specific local properties relating a vertex to its neighbors (children) in the graph.
 
-2.  **Inheritance Property (Inh):** Relates a vertex to its children:
-    $$(M_v)_{i} = \langle T^{\langle i \rangle}v, M^{\langle i \rangle} T^{\langle i \rangle} h \rangle$$
-    [cite_start]*For every $i$ in the support[cite: 79].*
+> [!info] Inheritance Property (Inh)
+> For every non-sink vertex $v$, the matrix $M_v$ is determined by its children:
+> $$(M_v)_{i} = \langle T^{\langle i \rangle}v, M^{\langle i \rangle} T^{\langle i \rangle} h \rangle$$
+> [cite_start]for every $i \in \text{supp}(M)$[cite: 79].
 
-3.  **Pullback Property (PullEq):** A relationship ensuring the hyperbolic property propagates upwards from children to parents:
-    $$\sum h_i \langle T^{\langle i \rangle}v, M^{\langle i \rangle} T^{\langle i \rangle} v \rangle = \langle v, Mv \rangle$$
-    [cite_start]*[cite: 86].*
-
-### The Local-Global Principle
-This is the core theorem of the framework.
-> [!THEOREM] Local-Global Principle
-> [cite_start]If an atlas satisfies **Inheritance** and **Pullback**, and if the out-neighbors of a regular vertex $v$ are **Hyperbolic**, then $v$ is also **Hyperbolic** [cite: 99-100].
-
-[cite_start]This allows reducing global inequalities (at the root of the Atlas) to checking simple conditions at the sink vertices[cite: 101].
+> [!info] Pullback Property (Pull)
+> A condition ensuring convexity flows "up" the graph:
+> $$\sum_{i \in \text{supp}(M)} h_i \langle T^{\langle i \rangle} v, M^{\langle i \rangle} T^{\langle i \rangle} v \rangle \ge \langle v, M v \rangle$$
+> [cite_start]Ideally, this is an equality **(PullEq)** in log-concave settings [cite: 80-84].
 
 ---
 
-## 4. Application to Matroids
-To apply this to Matroids, the paper constructs a specific Atlas where:
-* [cite_start]**Vertices** represent "feasible words" (ordered independent sets)[cite: 220, 238].
-* [cite_start]**Matrices ($M_v$)** encode counts of continuations of these words [cite: 262-264].
-* [cite_start]The **Hyperbolicity** of the root vertex implies the Ultra-log-concavity inequality for the matroid[cite: 362].
+## 2. The Engine: Local-Global Principle
 
-### Connection to Other Concepts
-* [cite_start]**Lorentzian Polynomials:** The theory of Lorentzian polynomials is a special case of the Combinatorial Atlas[cite: 25].
-* [cite_start]**Alexandrov-Fenchel Inequality:** The Atlas framework also yields a self-contained proof of this classical geometric inequality regarding mixed volumes[cite: 34, 542].
+This is the main theorem allowing us to prove hard global inequalities by checking simple local conditions (usually at the "sink" vertices of the graph).
+
+> [!theorem] Theorem 3.4: Local-Global Principle
+> Let $\mathbb{A}$ be a combinatorial atlas satisfying **(Inh)** and **(Pull)**. Let $v$ be a non-sink regular vertex.
+> 
+> [cite_start]**If** every out-neighbor of $v$ is hyperbolic, **Then** $v$ is also hyperbolic [cite: 99-100].
+
+### What is Hyperbolicity?
+A matrix $M$ is **hyperbolic** (satisfies **Hyp**) if:
+$$\langle v, Mw \rangle^2 \ge \langle v, Mv \rangle \langle w, Mw \rangle$$
+for every $v, w \in \mathbb{R}^d$ such that $\langle w, Mw \rangle > 0$. [cite_start]This is equivalent to the **Hodge-Riemann Relations** or the matrix having **at most one positive eigenvalue** (OPE)[cite: 78, 110].
+
+---
+
+## 3. Application I: Matroids (Strong Mason Conjecture)
+
+The authors use the atlas to prove the **Ultra-log-concavity** of the number of independent sets in a matroid.
+
+> [!example] Setup for Matroids
+> - Let $\mathcal{M} = (X, \mathcal{I})$ be a matroid with $|X|=n$.
+> - Let $I(k)$ be the number of independent sets of size $k$.
+> [cite_start]- The Atlas is built using feasible words in the matroid (similar to a greedoid structure) [cite: 236-238].
+
+> [!success] Theorem 4.8 (Strong Mason Conjecture)
+> For a matroid $\mathcal{M}$ and integer $1 \le k < \text{rk}(\mathcal{M})$:
+> $$I(k)^2 \ge \left(1 + \frac{1}{k}\right) \left(1 + \frac{1}{n-k}\right) I(k-1) I(k+1)$$
+> [cite_start][cite: 366-369].
+
+This improves upon the "Weak" Mason conjecture ($I(k)^2 \ge I(k-1)I(k+1)$) and the standard log-concavity results.
+
+---
+
+## 4. Application II: Geometry (Alexandrov-Fenchel)
+
+The atlas provides an elementary proof of this deep geometric inequality for mixed volumes of convex bodies.
+
+> [!theorem] Theorem 6.2: Alexandrov-Fenchel Inequality
+> For convex bodies $A, B, K_1, \dots, K_{n-2} \subset \mathbb{R}^n$:
+> $$V(A, B, \mathbf{K})^2 \ge V(A, A, \mathbf{K}) \cdot V(B, B, \mathbf{K})$$
+> [cite_start]where $\mathbf{K} = (K_1, \dots, K_{n-2})$ represents the sequence of other bodies [cite: 540-542].
+
+**Proof Strategy:**
+1. [cite_start]Construct an atlas where vertices represent mixed volume matrices of polytopes[cite: 691].
+2. [cite_start]Verify properties (Inh) and (PullEq) using geometric identities[cite: 710, 727].
+3. Apply the Local-Global principle.
+
+---
+
+## 5. Connection to Lorentzian Polynomials
+
+> [!note] Lorentzian Polynomials
+> The paper shows that **Lorentzian Polynomials** (introduced by Brändén-Huh) are a special case of the Combinatorial Atlas. 
+> 
+> [cite_start]For every Lorentzian polynomial $f$, one can construct an atlas $\mathbb{A}$ such that the hyperbolicity of the atlas corresponds to the Hessian of $f$ having the correct signature[cite: 25, 469].
+
+---
+
+## Summary of Techniques
+
+| Concept | Matroid Application | Geometric Application |
+| :--- | :--- | :--- |
+| **Vertices $\Omega$** | Feasible words $\alpha \in X^*$ | Subspaces/Projections |
+| **Matrix $M_v$** | Counts of continuations of words | Mixed volume matrices |
+| **Goal** | Bound $I(k)$ (Independent sets) | Bound $V(\cdot)$ (Mixed Volumes) |
+| **Result** | Strong Mason Conjecture | Alexandrov-Fenchel |
