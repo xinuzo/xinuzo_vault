@@ -29,7 +29,29 @@ is itself a continuous function (where $M \times M$ is equipped with the product
 >Prove that a function $f : \mathbb{R} → \mathbb{R}$ which is strictly increasing must be continuous at some point
 
 >[!success]- Solution
->$$ f(x) = \begin{cases} x & \text{if } x \in \mathbb{R}\\ 0 & \text{if } x \not\in \mathbb{R}\end{cases} $$
+>**1. Characterize the Discontinuities**
+>Since $f$ is strictly increasing, for any $x \in \mathbb{R}$, the left and right limits exist:
+>$$ f(x^-) = \sup_{t < x} f(t) \quad \text{and} \quad f(x^+) = \inf_{t > x} f(t) $$
+>And we always have $f(x^-) \le f(x) \le f(x^+)$.
+>A discontinuity occurs strictly when there is a "jump," i.e., $f(x^-) < f(x^+)$.
+>
+>**2. Associate Jumps with Intervals**
+>For every point of discontinuity $x$, define the open interval:
+>$$ J_x = (f(x^-), f(x^+)) $$
+>This interval represents the "vertical gap" skipped by the function at $x$.
+>
+>**3. Disjointness**
+>If $x_1 < x_2$, then $f(x_1^+) \le f(x_2^-)$ because $f$ is increasing.
+>Therefore, the intervals $J_{x_1}$ and $J_{x_2}$ are disjoint (they do not overlap).
+>
+>**4. Counting the Jumps**
+>Every non-empty open interval of real numbers must contain a rational number (since $\mathbb{Q}$ is dense in $\mathbb{R}$).
+>For each discontinuity $x$, pick one rational number $q_x \in J_x$.
+>Since all intervals $J_x$ are disjoint, all chosen $q_x$ must be distinct.
+>
+>**5. Conclusion**
+>This defines a one-to-one mapping from the set of discontinuities to a subset of $\mathbb{Q}$. Since $\mathbb{Q}$ is countable, the set of discontinuities must be countable.
+>Since $\mathbb{R}$ is uncountable, $f$ must be continuous at all points in $\mathbb{R}$ except for a countable set. $\square$
 
 >[!question] Problem 2C
 >Continuity of arithmetic continued). Show that subtraction is a continuous map $−: \mathbb{R} × \mathbb{R} → \mathbb{R}$, and division is a continuous map $÷: \mathbb{R} × \mathbb{R}_{>0} → \mathbb{R}$.
@@ -41,3 +63,4 @@ is itself a continuous function (where $M \times M$ is equipped with the product
 >$$ \left| \frac{x_n}{y_n} - \frac{x}{y} \right| = \left| \frac{x_n y - x y_n}{y_n y} \right| = \left| \frac{y(x_n - x) - x(y_n - y)}{y_n y} \right| $$ 
 >$$ \le \frac{|y||x_n - x| + |x||y_n - y|}{|y_n||y|} $$
  >Since the numerator $\to 0$ and $|y_n|$ is bounded away from 0, the limit is 0.
+ 
