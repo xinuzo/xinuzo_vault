@@ -54,7 +54,7 @@ is itself a continuous function (where $M \times M$ is equipped with the product
 >Since $\mathbb{R}$ is uncountable, $f$ must be continuous at all points in $\mathbb{R}$ except for a countable set. $\square$
 
 >[!question] Problem 2C
->Continuity of arithmetic continued). Show that subtraction is a continuous map $−: \mathbb{R} × \mathbb{R} → \mathbb{R}$, and division is a continuous map $÷: \mathbb{R} × \mathbb{R}_{>0} → \mathbb{R}$.
+>(Continuity of arithmetic continued). Show that subtraction is a continuous map $−: \mathbb{R} × \mathbb{R} → \mathbb{R}$, and division is a continuous map $÷: \mathbb{R} × \mathbb{R}_{>0} → \mathbb{R}$.
 
 >[!success]- Solution
 >**1. Subtraction:** Let $(x_n, y_n) \to (x, y)$. 
