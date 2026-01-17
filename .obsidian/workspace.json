@@ -11,12 +11,14 @@
             "id": "f0cdb3fc450c18d1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png"
+                "file": "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250930131038"
+              "icon": "lucide-file",
+              "title": "Definitions"
             }
           }
         ]
@@ -165,6 +167,7 @@
   },
   "active": "f0cdb3fc450c18d1",
   "lastOpenFiles": [
+    "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Philosophy/Death.md",
     "Social Sciences/Economics/Lec 1 Supply and Demand.md",
     "Philosophy",
@@ -198,10 +201,8 @@
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Definitions.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Groups/Problems.md",
     "Mathematics/Analysis/Real Analysis/Functions of Several Variables/Definitions.md",
-    "Mathematics/Analysis/Real Analysis/Continuity/Definitions.md",
     "Mathematics/Geometry/Algebraic Geometry/Surfaces 2",
     "Mathematics/Geometry/Algebraic Geometry/Transcendental Method",
-    "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Untitled.canvas",
     "Others/Pasted image 20251011134051.png",
     "Others/assets/Pasted image 20251005191534.png",
