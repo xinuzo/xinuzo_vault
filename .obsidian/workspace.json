@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and NT/Algebraic NT/Part I/2 Completions/Definitions.md",
+                "file": "Social Sciences/Economics/Resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitions"
+              "title": "Resources"
             }
           }
         ],
@@ -180,14 +180,15 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "76461a788dfb5b52",
   "lastOpenFiles": [
+    "Social Sciences/Economics/Lec 1 Supply and Demand.md",
+    "Mathematics/Algebra and NT/Algebraic NT/Part I/2 Completions/Definitions.md",
     "Mathematics/Applied Math/Statistics/Stochastic Calculus",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/2 Completions/Theorems.md",
     "Mathematics/Analysis/Real Analysis/Basic Topology/Definitions.md",
     "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Philosophy/Death.md",
-    "Social Sciences/Economics/Lec 1 Supply and Demand.md",
     "Philosophy",
     "Social Sciences/Economics/Resources.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals/Definitions.md",
@@ -218,7 +219,6 @@
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Definitions.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Groups/Problems.md",
     "Mathematics/Geometry/Algebraic Geometry/Surfaces 2",
-    "Mathematics/Geometry/Algebraic Geometry/Transcendental Method",
     "Untitled.canvas",
     "Others/Pasted image 20251011134051.png",
     "Others/assets/Pasted image 20251005191534.png",
