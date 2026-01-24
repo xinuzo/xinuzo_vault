@@ -11,13 +11,13 @@ authors: Swee Hong Chan, Igor Pak
 # Introduction to the Combinatorial Atlas
 
 > [!abstract] Overview
-> This paper introduces the **Combinatorial Atlas** technology to provide elementary, self-contained proofs for deep results in combinatorics and geometry, specifically the **Strong Mason Conjecture** and the **Alexandrov-Fenchel Inequality**. [cite_start]It also connects these concepts to **Lorentzian Polynomials**[cite: 6, 9].
+> This paper introduces the **Combinatorial Atlas** technology to provide elementary, self-contained proofs for deep results in combinatorics and geometry, specifically the **Strong Mason Conjecture** and the **Alexandrov-Fenchel Inequality**. It also connects these concepts to **Lorentzian Polynomials**.
 
 ---
 
-## 1. The Combinatorial Atlas Structure
+## Combinatorial Atlas Structure
 
-The core object is an acyclic digraph equipped with linear algebraic data. [cite_start]This structure is often derived from the Hasse diagram of a poset[cite: 66].
+The core object is an acyclic digraph equipped with linear algebraic data. This structure is derived from the Hasse diagram of a poset.
 
 > [!definition] Definition: Combinatorial Atlas
 > A **Combinatorial Atlas** $\mathbb{A}$ of dimension $d$ consists of an acyclic digraph $\Gamma = (\Omega, \Theta)$ where:

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Social Sciences/Economics/Resources.md",
+                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "Combinatorial Atlas & Matroid Log-Concavity"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Social Sciences/Economics/Resources.md",
+                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Resources"
+              "title": "Backlinks for Combinatorial Atlas & Matroid Log-Concavity"
             }
           },
           {
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,6 +182,7 @@
   },
   "active": "76461a788dfb5b52",
   "lastOpenFiles": [
+    "Social Sciences/Economics/Resources.md",
     "Social Sciences/Economics/Lec 1 Supply and Demand.md",
     "Mathematics/Algebra and NT/Algebraic NT/Part I/2 Completions/Definitions.md",
     "Mathematics/Applied Math/Statistics/Stochastic Calculus",
@@ -189,7 +191,6 @@
     "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Philosophy/Death.md",
     "Philosophy",
-    "Social Sciences/Economics/Resources.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals/Definitions.md",
     "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
     "Mathematics/Analysis/Real Analysis/Basic Topology/Problems.md",
