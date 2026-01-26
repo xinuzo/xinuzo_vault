@@ -25,7 +25,7 @@ The core object is an acyclic digraph equipped with linear algebraic data. This 
 >    - $M_v$: A symmetric $d \times d$ matrix.
 >    - $h_v \in \mathbb{R}_{\ge 0}^d$: A nonnegative vector.
 > 2. **Edges:** Outgoing edges from non-sink vertices are labeled with indices $i \in [d]$.
-> [cite_start]3. **Maps:** Each edge $e^{\langle i \rangle} = (v, v^{\langle i \rangle})$ is associated with a linear transformation $T^{\langle i \rangle}_v: \mathbb{R}^d \to \mathbb{R}^d$ [cite: 68-72].
+> 3. **Maps:** Each edge $e^{\langle i \rangle} = (v, v^{\langle i \rangle})$ is associated with a linear transformation $T^{\langle i \rangle}_v: \mathbb{R}^d \to \mathbb{R}^d$ .
 
 ### Key Properties
 
