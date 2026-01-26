@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Rings/Problems.md",
+                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems"
+              "title": "Combinatorial Atlas & Matroid Log-Concavity"
             }
           }
         ],
@@ -182,10 +182,10 @@
   },
   "active": "76461a788dfb5b52",
   "lastOpenFiles": [
+    "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Rings/Problems.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Rings/Theorems.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Rings/Definitions.md",
     "Mathematics/Geometry/Problems.md",
-    "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Rings/Problems.md",
     "Mathematics/Geometry/Problems",
     "Mathematics/Algebra and NT/Linear Algebra/Finite Dimensional Vector Spaces/Problems.md",
     "Mathematics/Algebra and NT/Linear Algebra/Finite Dimensional Vector Spaces/Theorems.md",
