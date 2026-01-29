@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Applied Math/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
+                "file": "Philosophy/Death.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Normal Distribution"
+              "title": "Death"
             }
           }
         ],
@@ -182,6 +182,7 @@
   },
   "active": "76461a788dfb5b52",
   "lastOpenFiles": [
+    "Mathematics/Applied Math/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
     "Philosophy/Death.md",
     "Mathematics/Applied Math/Finance/FM MIT 2024/PSET 2 FM MIT.md",
     "Mathematics/Applied Math/Finance/FM MIT 2024/PSET 3 FM MIT.md",
@@ -213,7 +214,6 @@
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals/Theorems.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals/Problems.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Rings and Ideals",
-    "Mathematics/Algebra and NT/Commutative Algebra/Module/Theorems.md",
     "Mathematics/Algebra and NT/Commutative Algebra/Module",
     "Mathematics/Combinatorics/Game Theory",
     "Quotes and Reading Notes/Beyond Infinity",

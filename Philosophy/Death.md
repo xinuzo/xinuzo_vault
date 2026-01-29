@@ -38,3 +38,6 @@ Now mud lies down again and goes to sleep.
 What memories for mud to have!  
 What interesting other kinds of sitting-up mud I met!  
 I loved everything I saw!
+
+rest is mostly poem and kafka related to life and death. 
+more on https://oyc.yale.edu/death/phil-176
