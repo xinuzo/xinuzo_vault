@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Death.md",
+                "file": "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Death"
+              "title": "Theorems"
             }
           }
         ],
@@ -180,11 +180,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8f9f612ed2f0c6e1",
+  "active": "76461a788dfb5b52",
   "lastOpenFiles": [
+    "Philosophy/Death.md",
     "Mathematics/Geometry/Euclidean Geometry",
     "Mathematics/Applied Math/Statistics/Probability and Statistics/Distributions/Continuous/Normal Distribution.md",
-    "Philosophy/Death.md",
     "Mathematics/Applied Math/Finance/FM MIT 2024/PSET 2 FM MIT.md",
     "Mathematics/Applied Math/Finance/FM MIT 2024/PSET 3 FM MIT.md",
     "Mathematics/Applied Math/Finance/FM MIT 2024/PSET 4 FM MIT.md",
@@ -218,7 +218,6 @@
     "Mathematics/Combinatorics/Game Theory",
     "Quotes and Reading Notes/Beyond Infinity",
     "Quotes and Reading Notes/How to Bake Pi",
-    "Quotes and Reading Notes/Joy of Abstraction",
     "Untitled.canvas",
     "Others/Pasted image 20251011134051.png",
     "Others/assets/Pasted image 20251005191534.png",
