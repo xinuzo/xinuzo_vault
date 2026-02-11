@@ -1,1 +1,1 @@
-Identitas-identitas yang dibahas
+Di video ini, gw akan bahas trik2 yang umum digunakan di trigonometri tapi mungkin jarang ditekankan oleh guru kalian. video ini bukan bertujuan untuk menjelaskan trigonometri dari nol, 
