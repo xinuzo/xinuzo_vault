@@ -3,16 +3,10 @@ Di video ini, gw akan bahas trik2 yang umum digunakan di trigonometri tapi mungk
 
 ## Daftar isi
 1. sudut istimewa
-2. identitas
-3. 
-4. 
-sin(90-theta)
-(jelasin)
-trs ntar kuadran
-trs ntar sudut istimewa
-trs ntar sifat2 penjumlahan <->perkalian trigono
-contoh nyelesain soal2 identitas
-sama persamaan trigonometri
+2. Kuadran
+3. identitas
+4. aturan sinus (kasih hint cosine rule sebagai latihan)
+sama persamaan trigonometri ( nanti)
 
 seharusnya bekal ilmu yang kalian dapat dari video ini, kalau kalian ngerti semuanya, sudah cukup untuk membantai ujian-ujian kalian. Jika bermanfaat, silakan like comment dan share ke temen2 kalian, agar mereka bisa segera bertobat dari ilmu hitam yang mereka masih terapkan. coba komen di bawah konsep matematika apalagi yang kalian rasa terlalu hitam.  see u. 
 
