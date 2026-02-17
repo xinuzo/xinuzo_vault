@@ -1,6 +1,11 @@
+## intro
 Di video ini, gw akan bahas trik2 yang umum digunakan di trigonometri tapi mungkin jarang ditekankan oleh guru kalian. video ini bukan bertujuan untuk menjelaskan trigonometri dari nol, ya soal definisi sin cos tan dan beberapa sifat dasar lainnya kalian tahu lah. gw akan bahas secara singkat gimana cara natural untuk mengingat sifat-sifat tersebut yang kesannya bikin trigonometri kayak banyak banget rumusnya. Gw tidak akan memberikan kalian ilmu hitam apapun lagi untuk dihafal, tapi gw akan bongkar cara pikir yang benar dan umum dilakukan oleh ... temen2 kalian yang pada udah jago tapi ga sempet ngasih tahu karena kalian keburu kena mental denger penjelasannya. *get out*
 
-kita mulai dari 
+## Daftar isi
+1. sudut istimewa
+2. identitas
+3. 
+4. 
 sin(90-theta)
 (jelasin)
 trs ntar kuadran
