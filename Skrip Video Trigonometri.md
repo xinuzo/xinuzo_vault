@@ -18,3 +18,6 @@ profil bkin yang baru
 Ide video berikutnya:
 -cara belajar matematika
 Belajar matematika sebagai manusia, sebenarnya masih banyak yang salah melakukannya. ada yang menekankan hafalan dlu, ngerti belakangan, dan kadang ada juga yang terlalu banyak ngebuktiin di awal tanpa tahu tujuannya buat apa. motivasi itu penting sekali. 
+
+## Referensi 
+https://brilliant.org/wiki/fundamental-trigonometric-identities-problem/#power-reduction-identities
