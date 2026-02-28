@@ -15,7 +15,7 @@ $$ \pi_{i}(s^*_{i},s_{-i})> \pi_{i}(s'_{i},s_{-i}) \quad \forall s_{-i} \quad \f
 >
 >($\implies$) Given a strategy profile $S$ that is **DSEq**, then $S = (s^*_{i},s^*_{-i})$ for some $i$, and each element in $S$ is a **dominant strategy**. We then have \
 >$$ \forall i \quad \pi_{i}(s^*_{i},s_{-i})> \pi_{i}(s'_{i},s_{-i}) \quad \forall s_{-i} \quad \forall s'_{i} \neq s^*_{i}$$ 
-> Since this condition applies for all $s_{-i}$, it also applies for  $s^*_{{-i}}$ Therefore, 
+> Since this condition applies for all $s_{-i}$, it also applies for  $s^*_{{-i}}$. Therefore, 
 > $$\forall i, \quad \pi_{i}(s^*_{i},s^*_{-i})\geq \pi_{i}(s'_{i},s^*_{-i}) \quad \forall s'_{i}$$
 > Hence, **DSEq** $\implies$ **NashEq** $\blacksquare$
 
