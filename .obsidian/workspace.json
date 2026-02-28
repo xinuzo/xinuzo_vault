@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Combinatorics/Game Theory/PR GT.md",
+                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PR GT"
+              "title": "Combinatorial Atlas & Matroid Log-Concavity"
             }
           },
           {
@@ -210,8 +210,8 @@
   },
   "active": "46b0b9e5717b2f28",
   "lastOpenFiles": [
-    "Skrip Video Trigonometri.md",
     "Mathematics/Combinatorics/Game Theory/PR GT.md",
+    "Skrip Video Trigonometri.md",
     "Mathematics/Algebra and NT/Abstract Algebra/Introduction to Groups/Theorems.md",
     "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
     "Mathematics/Analysis/Complex Analysis/Complex Numbers/Definitions.md",
