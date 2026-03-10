@@ -14,3 +14,5 @@ Transcription factors (TFs) are ==regulatory proteins that control gene activit
 For example, mice and humans have very similar genes, but the transcription regulation of these genes, which governs when and how much of each protein is made, is different. In other words, many of the differences between animal species lie in the differences in the arrows of the transcription networks, rather than differences in their genes
 
 Patterns that occur in the real network significantly more often than in randomized networks are called **network motifs**
+
+https://youtu.be/bKIpDtJdK8Q?si=dgow5a0kwAdSASuf
