@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Definitions.md",
+                "file": "Mathematics/Analysis/Topology/Connectedness/Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitions"
+              "title": "Theorems"
             }
           },
           {
@@ -238,13 +238,13 @@
   },
   "active": "2d09f630113da160",
   "lastOpenFiles": [
-    "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Theorems.md",
+    "Mathematics/Analysis/Topology/Connectedness/Problems.md",
+    "Mathematics/Analysis/Topology/Connectedness/Definitions.md",
     "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Definitions.md",
+    "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Theorems.md",
     "Mathematics/Analysis/Topology/Sets and Functions/Theorems.md",
-    "Mathematics/Analysis/Topology/Sets and Functions 1 1/Theorems.md",
-    "Mathematics/Analysis/Topology/Sets and Functions 1 1/Problems.md",
-    "Mathematics/Analysis/Topology/Sets and Functions 1 1/Definitions.md",
-    "Mathematics/Analysis/Topology/Sets and Functions 1 1",
+    "Mathematics/Analysis/Topology/Connectedness/Theorems.md",
+    "Mathematics/Analysis/Topology/Connectedness",
     "Mathematics/Analysis/Topology/Sets and Functions 3/Problems.md",
     "Mathematics/Analysis/Topology/Sets and Functions 3/Theorems.md",
     "Mathematics/Analysis/Topology/Sets and Functions 3/Definitions.md",
