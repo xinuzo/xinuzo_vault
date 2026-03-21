@@ -8,91 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0cdb3fc450c18d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Combinatorics/Game Theory/PR GT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PR GT"
-            }
-          },
-          {
-            "id": "76461a788dfb5b52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problems"
-            }
-          },
-          {
-            "id": "46b0b9e5717b2f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Definitions"
-            }
-          },
-          {
-            "id": "e6d47dd0b93a9f2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pemod iGEM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pemod iGEM"
-            }
-          },
-          {
             "id": "2d09f630113da160",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Theorems.md",
+                "file": "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Theorems"
             }
-          },
-          {
-            "id": "e3b66bf594797295",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Combinatorics/Game Theory/PR GT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PR GT"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,22 +167,26 @@
   },
   "active": "2d09f630113da160",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Definitions.md",
+    "Mathematics/Analysis/Topology/The Fundamental Group/Theorems.md",
+    "Mathematics/Combinatorics/Game Theory/PR GT.md",
+    "Pemod iGEM.md",
+    "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
+    "Mathematics/Analysis/Topology/The Fundamental Group/Definitions.md",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Definitions.md",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Theorems.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces/Definitions.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces/Theorems.md",
+    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces/Definitions.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 4/Problems.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 4/Theorems.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 4/Definitions.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 4",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 3/Theorems.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 3/Definitions.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 3/Problems.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 3",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 2/Problems.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 2/Theorems.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 2/Definitions.md",
-    "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces 2",
+    "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Theorems.md",
+    "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Problems.md",
+    "Mathematics/Analysis/Topology/Separation Theorems in the Plane",
+    "Mathematics/Analysis/Topology/The Fundamental Group/Problems.md",
+    "Mathematics/Analysis/Topology/The Fundamental Group",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Problems.md",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory",
     "Mathematics/Analysis/Topology/Metrization Theorems and Paracompactness/Theorems.md",
@@ -265,10 +198,6 @@
     "Mathematics/Analysis/Topology/The Tychonoff Theorem/Problems.md",
     "Mathematics/Analysis/Topology/Connectedness/Definitions.md",
     "Mathematics/Analysis/Topology/Connectedness/Theorems.md",
-    "Mathematics/Analysis/Topology/Countability and Separation Axioms/Theorems.md",
-    "Mathematics/Analysis/Topology/Countability and Separation Axioms/Definitions.md",
-    "Mathematics/Analysis/Topology/Connectedness/Problems.md",
-    "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Definitions.md",
     "Mathematics/Analysis/Topology/Connectedness",
     "Mathematics/Analysis/Topology/Metrization Theorems and Paracompactness",
     "Mathematics/Analysis/Topology/The Tychonoff Theorem",
