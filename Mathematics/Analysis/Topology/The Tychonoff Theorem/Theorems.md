@@ -1,4 +1,4 @@
-# Theorems.md
+
 
 > [!theorem] Theorem 37.3 (The Tychonoff Theorem)
 > An arbitrary product of compact spaces is compact in the product topology.
