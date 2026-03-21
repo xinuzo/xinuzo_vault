@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Topology/Applications to Group Theory/Theorems.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Analytic Functions/Definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Theorems"
+              "title": "Definitions"
             }
           }
         ]
@@ -167,9 +167,9 @@
   },
   "active": "2d09f630113da160",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Topology/Applications to Group Theory/Theorems.md",
     "Mathematics/Analysis/Topology/Applications to Group Theory/Definitions.md",
     "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Definitions.md",
-    "Mathematics/Analysis/Topology/Applications to Group Theory/Theorems.md",
     "Mathematics/Analysis/Topology/Applications to Group Theory/Problems.md",
     "Mathematics/Analysis/Topology/Applications to Group Theory",
     "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Definitions.md",
