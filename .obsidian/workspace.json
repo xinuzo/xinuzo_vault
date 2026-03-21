@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Complex Analysis/Integrals/Definitions.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Complex Numbers/Definitions.md",
                 "mode": "source",
                 "source": false
               },
@@ -238,6 +238,9 @@
   },
   "active": "2d09f630113da160",
   "lastOpenFiles": [
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers/Theorems.md",
+    "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
+    "Mathematics/Analysis/Complex Analysis/Integrals/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Mapping by Elementary Functions 2/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Mapping by Elementary Functions 2/Theorems.md",
     "Mathematics/Analysis/Complex Analysis/Residues and Poles/Theorems.md",
@@ -263,9 +266,6 @@
     "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
     "Mathematics/Analysis/Topology",
     "Mathematics/Analysis/Functional Analysis/Hilbet Space/Theorems.md",
-    "Mathematics/Analysis/Functional Analysis/Hilbet Space/Problems.md",
-    "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral/Theorems.md",
-    "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral/Definitions.md",
     "Mathematics/Applied Math/Statistics/Mathematical Statistics/Probability Convergence",
     "Mathematics/Applied Math/Statistics/Mathematical Statistics",
     "Mathematics/Geometry/Euclidean Geometry",
