@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Analysis/Complex Analysis/Analytic Functions/Definitions.md",
+                "file": "Mathematics/Combinatorics/Matroid/Combinatorial Atlas & Matroid Log-Concavity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitions"
+              "title": "Combinatorial Atlas & Matroid Log-Concavity"
             }
           }
         ]
@@ -167,6 +167,10 @@
   },
   "active": "2d09f630113da160",
   "lastOpenFiles": [
+    "Quotes and Reading Notes/Beyond Infinity/Notes.md",
+    "Pemod iGEM.md",
+    "Skrip Video Trigonometri.md",
+    "Mathematics/Analysis/Complex Analysis/Analytic Functions/Definitions.md",
     "Mathematics/Analysis/Topology/Applications to Group Theory/Theorems.md",
     "Mathematics/Analysis/Topology/Applications to Group Theory/Definitions.md",
     "Mathematics/Analysis/Topology/Topological Spaces and Continuous Functions/Definitions.md",
@@ -186,17 +190,13 @@
     "Mathematics/Analysis/Topology/Classification of Covering Spaces",
     "Mathematics/Analysis/Topology/The Fundamental Group/Theorems.md",
     "Mathematics/Combinatorics/Game Theory/PR GT.md",
-    "Pemod iGEM.md",
     "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
     "Mathematics/Analysis/Topology/The Fundamental Group/Definitions.md",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Definitions.md",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory/Theorems.md",
     "Mathematics/Analysis/Topology/Complete Metric Spaces and Function Spaces/Definitions.md",
-    "Mathematics/Analysis/Topology/The Seifert-van Kampen Theorem/Problems.md",
-    "Mathematics/Analysis/Topology/The Seifert-van Kampen Theorem/Theorems.md",
     "Mathematics/Analysis/Topology/The Seifert-van Kampen Theorem",
-    "Mathematics/Analysis/Topology/Separation Theorems in the Plane/Problems.md",
     "Mathematics/Analysis/Topology/Separation Theorems in the Plane",
     "Mathematics/Analysis/Topology/The Fundamental Group",
     "Mathematics/Analysis/Topology/Baire Spaces and Dimension Theory",
