@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Combinatorics/Game Theory/PR GT.md",
+                "file": "Mathematics/Analysis/Complex Analysis/Complex Numbers/Theorems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PR GT"
+              "title": "Theorems"
             }
           }
         ],
@@ -180,8 +180,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a60b5a74d6a94e8f",
+  "active": "8f9f612ed2f0c6e1",
   "lastOpenFiles": [
+    "Mathematics/Combinatorics/Game Theory/PR GT.md",
     "Quotes and Reading Notes/Beyond Infinity/Notes.md",
     "Pemod iGEM.md",
     "Skrip Video Trigonometri.md",
@@ -204,7 +205,6 @@
     "Mathematics/Analysis/Topology/Classification of Surfaces",
     "Mathematics/Analysis/Topology/Classification of Covering Spaces",
     "Mathematics/Analysis/Topology/The Fundamental Group/Theorems.md",
-    "Mathematics/Combinatorics/Game Theory/PR GT.md",
     "Mathematics/Analysis/Functional Analysis/Hilbet Space/Definitions.md",
     "Mathematics/Analysis/Complex Analysis/Complex Numbers/Problems.md",
     "Mathematics/Analysis/Topology/The Fundamental Group/Definitions.md",
