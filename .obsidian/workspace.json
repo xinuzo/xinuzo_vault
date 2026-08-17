@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math Competitions/Yau Math College/Problems and Solutions.md",
+                "file": "Mathematics/Geometry/Differential Geometry/Gauss-Bonnet Theorem/Definitions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems and Solutions"
+              "title": "Definitions"
             }
           }
         ],
@@ -182,8 +182,16 @@
   },
   "active": "a60b5a74d6a94e8f",
   "lastOpenFiles": [
-    "Math Competitions/Yau Math College/Resources.md",
+    "Mathematics/Geometry/Differential Geometry/Gauss-Bonnet Theorem/Problems.md",
+    "Mathematics/Geometry/Differential Geometry/Gauss-Bonnet Theorem/Theorems.md",
+    "Mathematics/Logic/Basic Logic Concepts.md",
+    "Mathematics/Applied Math/Numerical Mathematics/Interpolasi dan Ekstrapolasi.md",
+    "Mathematics/Applied Math/Numerical Mathematics/PDB (Persamaan Diferensial Biasa).md",
+    "Mathematics/Applied Math/Numerical Mathematics/Hampiran Turunan.md",
+    "Mathematics/Applied Math/Numerical Mathematics/PDP (Persamaan Diferensial Parsial).md",
+    "Mathematics/Applied Math/Numerical Mathematics/Pengintegralan Numerik.md",
     "Math Competitions/Yau Math College/Problems and Solutions.md",
+    "Math Competitions/Yau Math College/Resources.md",
     "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Definitions.md",
     "Mathematics/Analysis/Real Analysis/Real and Complex Number Systems/Theorems.md",
     "Mathematics/Analysis/Real Analysis/The Riemann-Stieltjes Integral/Theorems.md",
@@ -200,14 +208,6 @@
     "Mathematics/Algebra and NT/Abstract Algebra/The Familiar Number Systems/Theorems.md",
     "Mathematics/Algebra and NT/Abstract Algebra/The Familiar Number Systems/Definitions.md",
     "Mathematics/Algebra and NT/Abstract Algebra/The Familiar Number Systems/Problems.md",
-    "Mathematics/Algebra and NT/Abstract Algebra/Problems.md",
-    "Mathematics/Analysis/Topology/Connectedness/Definitions.md",
-    "Mathematics/Analysis/Topology/Classification of Covering Spaces/Definitions.md",
-    "Mathematics/Analysis/Topology/Classification of Covering Spaces/Theorems.md",
-    "Mathematics/Analysis/Topology/Classification of Surfaces/Definitions.md",
-    "Mathematics/Analysis/Topology/Classification of Surfaces/Theorems.md",
-    "Mathematics/Analysis/Topology/Applications to Group Theory/Definitions.md",
-    "Mathematics/Analysis/Topology/Applications to Group Theory/Theorems.md",
     "Mathematics/Algebra and NT/Abstract Algebra/assets/Pasted image 20250930131038.png",
     "Mathematics/Analysis/Topology/Applications to Group Theory",
     "Mathematics/Analysis/Topology/Classification of Surfaces",
